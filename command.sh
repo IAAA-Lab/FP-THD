@@ -1,0 +1,1 @@
+python main_pipeline.py --config-path ./config.ini  --image-folder ./input/ --cropped-lines-folder ./cropped_lines  --save-dir ./checkpoints/ --out-dir ./output_pipline --exp-name test_run --image-extension tif

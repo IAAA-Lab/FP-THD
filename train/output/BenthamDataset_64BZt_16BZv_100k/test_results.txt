@@ -1,0 +1,2585 @@
+Test Loss: 18.254
+CER: 0.0446
+WER: 0.0768
+
+Results:
+Ground Truth: brain.
+Prediction: brain .
+
+Ground Truth: From this review then it appears, that
+Prediction: From this review then it appears , that
+
+Ground Truth: in paving the way to the consideration of
+Prediction: in paring thewag to the confideration of
+
+Ground Truth: municipal Law, our Author has spent
+Prediction: muniupal Law , our Author bars pant
+
+Ground Truth: supposed
+Prediction: sappored
+
+Ground Truth: much time in explaining the nature &
+Prediction: much time in et plaining the hature &
+
+Ground Truth: Properties of Laws which do not exist &
+Prediction: Poperties of Laws which do not exish
+
+Ground Truth: in misapplying those which do: & therefore,
+Prediction: in misopplying those which do : & therefore ,
+
+Ground Truth: that the best thing which a Student of the
+Prediction: that he best thing which a Itudent of the
+
+Ground Truth: Law can do is to forget all that our Author
+Prediction: Law cando is to forget all that ourluther
+
+Ground Truth: has hitherto advanced.
+Prediction: has hutsertoadvanced .
+
+Ground Truth: 25 73
+Prediction: to o
+
+Ground Truth: Note ( ) to p.
+Prediction: Note ( ) tc p .
+
+Ground Truth: Sydney New South Wales 20th May 1799
+Prediction: ots ony New brish Wales 20th May 1799
+
+Ground Truth: The fatigue to which the Governor of this territory must
+Prediction: The fatigue to which the Governor of this Serritory must
+
+Ground Truth: submitt, both mental and corporeal, is far beyond any idea
+Prediction: submitt both mental and corporeal , is far beyond any idea-
+
+Ground Truth: you can have of the nature of his duty rendering such fatigue
+Prediction: you can have of the nature of his duty rendering such fatigue
+
+Ground Truth: necessary in the Commander in Chief.
+Prediction: necessary in the Commander in chief .
+
+Ground Truth: My former knowledge and acquaintance with this Country
+Prediction: My former knowledge and acquaintance with this Country
+
+Ground Truth: encouraged me in a hope, which however has in some respects
+Prediction: encouraged me in a hope , which however has in some respects
+
+Ground Truth: proved delusive: that I should with ease to myself and with
+Prediction: proved delusive : that I should , with case to myself and with
+
+Ground Truth: proper effect and advantage to the public, have been able to
+Prediction: proper effect and advantage to the public , have been able to
+
+Ground Truth: not
+Prediction: not
+
+Ground Truth: manage all the duties of my office - But I had been long
+Prediction: manage all the duties of my office . _ But I had been long
+
+Ground Truth: entered upon it, before I was awakened from that dream of
+Prediction: entered upon it , before I was awakened from that dream of
+
+Ground Truth: comfort and satisfaction, the prospect of which I had so vainly
+Prediction: comfort and satisfaction the prospect of which I had so vainly
+
+Ground Truth: indulged! The seeds of the vexations which had so disappointed
+Prediction: indulged ! the seeds of those vexations which had so disappointed
+
+Ground Truth: me, had been sown for a very considerable time; and, being of
+Prediction: me , had been sown for a very considerable time ; and , being of
+
+Ground Truth: rather a prolific nature amongst such people, had gained so
+Prediction: rather of a prolific nature amongst suchf people , had gained so
+
+Ground Truth: much strength. that it will require immense labour to grab them
+Prediction: much strength , that it will require in tprense labour to grub them
+
+Ground Truth: up by the root. I have persisted in my attempt to that end, and
+Prediction: up by the root . I have persisted inf thy attempt to that end , and
+
+Ground Truth: mean not to change my system; which, be assured, from being cal-
+Prediction: mean not to change my system ; which , be assured , from being cal
+
+Ground Truth: -culated to lay restraints upon every species of vice and immorality,
+Prediction: -culated to lay restraints upon every species of vice & immorality ,
+
+Ground Truth: cannot, amongst such character be a very popular one; that however
+Prediction: cannot , amongst such characters be a very popular one ; that however
+
+Ground Truth: will be a matter of no immediate concern to me; if I succeed only
+Prediction: will be a matter of no inmediate concern to me ; t if I succeed only
+
+Ground Truth: in a small degree, to check the growing profligacy and abandoned
+Prediction: in a small degre , to clck the growing profligacy and abandomed
+
+Ground Truth: turn of the lower classes of the people.
+Prediction: turn of the lower classss of the people . _
+
+Ground Truth: This is a good Country, and will do well: but its progress
+Prediction: This is a good , Coftry , and will do well : but its progress
+
+Ground Truth: in improvement would be considerable hastened, could Government
+Prediction: in improvement ould be considerably hastened , duld Government
+
+Ground Truth: be prevailed upon not to overstock us with the worst description
+Prediction: be prevailed Affer ) not to overstock us with the worst description
+
+Ground Truth: of characters: for, whilst the mass of the people continue to be of
+Prediction: of characters ; f/f , whilt the mass of the people continue to be of
+
+Ground Truth: that class, our difficulties will ever be very considerable: the
+Prediction: that class )ous difficulties will ever be very considerable : the
+
+Ground Truth: industrious and well disposed become a continual prey to the
+Prediction: induspious and well disposed become a continual prey to the
+
+Ground Truth: idle and worthless.
+Prediction: idls ) and worthless .
+
+Ground Truth: person, or body of men who are invested with
+Prediction: person , or body of men who are invested with
+
+Ground Truth: the power of making laws: for that Sovereignty
+Prediction: thepower of making laws : for that Sovereignty
+
+Ground Truth: & legislature
+Prediction: §& le gislature
+
+Ground Truth: are convertible terms. So that, our definition
+Prediction: are convertible terms . So that , our definition
+
+Ground Truth: receives little light from the addition of these
+Prediction: receives little light from the addition of these .
+
+Ground Truth: words: it amounting only to this, that law
+Prediction: words : it amounting only to this , that law
+
+Ground Truth: is a rule of action prescribed by him, who
+Prediction: is a rule of action prescribed by him , who _
+
+Ground Truth: prescribes it.
+Prediction: prescribes it .
+
+Ground Truth: ["It is also, says our Author, a rule, command-
+Prediction: [ " Tis also , says our Author , a rule commmand-
+
+Ground Truth: "ing what is right, and forbidding what is
+Prediction: " ingwhat is right , and forbidding what is
+
+Ground Truth: wrong." [If You ask our author, what he means
+Prediction: - wrong " [ by Youask our aurthor , what he means
+
+Ground Truth: by w right, and wrong, he will tell You, that
+Prediction: by oright , and wrong , he will tell You , that
+
+Ground Truth: is right which the law declares to be right,
+Prediction: is right which the law declares to be right ,
+
+Ground Truth: and that is wrong which the law pronounces
+Prediction: and that is wrong which the law pronounces
+
+Ground Truth: to be wrong. So that, here again no new light
+Prediction: to be wrong . So that , here again no newlight
+
+Ground Truth: is
+Prediction: is
+
+Ground Truth: 107
+Prediction: 1o7
+
+Ground Truth: 16
+Prediction: 16
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Frauds relative to the Coin.
+Prediction: Frauds relative to the Coin .
+
+Ground Truth: entirely cut off.
+Prediction: entiorely cut off .
+
+Ground Truth: On this account it comes to be the more material to
+Prediction: On this account it comes to be the more material to
+
+Ground Truth: search out by a circumstantial description the several pre=
+Prediction: search out by a circumstantial description the several pre=
+
+Ground Truth: operations
+Prediction: oferation s
+
+Ground Truth: =liminary Acts which a man has occasion to perform, and
+Prediction: :liminary Orte> which a man has occasion to perform , and
+
+Ground Truth: the several preliminary situations it is necessary for him
+Prediction: the several preliminary situations it is necessary for him
+
+Ground Truth: to put himself into, before he can be in a condition to
+Prediction: to put himself into , before he can be in a condition to
+
+Ground Truth: operations
+Prediction: oterations
+
+Ground Truth: perform the act intrinsically obnoxious. Of these acts
+Prediction: perform the act intrinsically obnoxious . Of these <at>
+
+Ground Truth: and situations there may be many which may present
+Prediction: and situations there may be many which may present
+
+Ground Truth: a greater surface; as it were, to observation ( and from
+Prediction: a greater surface ) as it were , to observation ( and from
+
+Ground Truth: thence to testimony) than the act itself of Coining: and
+Prediction: thence to testimony ) than the act itself of Coining : and
+
+Ground Truth: this even when taken separately; much more when they
+Prediction: this even when taken separately ; much more when they
+
+Ground Truth: come to be added altogether. The more ample then and
+Prediction: come to be added altogether . The more ample then and
+
+Ground Truth: circumstantial the catalogue is that can be given of these
+Prediction: circumstantial the catalogue is that can be given of these
+
+Ground Truth: preliminary offences, the better chance there is of effecting
+Prediction: preliminary offences , the better chance there is of effecting
+
+Ground Truth: the purpose of preventing the principal one to which they
+Prediction: the purpose of preventing the principal one to which they
+
+Ground Truth: are introductory.
+Prediction: are introductony .
+
+Ground Truth: The following string of provisions are calculated in
+Prediction: The following string of provisions are calculated in
+
+Ground Truth: some degree to answer that design. They are taken with
+Prediction: some degree to answer that design . They are taken with
+
+Ground Truth: some
+Prediction: some
+
+Ground Truth: 2.
+Prediction: 2 .
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Of Matrimonial Desertion.
+Prediction: Of Matrimonial Desertion .
+
+Ground Truth: It will be necessary to define what shall be deemed
+Prediction: It will be necessary to define what shall be deemed
+
+Ground Truth: Desertion, distinguishing it from the case of lawful Absence;
+Prediction: Desertion , distinguishing it from the case of lawful Absence ;
+
+Ground Truth: and what steps shall be taken for giving notice.
+Prediction: and what steps shall be taken for giving Notice .
+
+Ground Truth: Let certain methods be established whereby the Husband
+Prediction: Let certain methods be established whereby the Husband
+
+Ground Truth: and the Wife may be enabled and obliged to correspond with
+Prediction: and the Wife may be enabled and obliged to correspond with
+
+Ground Truth: one another at stated intervals: and let a failure on either part
+Prediction: one another at stated intervals : and let a failure on either part
+
+Ground Truth: for a certain time be deemed presumptive evidence of death or
+Prediction: for a certain time be deemed presumptive evidence of death or
+
+Ground Truth: this
+Prediction: this
+
+Ground Truth: desertion. Within the dominions of the state they might be manag=
+Prediction: desertion . Within the dominions of the state they might be manag=
+
+Ground Truth: =ed in the manner mentioned in the Book of Procedure. Tit.
+Prediction: : ed in the manner mentioned in the Book of Procedure . Tit .
+
+Ground Truth: As to foreigners, upon their coming into the country
+Prediction: As to Foreigners , upon their coming into the country
+
+Ground Truth: let them be obliged to declare upon oath whether they are married
+Prediction: let them be obliged to declare upon oath whether they are married
+
+Ground Truth: or single; and if single whether Bachelors or Spinsters, Widowers
+Prediction: or single ; and if single whether Bachelors or Spinsters , Widowers
+
+Ground Truth: or Widows. Of these declarations let Registers be kept, of which,
+Prediction: or Widows . Of these declarations let Registers be kept , of which ,
+
+Ground Truth: previous to their being married, copies should be required to be
+Prediction: previous to their being married , copies should be required to be
+
+Ground Truth: produced. If married, certificates of the death of the Wife or
+Prediction: produced . If married , certificates of the death of the Wife or
+
+Ground Truth: Husband. At present these important enquiries are left to the
+Prediction: Husband . at present these important enquiries are left to the
+
+Ground Truth: uncertain prudence of individuals. The declarations above men=
+Prediction: uncertain prudence of individuals . The declarations above men=
+
+Ground Truth: :tioned should be accompanied with some details respecting their
+Prediction: : tioned should be accompanied with some details respecting their
+
+Ground Truth: birth, parentage and last abode; such as may lead to detection
+Prediction: birth parentage and last abode ; such as may lead to detection
+
+Ground Truth: in
+Prediction: in
+
+Ground Truth: 2
+Prediction: 2
+
+Ground Truth: upon the abovementioned terms he would engage
+Prediction: Upon the abovementioned terms he would engage
+
+Ground Truth: as follows_
+Prediction: as follows _
+
+Ground Truth: 1st. To furnish the prisoners with a constant supply
+Prediction: 1.st . To furnish the prisoners with a constant supply
+
+Ground Truth: of wholesome food, not limited in quantity, but ade-
+Prediction: of wholesome food , not limited in quantity , but ade-
+
+Ground Truth: -quate to each man's desires.
+Prediction: -quate to each man ' s desires .
+
+Ground Truth: 2nd. To keep them clad in state of lightness and
+Prediction: 2nd To keep them clad in a state of tightness and
+
+Ground Truth: neatness, superior to what is usual among the lower
+Prediction: neatness , superior to what is usual among the lower
+
+Ground Truth: classes or even in the improved prisons.
+Prediction: classes or even in the improved prisons .
+
+Ground Truth: 3rd. To keep them supplyed with separate beds and
+Prediction: 3rd . To keep them supplyed with separate beds and
+
+Ground Truth: bedding, competent to their situation, and in a state of
+Prediction: bedding , competent to their situation , and in a state of
+
+Ground Truth: cleanliness scarce any where conjoined with liberty.
+Prediction: cleanliness scarce any where conjoined with liberty .
+
+Ground Truth: 4th. To insure to them a sufficient supply of artificial
+Prediction: 4.th . To insure to them a sufficient supply of artificial
+
+Ground Truth: warmth and light, whenever the season renders it ne-
+Prediction: warmth and light , whenever the season renders it ne
+
+Ground Truth: -cessary, and thereby preserve them from being obli-
+Prediction: -cessary , and thereby preserve them from being obli-
+
+Ground Truth: -ged as in other places, to desist from their work, as
+Prediction: -ged as in other places , to desist from their work , as
+
+Ground Truth: well as from suffering from the inclemency of the
+Prediction: well as from suffering from the inclemency of the
+
+Ground Truth: weather.
+Prediction: weather .
+
+Ground Truth: 5th. To keep constantly from them, in conformity to
+Prediction: 5.th . To keep constantly from them , in conformity to
+
+Ground Truth: the practice so happily received, every kind of strong
+Prediction: the practice so happily received , every kind of strong
+
+Ground Truth: and spirituous liquor, unless where ordered in the
+Prediction: and spirituous liquor , unless where ordered in the
+
+Ground Truth: way of medicine.
+Prediction: way of medicine .
+
+Ground Truth: 6th. To maintain them in a state of inviolable though
+Prediction: 6th To maintain them in a state of inviolable though
+
+Ground Truth: mitigated seclusion, in small assorted companies,
+Prediction: mitigated seclusion , in small assorted companies ,
+
+Ground Truth: without any of those opportunities of promiscuous
+Prediction: without any of those opportunities of promiscuous
+
+Ground Truth: association, which in other improved prisons disturb
+Prediction: association , which in other improved prisons disturbe-
+
+Ground Truth: if not destroy whatever good effect can have been expected
+Prediction: if not destroy whatever good effect can have been expected
+
+Ground Truth: from solitude. 7th. To
+Prediction: from solitude 17th To
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: 2.
+Prediction: 2 .
+
+Ground Truth: Offences against Justice.
+Prediction: Offences against Justice 
+
+Ground Truth: particulars have concurred, in that case Justice cannot
+Prediction: particulars have concurred , in that case Justice cannot
+
+Ground Truth: but have been properly administered. In any case let
+Prediction: but have been properly administered . In any case let
+
+Ground Truth: any of them have failed, in that case Justice cannot
+Prediction: any of them have failed , in that case . Justice cannot
+
+Ground Truth: have been properly administered. There cannot therefore
+Prediction: have been properly administered . There cannot therefore
+
+Ground Truth: impediment to
+Prediction: inepediment to
+
+Ground Truth: be any other offered against Justice than what have
+Prediction: be any other Ofence against Justice than what have
+
+Ground Truth: one of the tendencies just mentioned. Not that this deter=
+Prediction: one of the tendencies just mentioned . Not that this deter=
+
+Ground Truth: :minateness of the nature of these offences excludes
+Prediction: : minateness of the nature of these Offences excludes
+
+Ground Truth: the intervention of improvement from this branch of Le=
+Prediction: the intervention of improvement from this branch of Le=
+
+Ground Truth: :gislation: for as long as the Legislator can devise any
+Prediction: : gislation : for as long as the Legislator can devise any
+
+Ground Truth: new expedient that gives an additional chance for the
+Prediction: new expedient that gives an additional chance for the
+
+Ground Truth: prescribes the observance of
+Prediction: prescribes the observance of
+
+Ground Truth: attainment of these ends and <gap/> it accordingly,
+Prediction: attainment of these ends and ponanle it accordingly ,
+
+Ground Truth: the omission of it will become an accession to the List
+Prediction: the omission of it will become an accession to the List
+
+Ground Truth: of such offences. As
+Prediction: of such offences . As
+
+Ground Truth: Note
+Prediction: Note
+
+Ground Truth: begins earlier. The business of a civil Judge extends to the in=
+Prediction: begins earlier . The business of a civil Judge extends to the in=
+
+Ground Truth: forming of those who have occasion to be informed whether
+Prediction: forming of those who have occasion to be informed whether
+
+Ground Truth: were they to perform such or such acts in future such acts
+Prediction: were they to perform such or such acts in future such acts
+
+Ground Truth: would be offences: A man may commit an offence in
+Prediction: would be offences : A man may commit an offence in
+
+Ground Truth: either of two ways, by usurping advantages that do not
+Prediction: either of two ways , by usurping advantages that do not
+
+Ground Truth: belong to him; or by declining burthens that do belong to
+Prediction: belong to him ; or by declining burthens that do belong to
+
+Ground Truth: him.
+Prediction: him .
+
+Ground Truth: There are two ways in which a man may be said
+Prediction: There are two ways in which a man may be said
+
+Ground Truth: to [apply] for such information: an active way and a passive: by
+Prediction: to apply ] for such information : an active way and a passive , by
+
+Ground Truth: Economy
+Prediction: Economy
+
+Ground Truth: 7
+Prediction: 1
+
+Ground Truth: II Collins
+Prediction: II Collins
+
+Ground Truth: which so alarmed and terrified them, that they instantly fled,
+Prediction: " which so alarmed and terrified them , that they instantly fled ,
+
+Ground Truth: leaving behind them their spears, &c. and about 20 bushels of
+Prediction: " leaving behind them their spears , &c . and about 20 bushels of
+
+Ground Truth: Indian-corn which they had stolen.
+Prediction: " Indcain _ corn which they had stolen .
+
+Ground Truth: "It was distressing to observe that every endeavour to
+Prediction: " It was distressing to observe , that every endeavour to
+
+Ground Truth: "civilize these people proved fruitless. Although they lived among
+Prediction: " civilize these people proved fruitless . Although they lived among
+
+Ground Truth: "the inhabitants of the different settlements, were kindly treated,
+Prediction: " the inhabitants of the different settlements , were kindly treated ,
+
+Ground Truth: "fed, and often cloathed, yet they were never found to profess the
+Prediction: " fied , and often cloathed , yet they were never found to possess the
+
+Ground Truth: "smallest degree of gratitude for such favours. Even Even Ben-nil-long
+Prediction: " smallest degree of gratitude for such favours . Eevr Even Beniblong
+
+Ground Truth: "was as destitute of this quality as the most ignorant of his coun-
+Prediction: " was as destitute of this quality as the most ignorant of his coumn-
+
+Ground Truth: -"trymen. "It is an extraordinary fact, that even their children, who
+Prediction: " trymen . It is an extraordinary fact , that even their children , who
+
+Ground Truth: "had been bred among the white people, and who, from being
+Prediction: " had been bred among the white people , and who , from being
+
+Ground Truth: "accustomed to follow their manner of living, might have been
+Prediction: " accustomed to follow their manner of living , might have been
+
+Ground Truth: "supposed to ill relish the life of their parents, when grown up,
+Prediction: " supposed to ill relish the life of their parents , when grown up ,
+
+Ground Truth: "have quitted their comfortable abodes, females as well as males,
+Prediction: " have quitted their comfortable abodes , females as well as males ,
+
+Ground Truth: "and taken to the same savage mode of living, where the sup-
+Prediction: " and taken to the same savagy mode of living , where the sup
+
+Ground Truth: -"ply "of food was often precarious, their comforts not to be called
+Prediction: - ply of food was often precarious , their comforts not to be called
+
+Ground Truth: "such, and their lives perpetually in danger. As a proof of the little
+Prediction: " such , and their lives perpetually in danger . As a proof of the little
+
+Ground Truth: "personal safety which they enjoyed, a young young woman, the
+Prediction: " personal safety which they enjoyed , a yoarg young woman , the
+
+Ground Truth: "wife of a man named Ye-ra-ni-be , both of whom had been
+Prediction: " wife of a man named Ye _ra _ni-be , both of whom had been
+
+Ground Truth: "brought up in the settlement from their childhood, was cruelly
+Prediction: " brought up in the settlement from their childhood , was cruelly
+
+Ground Truth: "murdered at the brickfields by her husband, assisted by another
+Prediction: " murdered at the brick fields by her husband , assisted by another
+
+Ground Truth: "native, Cole-be , who first beat her dreadfully about the head (the
+Prediction: " native , Cole-be , who first beat her dreadfully about the head ( the
+
+Ground Truth: "common mode of chastising their women), and then put an end to
+Prediction: " common mode of chastising their women ) , and the put an end to
+
+Ground Truth: "her existence by driving a spear through her heart.
+Prediction: " her existence by driving a spear through her heast .
+
+Ground Truth: "When spoken to or censured for robbing the maize grounds,
+Prediction: " When spoken to or censured for robbing the maize grounds ,
+
+Ground Truth: "these people, to be revenged, were accustomed to assemble in large
+Prediction: " these people , to be revenged , were accustomed to assemble in large
+
+Ground Truth: "bodies, burn the homes of the settlers if they stood in lonely situa-
+Prediction: " bodies , burn the houses of the settlers if they stood in lonely situa-
+
+Ground Truth: -"tions, "and frequently attempted to take their lives; yet they were
+Prediction: -tions , and frequently attempted to take their lives , yet they were
+
+Ground Truth: "seldom refused a live corn when they were asked for it. It was
+Prediction: " seldom refused a little corn when they were asked for it . It was
+
+Ground Truth: "imagined that they were stimulated to this destructive conduct by
+Prediction: " imagined that they were stimulated to this destructive anduct by
+
+Ground Truth: "some run-away convicts who were known to be among them at
+Prediction: " some run -away convicts who were known to be among them at
+
+Ground Truth: "the time of their committing these depravations. In order to get
+Prediction: " the time of their committing these depredations . In order to get
+
+Ground Truth: "possession of these pests, a proclamation was issued, calling on
+Prediction: " possession of these perts , a proclamation was issued , calling on
+
+Ground Truth: "them by name to surrender themselves within 14 days, declaring
+Prediction: " them by name to surrender themselves within 14 days , declaring
+
+Ground Truth: "them outlaws if they refused, and requiring the inhabitants, as
+Prediction: " them outlaws if they refuned , and requiring the inhabitants , as
+
+Ground Truth: "they valued the peace and good order of the settlement, and their
+Prediction: " they valued the peace and good order of the settlement , and their
+
+Ground Truth: "own security, to assist in apprehending and bringing them to
+Prediction: " own security , to assist in apprehending and bringing them to
+
+Ground Truth: "justice. The governor also signified his determination, if any of the
+Prediction: " justice . The governor also signified his determination , if any of the
+
+Ground Truth: natives
+Prediction: Natues
+
+Ground Truth: 3
+Prediction: 3
+
+Ground Truth: (3
+Prediction: 3
+
+Ground Truth: parties whether or no Quasi-Trial shall have
+Prediction: parties , whether or no Quasi Trial shall have
+
+Ground Truth: place: if any one says yes, he appoints day &
+Prediction: place : if any one says &ye5 , he appoints day &
+
+Ground Truth: hour: earlier or ulterior time, if applied for, are
+Prediction: bour : carlier or ulterior time , if applied for , are
+
+Ground Truth: granted by him or refused: if Quasi Trial be
+Prediction: granted by him or refured : if Quasi Trial be
+
+Ground Truth: not applied for, the provisional decrees, from
+Prediction: not applied for , the provisional decrees , from
+
+Ground Truth: provisional, become absolute.
+Prediction: provisional , become absolute .
+
+Ground Truth: Art. 8. The Quasi Trial is performed at
+Prediction: Art .8 . The Queasi Prial is performed at
+
+Ground Truth: one Sitting or if more be necessary at divers sittings:
+Prediction: one sitting or if more be necessary at diveus tittinge
+
+Ground Truth: but unless for special and extraordinary reason as-
+Prediction: but suby for special and axtraondinary reason of
+
+Ground Truth: -signed, it is gone through at one sitting, unless
+Prediction: -signed , it is gare through at oney sithing , suhip
+
+Ground Truth: the whole time employable at that one Sitting
+Prediction: the whole time enplogable at that one Teitting
+
+Ground Truth: has been consumed before the suit has thus been
+Prediction: has been consumed bufore the suit has thus been
+
+Ground Truth: rendered ripe for definitive decrees.
+Prediction: rendaned ripe for definitive decrees .
+
+Ground Truth: Art. 9. At this recapitulatory examination
+Prediction: Art 9 . At this recapitulatory examination
+
+Ground Truth: no evidence is receivable, that was not exhibited
+Prediction: no Endence is receivable , that was not exlibited
+
+Ground Truth: in the course of the original examination.
+Prediction: in the course of the oreginal examimation .
+
+Ground Truth: Art. 10. At this Quasi Trial may be re-
+Prediction: Art . 18 . Al this Quasi Trial may be re-
+
+Ground Truth: -argued and reconsidered or for the first time ar-
+Prediction: -cargued and reconsidered or for the first time ar
+
+Ground Truth: gued and considered, the question of law.
+Prediction: qued ned considend , the question of law .
+
+Ground Truth: Art. 11. The incidental occasional on
+Prediction: Art . II . The incidental occasioneds or
+
+Ground Truth: which a hearing before a Quasi Jury has place
+Prediction: which a hecaring before a duasi Jury has place
+
+Ground Truth: are those on which Appeal for Quasi misdecision
+Prediction: are those on which Eppeal forduasi misdicision
+
+Ground Truth: may
+Prediction: aay
+
+Ground Truth: 2.
+Prediction: 2 .
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Of Simple Personal Injuries.
+Prediction: Of Simple Personal Injuries .
+
+Ground Truth: (a)
+Prediction: ( a )
+
+Ground Truth: drug or to expose himself to circumstances injurious to his health .
+Prediction: drug or to expose himself to circumstances injurious to his health=
+
+Ground Truth: [(D) Uneasiness] It matters not how slight the contact + is by
+Prediction: [ ( D ) Uneasiness ] It matters not how slight the Contact is by
+
+Ground Truth: which the uneasiness is produced: the touch however slight may
+Prediction: which the uneasiness is produced : the touch however slight may
+
+Ground Truth: be sufficient to produce uneasiness in a man if it be against his
+Prediction: be sufficient to produce uneasiness in a man if it be against his
+
+Ground Truth: (E) Farther
+Prediction: E ) Farther
+
+Ground Truth: Will.
+Prediction: 4ill .
+
+Ground Truth: Note
+Prediction: Note
+
+Ground Truth: (a)
+Prediction: ( a )
+
+Ground Truth: 1. For the cases in which a man may happen to be con=
+Prediction: 1 . For the cases in which a man may happen to be con=
+
+Ground Truth: :cerned in occasioning bodily pain or uneasiness in another by
+Prediction: : cerned in occasioning , bodily pain or uneasiness in another by
+
+Ground Truth: permanent practices, such as the carrying on of dangerous, offen=
+Prediction: permanent practices , such as the carrying on of dangerous , offen=
+
+Ground Truth: :sive, or unwholesome, occupations. See
+Prediction: sive , or unwholesome , occupations . See
+
+Ground Truth: 1. Laws relative to Householders in general.
+Prediction: 1 . Laws relative to Householders in general .
+
+Ground Truth: 2. Laws relative to the several sorts of Manufactorers or Shop=
+Prediction: 2 . Laws relative to the several sorts of Manufactorers or shop=
+
+Ground Truth: Keepers whose trades are apt to occasion danger or annoyance; such
+Prediction: Repers whose trades are apt to occasion danger or annoyance ; such
+
+Ground Truth: as Gun powder Manufactorers, Turpentine Distillers, Manufactorers
+Prediction: as un powder Manufactorers , Turpentine Distillers , Manufacturers
+
+Ground Truth: of Oil of Vitriol, Tanners, Tallow Chandlers, Brasiers, Pewterers &c.
+Prediction: of Oil of Vitriol , Tanners , Tallow Chandlers , Brasiers , Pewterersec 
+
+Ground Truth: &c. In all these cases the damage, if any, is commonly either unintentio=
+Prediction: &c . In all these cases the damage , if any , is commonly either unintentio=
+
+Ground Truth: :nal, or at most not directly but only indirectly intentional. See Introd.
+Prediction: :nal , or at most not directly but only indirectly intentional . See Introd =
+
+Ground Truth: Ch. Of Intention and Consciousness.
+Prediction: Ch . Of Intention and Consciousness .
+
+Ground Truth: For the Cases in which a Man may happen to be concerned
+Prediction: For the Cases in which a Man may happen to be concerned
+
+Ground Truth: in producing bodily pain or uneasiness by selling unwholesome provisions,
+Prediction: in producing bodily pain or uneasiness by selling unwholesome provisions ,
+
+Ground Truth: See Laws concerning the several Trades relative to the several sorts of Provisions.
+Prediction: See Laws concrning the several Trades relative to the several sorts of Provisions .
+
+Ground Truth: 25. _ The Police-Offices to be open for business from
+Prediction: 25 . _ The Police-Offices to be open for business from
+
+Ground Truth: nine, in the morning, till nine, at night.
+Prediction: nime , in the morning , till nine , at night .
+
+Ground Truth: 26. _ The present number of Runners, or Constables,
+Prediction: 26 . _ The present number of Runners , or Constables ,
+
+Ground Truth: to the Police-Offices, are very insufficient.
+Prediction: to the Police-Offices , are very insufficient .
+
+Ground Truth: 27. _ No soldier should ever appear in the streets with:
+Prediction: 27 . _ No Soldier should ever appear in the streets with
+
+Ground Truth: :out his uniform.
+Prediction: nout his uniform .
+
+Ground Truth: 28. _ The penalty on forfeiture of recognizances, in
+Prediction: 28 . _ The penalty on forfeiture of recognizances , in
+
+Ground Truth: case of non-prosecution, should be considerably
+Prediction: case of non-prosecution , should be considerably
+
+Ground Truth: increased, and the payment thereof be enforced.
+Prediction: increased , and the payment thereof enforced .
+
+Ground Truth: 29. _ The Expences allowed to Prosecutors & Witnesses
+Prediction: 29 . _ The expences allowed to Prosecutors & Witnesses
+
+Ground Truth: from distant parts, are not sufficiently liberal; on
+Prediction: from distant parts , are not sufficiently liberal ; on
+
+Ground Truth: which account many Delinquents evade justice.
+Prediction: which account many Delinquents vade justice .
+
+Ground Truth: 30. _ A Barrister and sufficient number of Atornies
+Prediction: 30 . _ A Barrister and sufficient number of Atornies
+
+Ground Truth: should be appointed to prosecute for the Crown, in
+Prediction: should be appointed to prosecute for the Crown , in
+
+Ground Truth: criminal cases; and to conduct indictments for
+Prediction: criminal cases ; and to conduct indictments for
+
+Ground Truth: such persons as are too poor to undertake them
+Prediction: such persons as are too poor to undertake them
+
+Ground Truth: on their own account.
+Prediction: on their own accoart .
+
+Ground Truth: 31. _ The City of London ought to build a House
+Prediction: 31 . _ The lity of London ought to build a House
+
+Ground Truth: of Correction; where all the London-Prisoners, who
+Prediction: of Correction ; where all the London Prisoners , who
+
+Ground Truth: under
+Prediction: wndat .
+
+Ground Truth: are sentence of temporary imprisonment, should
+Prediction: are sentence of temporary imprisonment , sh ould
+
+Ground Truth: be kept and compelled to work. No prisoners, under
+Prediction: be kept and compelled to work . No prisoners , under
+
+Ground Truth: fines, or temporary confinement, should be permitted
+Prediction: fines , or temporary confinement , should be permitted
+
+Ground Truth: to remain in Newgate, or the Compters, after sen:
+Prediction: to remain in Newagate , or the Compters , after sen=
+
+Ground Truth: :tence has been once passed.
+Prediction: -tence has been once passed .
+
+Ground Truth: 32. _ Executions are of no utility, either for punishing
+Prediction: 32 . _ Executions are of no utility , either for punishing
+
+Ground Truth: or deterring: _ if, however, they must be inflicted,
+Prediction: or deterring : _ if , however , they must be inflicted ,
+
+Ground Truth: they should be done, as speedily as possible, after
+Prediction: they should be done , as speedily as possible , after
+
+Ground Truth: passing sentence. Solitary confinement & labour
+Prediction: passing sentence . Solitary confinement & labour
+
+Ground Truth: 11
+Prediction: 11
+
+Ground Truth: the whole produce and profit of their labour, and the
+Prediction: the whole produce and profit of their labour , and the
+
+Ground Truth: same to retain subject only to the allowances to be
+Prediction: same to retain subject only to the allowances to be
+
+Ground Truth: made to such prisoners in manner herein after
+Prediction: made to such prisoners in manner herein after
+
+Ground Truth: mentioned.
+Prediction: mentioned .
+
+Ground Truth: Art.7. Each Prisoner shall be supplied every day
+Prediction: Art.7 . Each Prisoner shall be supplied every day
+
+Ground Truth: with wholesome food, as much as he shall choose:
+Prediction: with wholesome food , as mush as he shall choose :
+
+Ground Truth: but the quality in other respects is expressly reser-
+Prediction: but the quality in other respects is expressly reser-
+
+Ground Truth: -ved to the choice of the said Jeremy Bentham and
+Prediction: -ved to the choice of the said Jeremy Bentham and
+
+Ground Truth: his Successors as a means of engaging the said Pri-
+Prediction: his Successors as a means of engaging the said Pri-
+
+Ground Truth: -soners without the spur of corporal severities to set
+Prediction: -soners without the spur of corporal severities to set
+
+Ground Truth: their hands to labour.
+Prediction: thewe hands to labown .
+
+Ground Truth: a
+Prediction: a .
+
+Ground Truth: Art.8. Each prisoner shall be kept properly clo thed,
+Prediction: Art .8 . Each prisoner shall be kept properly clophed ,
+
+Ground Truth: and to that purpose shall be supplied at least once a
+Prediction: and to that purpose shall be supplied at least once a
+
+Ground Truth: year with a compleat suit of such cloaths as shall
+Prediction: year with a compleat suit of such cloaths as shall
+
+Ground Truth: be allotted, and with a clean shirt at least twice in
+Prediction: be allotted , and with a clean shirt at least twice in
+
+Ground Truth: every week.
+Prediction: every week .
+
+Ground Truth: Art.9. Each prisoner shall be constantly suppli-
+Prediction: Art.9 . Each prisoner shall be constantly suppli-
+
+Ground Truth: -ed with a separate bed and bedding of sufficient
+Prediction: -ed with a separate bed and bedding of sufficient
+
+Ground Truth: warmth, and kept in a state of constant cleanliness
+Prediction: warmth , and kept in a state of constant cleanliness
+
+Ground Truth: clean sheeting or blanketing being supplied to each
+Prediction: clean sheting or blanketing being supplied to each
+
+Ground Truth: at least once in every month.
+Prediction: at least once in every month
+
+Ground Truth: Art.10. The Prison shall at all proper seasons
+Prediction: Art.10 . The Prison shall at all proper seasons
+
+Ground Truth: and in ever part thereof be sufficiently warmed &
+Prediction: and in every part thereof be sufficiently warmed &
+
+Ground Truth: lighted.
+Prediction: lighted .
+
+Ground Truth: Art.11. No prisoner shall be suffered to have access
+Prediction: Art . 11 . No prisoner shall be suffered to have access
+
+Ground Truth: to any kind of spirituous or fermented liquor, except
+Prediction: to any kind of spirituous or fermented liquor , except
+
+Ground Truth: in as far as the same shall have been prescribed
+Prediction: in as fay as the same shall have been prescribed
+
+Ground Truth: in
+Prediction: in
+
+Ground Truth: 18.
+Prediction: 18 .
+
+Ground Truth: G
+Prediction: C
+
+Ground Truth: Simple <gap/> Corporal Injuries
+Prediction: Simple Ofe xncuuase Corporal Injurses
+
+Ground Truth: constitute some degree of excuse extenuation.
+Prediction: constitute some degree of excuses extenuction .
+
+Ground Truth: 2. It matters not whether the Mis-supposal in this case
+Prediction: 2 . It matters not whether the Mis-supposal in this case
+
+Ground Truth: the
+Prediction: the
+
+Ground Truth: regards the matter of fact or the matter of law. It regards
+Prediction: regards the matter of fact or matter of law . It regards
+
+Ground Truth: the matter of fact where you suppose some damage to
+Prediction: the matter of fact where you suppose some damage to
+
+Ground Truth: have been done you by your adversary, whereas in fact
+Prediction: have been done you by your adversary , whereas in fact
+
+Ground Truth: he has done you no such damage. It regards the mat=
+Prediction: he has done you no such damage . It regards the mat=
+
+Ground Truth: :ter of law, where you suppose him to have no right
+Prediction: : ter of law , where you suppose him to have no right
+
+Ground Truth: to do you such damage, whereas in truth he had a
+Prediction: to do you such damage , whereas in truth he had a
+
+Ground Truth: General Extenuation
+Prediction: General Exlinnatyon
+
+Ground Truth: right. See Excuse II. Ignorance of the Law.
+Prediction: right . See Excuse II . Ignorance of the Law .
+
+Ground Truth: [(B1 Injury] It matters not to whom the injury in ques=
+Prediction: [ ( C ) Injury ] It matters not to whom the injury in ques=
+
+Ground Truth: =tion immediately relates, whether
+Prediction: =tion immediately relates , whether
+
+Ground Truth: 1. To the party himself who is provoked.
+Prediction: 1 . To the party himself who is provoked .
+
+Ground Truth: 2. To any one who is particularly dear to him.
+Prediction: 2 . To any one who is particularly dear to him .
+
+Ground Truth: 3. To the Public: For the interests of the Public ought
+Prediction: 3 . To the Public : for the interests of the Public ought
+
+Ground Truth: to be dear to every man.
+Prediction: to be dear to every man .
+
+Ground Truth: 4. Even to the party himself by whom the provocation is
+Prediction: 4 . Even to the party himself by whom the provocation is
+
+Ground Truth: given: for every man ought to be dear to every man.
+Prediction: given : for every man ought to be dear to every man .
+
+Ground Truth: Accordingly if you think you observe any person giving
+Prediction: Accordingly if you think you observe any person giving
+
+Ground Truth: into any kind of vice, and, from the pain which it gives
+Prediction: into any kind of vice , and , from the pain which it gives
+
+Ground Truth: you to think of his behaviour, are provoked to strike
+Prediction: you to think of his behaviour , are provoked to strike
+
+Ground Truth: him, it is a less offence than if you struck him in the
+Prediction: him , it is a less offence than if you struck him in the
+
+Ground Truth: course
+Prediction: course
+
+Ground Truth: 16
+Prediction: 16
+
+Ground Truth: default of such Devisee or Devisees then by the Executor or
+Prediction: default of such Devisee or Devisees then by the Executor or
+
+Ground Truth: Executors Administrator or Administrators of , or person or
+Prediction: Executors Administrator or Administrators of , or person or
+
+Ground Truth: persons intitled to take out Administration to, the personal
+Prediction: persons intitled to take out Administration to , the personal
+
+Ground Truth: Estate of such Survivor as aforesaid , untill due satisfaction
+Prediction: Estate of such Survivor as aforesaid , untill due satisfaction
+
+Ground Truth: shall have been made to the Estate of such Survivor as well
+Prediction: shall have been made to the Estate of such Survivor as well
+
+Ground Truth: for the value of the said Buildings and other irremoveable
+Prediction: for the value of the said Buildings and other irremoveable
+
+Ground Truth: improvements of every kind made in or upon the said
+Prediction: improvements of every kind made in or upon the said
+
+Ground Truth: Land or any part thereof as for the moveable stock remain-
+Prediction: Land or any part thereof as for the moveable stock remain-
+
+Ground Truth: -ing thereon and occupied therewith : And in default of such
+Prediction: -ing thereon and occupied therewith : And in default of such
+
+Ground Truth: Feoffee so appointed , such seizin and possession as aforesaid
+Prediction: Feoffee so appointed , such seizin and possession as aforesaid
+
+Ground Truth: shall remain and continue in such legal representatives or
+Prediction: shall remain and continue in such legal representatives or
+
+Ground Truth: persons intitled to take out Administration as aforesaid : And
+Prediction: persons intitled to take out Administration as aforesaid : And
+
+Ground Truth: all such allowances as under the terms of this agreement were
+Prediction: all such allowances as under the terms of this agreement were-
+
+Ground Truth: made or to have been made to such Survivor , for or on account
+Prediction: made or to have been made to such Survivor , for or on account
+
+Ground Truth: of the maintenance of the said Establishment , shall during the
+Prediction: of the maintenance of the said Establishment , shall during the
+
+Ground Truth: same period continue to be made unto the person or persons
+Prediction: same period continue to be made unto the person or persons
+
+Ground Truth: so seized and possessed as aforesaid : the value of such Build-
+Prediction: so seized and possessed as aforesaid : the value of such Build-
+
+Ground Truth: -ings improvements and stock to be settled by two referees, one
+Prediction: -ings improvements and stock to be settled by two referees , one
+
+Ground Truth: to be appointed by the Lords Commissioners of the Treasury or
+Prediction: to be appointed by the Lords Commissioners of the Treasury or
+
+Ground Truth: [their Successors the other by the person or persons so seized and
+Prediction: their Successors the other by the person or persons so seized and
+
+Ground Truth: possessed or intitled so to be as aforesaid , with power to appoint
+Prediction: possessed or intitled so to be as aforesaid , with power to appoint
+
+Ground Truth: an umpire.
+Prediction: an umpire .
+
+Ground Truth: 9
+Prediction: 2
+
+Ground Truth: and building one or more Penitentiary House or Houses
+Prediction: and building one or more Penitentiary House or Houses
+
+Ground Truth: upon the said Ground in such manner and under
+Prediction: upon the said Ground in such manner and under
+
+Ground Truth: and for such considerations, terms, conditions, powers,
+Prediction: and for such considerations , terms , conditions , powers ,
+
+Ground Truth: limitations and restrictions as the said Commissioners
+Prediction: limutations and restrictions as the said Commissioners
+
+Ground Truth: shall deem necessary and expedient, and shall cause
+Prediction: shall deem necessary and expedient , and shall cause
+
+Ground Truth: to be inserted in such Contract or Contracts such law-
+Prediction: to be inserted in such Contract or Contracts such law-
+
+Ground Truth: -ful clauses, covenants and agreements, as shall be re-
+Prediction: -ful claunses , covenants and agreements , as shall be re-
+
+Ground Truth: -quisite to enforce the execution of the same according-
+Prediction: -quisite to enforce the execution of the same according-
+
+Ground Truth: -ly, and within a time to be limited And Whereas
+Prediction: ly , and within a time to be limited And Whereas
+
+Ground Truth: in and by an instrument dated this day the said
+Prediction: in and by an instrument dated this day the said
+
+Ground Truth: Piece of Ground has been fixed upon accordingly and
+Prediction: Fiece of Ground has been fixed upon accordingly and
+
+Ground Truth: the said Jeremy Bentham appointed sole Feoffee for
+Prediction: the said Jeremy Bentham appointed sole Feoffee for
+
+Ground Truth: the purpose of purchasing the same And Whereas
+Prediction: the purpose of purchasing the same And Whereas
+
+Ground Truth: he the said Jeremy Bentham hath proposed at his
+Prediction: he the said Jeremy Bentham hath proposed at his
+
+Ground Truth: own expence but upon such terms and conditions and
+Prediction: own expence but upon such terms and conditions and
+
+Ground Truth: for such considerations as are herein after mentioned,
+Prediction: for such considerations as are herein after mentioned ,
+
+Ground Truth: to erect and adapt to the purpose aforesaid a build-
+Prediction: to erect and adapt to the purpose aforesaid a build-
+
+Ground Truth: -ing of a new and peculiar nature invented by
+Prediction: -ing of a new and peculiar nature invented by
+
+Ground Truth: Samuel Bentham Knight of the Military Order of
+Prediction: Samuel Bentham Knight of the Military Order of
+
+Ground Truth: St George of Russia and Brigadier General in
+Prediction: It George of Russia and Brigadier General in
+
+Ground Truth: her Imperial Majesty's Service, Brother of the said
+Prediction: her Imperial Majesty ' s Service , Brother of the said
+
+Ground Truth: Jeremy Bentham under the name of a Panopticon
+Prediction: Jeremy Bentham under the name of a Panopticon
+
+Ground Truth: or Inspection House in and by means of which said
+Prediction: or Inspection House in and by means of which said
+
+Ground Truth: Building any number of persons may in as far as
+Prediction: Building any number of persons may in as far as
+
+Ground Truth: it shall be thought proper be kept under the in-
+Prediction: it shall be thought proper be kept under the in-
+
+Ground Truth: -spection of any person or number of persons in
+Prediction: -spection of any person or number of persons in
+
+Ground Truth: charge
+Prediction: charge
+
+Ground Truth: 6
+Prediction: 6
+
+Ground Truth: extension of the Colony Plan, or adoption of some
+Prediction: extension of the Colony Plan , or adoption of some
+
+Ground Truth: other mode of disposing of Convicts) perhaps not above
+Prediction: other mode of disposing of Convicts ) perhaps not above
+
+Ground Truth: 100 are received into this £100,000 House. What is
+Prediction: 100 are received into this £100,000 House . What is
+
+Ground Truth: the consequence? that for each Convict House rent
+Prediction: the consequence ? _ that for each Convict House rent
+
+Ground Truth: alone (£5000 at 5 per Cent) comes to £50 a year.
+Prediction: alone ( £5000 at 15 per Cent ) comes to £50 a year .
+
+Ground Truth: On Mr Bentham's plan it comes to £9 a year, and
+Prediction: On Mr Bentham ' s plan it comes to 9 a year , and
+
+Ground Truth: that for two years only.
+Prediction: that for two years only .
+
+Ground Truth: A plain proof that all idea of refunding was
+Prediction: A plain proof that all idea of refunding was
+
+Ground Truth: out of the question, or rather that it was perfectly
+Prediction: out of the question , or rather that it was perfectly
+
+Ground Truth: understood that nothing should be refunded, is, that
+Prediction: understood that nothing should be refunded , is , that
+
+Ground Truth: Mr Bentham was, for months together, with the
+Prediction: Mr Bentham was , for months together , with the
+
+Ground Truth: privit of Government and at the recommendation of
+Prediction: privity of Government and at the recommendation of
+
+Ground Truth: Government, in treaty on his own account with the
+Prediction: Government , in treaty on his own account with the
+
+Ground Truth: Proprietors for the purchase of the Land: Government
+Prediction: Proprietors for the purchase of the Land : Government
+
+Ground Truth: having agreed to advance the purchase money in that
+Prediction: having agreed to advance the purchase money in that
+
+Ground Truth: case to Mr Bentham for a short time. The Pro-
+Prediction: case to Mr Bentham for a short time . The Pro-
+
+Ground Truth: -prietors not complying; an Act of Parliament for
+Prediction: -prietors not complying ; an Act of Parliament for
+
+Ground Truth: this and other purposes was thought necessary: and
+Prediction: this and other purposes was thought necessary : and
+
+Ground Truth: upon that occasion it was, that it was notified to
+Prediction: upon that occasion it was , that it was notified to
+
+Ground Truth: Mr Bentham, as the determination of Government,
+Prediction: Mr Bentham , as the determination of Government ,
+
+Ground Truth: that the Ground should be purchased, not on Mr
+Prediction: that the Ground should be purchased , not on Mr
+
+Ground Truth: Bentham's account, but on the account of Government:
+Prediction: Bentham ' s account , but on the account of Government :
+
+Ground Truth: but that due satisfaction should be made to Mr
+Prediction: but that due satisfaction should be made to Mr
+
+Ground Truth: Bentham and his Representatives. No reason was
+Prediction: Bentham and his Representatives . No reason was
+
+Ground Truth: assigned for this departure: Mr Bentham's consent to it
+Prediction: assigned for this departure : Mr Bentham ' s consent to it
+
+Ground Truth: was not called for: it was not given: he was not heard
+Prediction: was not called for : it was not given : he was not heard
+
+Ground Truth: upon
+Prediction: 9har
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: 15.
+Prediction: 15 .
+
+Ground Truth: Offences against the external Security of the State.
+Prediction: Offences against the external Security of the State .
+
+Ground Truth: is commonly distinguished by the name Piracy.
+Prediction: is commonly distinguished by the name of Piracy .
+
+Ground Truth: When an Offence against Property originates in a
+Prediction: When an Offence against Property originates in a
+
+Ground Truth: motive of rapacity and not in motives of resentment the
+Prediction: motive of rapacity and not in motives of resentment the
+
+Ground Truth: property of one person will answer the purpose as well
+Prediction: property of one person will answer the purpose as well
+
+Ground Truth: as another . If therefore the primary mischief of such an Of:
+Prediction: as another . If therefore the primary mischief of such an Of=
+
+Ground Truth: :fence be confined to a single state, the secondary mischief,
+Prediction: : fence be confined to a single state , the secondary mischief ,
+
+Ground Truth: however, extends itself to all states the members of which
+Prediction: however , extends itself to all states the members of which
+
+Ground Truth: are likely to come in the offender's way. An act of Piracy is
+Prediction: are likely to come in the offender ' s way . An act of Piracy is
+
+Ground Truth: therefore commonly looked upon as an act of hostility against
+Prediction: therefore commonly looked upon as an act of hostility against
+
+Ground Truth: mankind in general . The least therefore which is expected
+Prediction: mankind in general . The least therefore which is expected
+
+Ground Truth: from the State of which the Pirate is a member is that
+Prediction: from the State of which the Pirate is a member is that
+
+Ground Truth: it should acquiesce in his being punished : If it happens
+Prediction: it should acquiesce in his being punished : If it happens
+
+Ground Truth: to have any particular means in its hands of punishing
+Prediction: to have any particular means in its hands of punishing
+
+Ground Truth: him , it may also be expected to take an active part in pu=
+Prediction: him , it may also be expected to take an active part in pu =
+
+Ground Truth: :nishing him : as likewise in punishing any accomplices
+Prediction: : nishing him : as likewise in punishing any accomplices
+
+Ground Truth: he may have ; and in taking any other expedients that
+Prediction: he may have ; and in taking any other expedients that
+
+Ground Truth: may occur for preventing the offence . This holds good more
+Prediction: may occur for preventing the offence . This holds good more
+
+Ground Truth: particularly with regard to accomplices ; because their
+Prediction: particularly with regard to accomplices ; because their
+
+Ground Truth: residence will frequently be upon land within the domi=
+Prediction: residence will frequently be upon land within the domi=
+
+Ground Truth: while
+Prediction: while
+
+Ground Truth: :nions of a particular state which his excursions are
+Prediction: : nions of a particular state which his excursions are
+
+Ground Truth: carried on upon that element which is common to man=
+Prediction: carried on upon that element which is common to man=
+
+Ground Truth: =kind.
+Prediction: -kend .
+
+Ground Truth: 2
+Prediction: 2
+
+Ground Truth: Upon the abovementioned terms he would engage
+Prediction: Upon the abovementioned terms he would engage
+
+Ground Truth: as follows_
+Prediction: as follows _
+
+Ground Truth: 1.st To furnish the prisoners with a constant supply
+Prediction: 1.st To furnish the prisoners with a constant supply
+
+Ground Truth: of wholesome food, not limited in quantity, but a-
+Prediction: of wholesome food , not limited in quantity , but a-
+
+Ground Truth: -dequate to each man's desires.
+Prediction: -dequate to each man ' s desires .
+
+Ground Truth: 2. To keep them clad in a state of lightness & neat-
+Prediction: 2 . To keep them clad in a state of tightness & neat-
+
+Ground Truth: -ness, superior to what is usual among the lower clas-
+Prediction: -ness , superior to what is usual among the lower clas-
+
+Ground Truth: -ses or even in the improved prisons.
+Prediction: -ses or even in the improved prisons .
+
+Ground Truth: 3rd To keep them supplied with separate beds and
+Prediction: 3rd To keep them supplied with separate beds and
+
+Ground Truth: bedding, competent to their situation, and in a state
+Prediction: bedding , competent to their situation , and in a state
+
+Ground Truth: of cleanliness scarce any where conjoined with liberty.
+Prediction: of cleanliness scarce any where conjoined with liberty .
+
+Ground Truth: 4th To insure to them a sufficient supply of artificial
+Prediction: 4.th . To insure to them a sufficient supply of artificial
+
+Ground Truth: warmth and light, whenever the season renders it
+Prediction: warmth and light , whenever the season renders it
+
+Ground Truth: necessary, and thereby preserve them from being
+Prediction: necessary , and thereby preserve them from being
+
+Ground Truth: obliged as in other places, to desist from their work,
+Prediction: obliged as in other places , to desist from their work ,
+
+Ground Truth: as well as from suffering from the inclemency of
+Prediction: as well as from suffering from the inclemency of
+
+Ground Truth: the weather.
+Prediction: the weather .
+
+Ground Truth: 5.th To keep constantly from them, in conformity to the
+Prediction: 5.th . To keep constantly from them , in conformity to the
+
+Ground Truth: practice so happily received, every kind of strong &
+Prediction: practice so happily received , every kind of strong &
+
+Ground Truth: spirituous liquor, unless where ordered in the way of
+Prediction: spirituous liquor , unless where ordered in the way of
+
+Ground Truth: medicine.
+Prediction: medicine .
+
+Ground Truth: 6th To maintain them in a state of inviolable
+Prediction: 6th To maintain them in a state of inviolable
+
+Ground Truth: though mitigated seclusion, in small assorted com-
+Prediction: though mitigated seclusion , in small assorted com-
+
+Ground Truth: panies, without any of those opportunities of pro
+Prediction: -panies , without any of those opportunities of pro-
+
+Ground Truth: -miscuous association, which in other improved pri-
+Prediction: -miscuous association , which in other improved pri-
+
+Ground Truth: -sons disturb if not destroy whatever good effect can
+Prediction: -sons disturb if not destroy whatever good effect can
+
+Ground Truth: have been expected from solitude.
+Prediction: have been expected from solitude . _
+
+Ground Truth: 7. To
+Prediction: 7 . To
+
+Ground Truth: 62
+Prediction: 62 .
+
+Ground Truth: THEFT
+Prediction: THEFT .
+
+Ground Truth: wherefrom this Consciousness might be infer'd were
+Prediction: wherefrom this Consciousness might be infer ' d were
+
+Ground Truth: yet themselves reducible to some one or other of
+Prediction: yet themselves reducible to some one or other of
+
+Ground Truth: those 4.
+Prediction: those 4 .
+
+Ground Truth: found
+Prediction: found
+
+Ground Truth: But I had Cause at length to abandon
+Prediction: But I had Cause at length to abandon
+
+Ground Truth: the pursuit, in the Persuasion that this
+Prediction: the Pursuit , in the Persuasion that this
+
+Ground Truth: Consciousness might by infer'd with equal
+Prediction: Consciousness might be infer ' d with equal
+
+Ground Truth: Satisfaction & Certainty from any of the respective
+Prediction: Sat isfaction & Certainty from any of the respective
+
+Ground Truth: individual Circumstances directly as thro'
+Prediction: individual Circumstances directly as thro '
+
+Ground Truth: the Medium of any of those specific Heads: the
+Prediction: the Medium of any of those specific Heads : the
+
+Ground Truth: Establishment of them as the Subjects of distinct
+Prediction: Establishment of them as the Subjects of distinct
+
+Ground Truth: Questions to the Jury would therefore have no Use; and
+Prediction: Questions to the Jury would therefore have no Use ; and
+
+Ground Truth: it might have this Inconvenience, that the
+Prediction: it might have this Inconvenience , that the
+
+Ground Truth: be
+Prediction: be
+
+Ground Truth: Distinction between them would not in every Care
+Prediction: Distinction between them would not in every Case
+
+Ground Truth: so clear, as that the Jury could concur in affirming
+Prediction: so clear , as that the Jury could concur in affirming
+
+Ground Truth: the Existence of any one in particular and disaffirming
+Prediction: the Existence of any one in particular and disaffirm
+
+Ground Truth: that of the others: hence if the Interrogatories
+Prediction: -ing that of the others : hence if the Interregatories
+
+Ground Truth: concerning each were put separately, tho' some one
+Prediction: concerning each were put separately , tho ' some one
+
+Ground Truth: or other of these Circumstances unquestionably had
+Prediction: or other of these Circumstances unquestionably had
+
+Ground Truth: Existence, yet not knowing precisely which, they
+Prediction: Existence , yet not knowing precisely which , they
+
+Ground Truth: would think themselves obliged to disaffirm it of
+Prediction: would think themselves obliged to disaffirm it of
+
+Ground Truth: them all.
+Prediction: them all .
+
+Ground Truth: For
+Prediction: For
+
+Ground Truth: My Lords, Whitehall 14 Oct. 1799.
+Prediction: My Lords , Whitchall th Act . 179 9
+
+Ground Truth: Mr King having laid before me a Letter from
+Prediction: Mr Thing having laid before me a Letterifor
+
+Ground Truth: Mr Long of the 27th ulto, desiring, by command of
+Prediction: Mr Long of the 27 ult , dising , by command of
+
+Ground Truth: your Lordships, to be apprized of the number of Con-
+Prediction: your Lordships , to be apprised of the nunmber of Con-
+
+Ground Truth: -victs, which the Panopticon proposed to be erected by
+Prediction: -victs , which the Panopticon , proposed to be erected by
+
+Ground Truth: Mr Bentham, is intended to accommodate. I have
+Prediction: Mr Bentham , is intended to accommodate . I have
+
+Ground Truth: examined the Acts of the 19th & 34th of his present
+Prediction: examined the Acts of the 19h of 3ticn of his present
+
+Ground Truth: Majesty, relative to the building of Penitentiary Houses
+Prediction: Majesty , relative to the building of Penitentiary Honices
+
+Ground Truth: for confining and employing in hard labour, Persons
+Prediction: for confning and employing in hard libour , Perons
+
+Ground Truth: convicted of transportable and other Crimes.
+Prediction: convictest of transportable and other Crimes .
+
+Ground Truth: I understand the object of these Acts to be, that
+Prediction: I indentand the object of these Acts to be , that
+
+Ground Truth: such Penitentiary Houses should be used principally
+Prediction: such Punitentrary Houses should be and priac pulty
+
+Ground Truth: as receptacles for such transportable Convicts as the
+Prediction: as receptacles for such trensportable Consicts as the
+
+Ground Truth: several Gaols of the respective Counties cannot contain,
+Prediction: sweral Gaols of the respectivr Counties cannot contain
+
+Ground Truth: from the time of their receiving sentence, till an
+Prediction: from the tume of their receiony senlonce , till an
+
+Ground Truth: opportunity may offer for their being transported.
+Prediction: opprohonity macy ofer for their being transported.
+
+Ground Truth: With respect to the probably number of transport-
+Prediction: With respect to the probable number of transport
+
+Ground Truth: -able Convicts _
+Prediction: atte Conwseto _
+
+Ground Truth: no safer rule can be adopted, than by taking the
+Prediction: is safer rule can be adopted , than by taking the
+
+Ground Truth: greatest number of the four last years of Peace:
+Prediction: greakest number of the four last ayears of peace :
+
+Ground Truth: though it may increase, yet the increase of live
+Prediction: thrugh it may increase , yet the encriose of tive
+
+Ground Truth: Stock use will probably more than counter balance the
+Prediction: Suck al wall probetty more then counter balance the
+
+Ground Truth: difference.]
+Prediction: odefterm .
+
+Ground Truth: will probably more than counterbalance the difference.
+Prediction: will probably mor than counterbalance the difference
+
+Ground Truth: 3
+Prediction: 3
+
+Ground Truth: P. 126. September 1790. "In order to encourage as far as possible
+Prediction: P.126 . September 1798 . In order to encourage as for as possible
+
+Ground Truth: "the rearing of swine in the colony, as well as of every other
+Prediction: " the rearing of suine in the colony , as well as of every other
+
+Ground Truth: "kind of live stock, a circumstance that must not <gap/> only prove
+Prediction: " kind of live stock , a circumstance that must not ap only prove
+
+Ground Truth: "a great benefit to the public, but be also highly to the advantage
+Prediction: " a great benefit to the public , but be aho highly to the advantage
+
+Ground Truth: "of those who devoted a part of their time to this useful purpose,
+Prediction: " of those who devoted a part of their time to this useful purpose ,
+
+Ground Truth: "and which, from the advanced state of the private farmers, might
+Prediction: " and which , from the advanced state of the private farmoes , might
+
+Ground Truth: "now be done with far less trouble and expence than formerly, the
+Prediction: " now be done with far less trouble and expence than formerly , the
+
+Ground Truth: "settlers and others were informed, that when any individual should
+Prediction: " settlers and others were informed , that when any individual should
+
+Ground Truth: "have prepared a number of such animals fit for the public
+Prediction: " have prepared a number of such animls fit for the public
+
+Ground Truth: "store, they might make the same known to the commissary,
+Prediction: store , they might make the same known to the commissary ,
+
+Ground Truth: "who, in order to prevent any unnecessary expence to the feeder,
+Prediction: " who , in order to prevent any unnecessary expence to the feeder ,
+
+Ground Truth: "would get give immediate notice of the day and place when
+Prediction: " would gove give immediate notice of the day and place when
+
+Ground Truth: "and where he would receive them. He was also at liberty to
+Prediction: " and where he would receive them . He was also at liberty to
+
+Ground Truth: "enter into an agreement or contract for a certain length of time,
+Prediction: " enter into an agreement or contract for a certain length of time ,
+
+Ground Truth: "and on such conditions as should be agreed, with any person who
+Prediction: " and on such conditions as should be agreed , with any person who
+
+Ground Truth: "would engage to furnish the public store either at Sydney, Parra-
+Prediction: " would engage to furnish the public store either at Sioney , Parra-
+
+Ground Truth: -"matta, or the Hawkesbury, with any certain quantity at stated
+Prediction: - "matte , or the Hawkesloury , with any certain quantity at stated
+
+Ground Truth: "periods."
+Prediction: " periods . "
+
+Ground Truth: P. 196 January 1799. "That he [the Governor] might ascertain what
+Prediction: P . 196 . January 1799 . " That he ( the Governor ) might ascertain what
+
+Ground Truth: "quantity of grain he had to depend on, all those who cultivated
+Prediction: " quantity of grain he had to depend on , all those who cultiuvated
+
+Ground Truth: "ground were directed to give in by a certain time a return of the
+Prediction: " ground were directed to give in by a certain time a return of the
+
+Ground Truth: "wheat and other grain in their possession."
+Prediction: " wheat and other grain in their possession . " -
+
+Ground Truth: P. 196. January 1799. "Wheat at this time bore a high price
+Prediction: P . 196 . January 1799 . " Wheat at this time bore a high price
+
+Ground Truth: "in Norfolk Island, the settlers who had raised refusing to sell it,
+Prediction: " in Norfolk Island , the settlers who had raised refusing to sell it ,
+
+Ground Truth: "on account of the high wages, at less than fifteen shillings per
+Prediction: " on account of the high wages , at less than fifteen shillings per
+
+Ground Truth: "bushel."
+Prediction: cbrushel . . _
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: 10.
+Prediction: 10 .
+
+Ground Truth: Offences against the external Security of the State.
+Prediction: Offences against the external Security of the State
+
+Ground Truth: naturally under the several titles which are taken from
+Prediction: naturally under the several titles which are taken from
+
+Ground Truth: the several different ways in which the party injured
+Prediction: the several different ways in which the party injured
+
+Ground Truth: either
+Prediction: either
+
+Ground Truth: may be affected by them. They are offences against person,
+Prediction: may be affected by them . They are offences against person ,
+
+Ground Truth: or or
+Prediction: or or
+
+Ground Truth: offences against property, offences against reputation, and
+Prediction: offences against property , offences against reputation , and
+
+Ground Truth: so forth, as the case may be.
+Prediction: so forth , as the case may be .
+
+Ground Truth: If the place in which the offence was committed be
+Prediction: If the place in which the offence was committed be
+
+Ground Truth: within the dominions of a third state it is from such third
+Prediction: within the dominions of a third state it is from such third
+
+Ground Truth: power that the state of which the party injured is a
+Prediction: power that the state of which the party injured is a
+
+Ground Truth: member will expect satisfaction in the first instance. If
+Prediction: member will expect satisfaction in the first instance . If
+
+Ground Truth: however it be out of its power to give satisfaction the
+Prediction: however it be out of its power to give satisfaction the
+
+Ground Truth: property as well as person of the offender being out of
+Prediction: property as well as person of the offender being out of
+
+Ground Truth: its reach, the injured state may naturally enough be dis=
+Prediction: its reach , the injured state may naturally enough be dis=
+
+Ground Truth: :posed to resort to that of which the offender is a mem=
+Prediction: : posed to resort to that of which the offender is a mem=
+
+Ground Truth: :ber. It may perhaps expect the same punishment to
+Prediction: : ber . It may perhaps expect the same punishment to
+
+Ground Truth: be inflicted on him as would be inflicted on him for
+Prediction: be inflicted on him as would be inflicted on him for
+
+Ground Truth: an offence of the same kind committed to the prejudice
+Prediction: an offence of the same kind committed to the prejudice
+
+Ground Truth: of a fellow member; it will hardly expect more.
+Prediction: of a fellow-member ; it will hardly expect more .
+
+Ground Truth: If the place be a vacant spot not within the domi=
+Prediction: If the place be a vacant spot not within the domi=
+
+Ground Truth: :nions of any state, the state of which the offender is a mem=
+Prediction: : nions of any state , the state of which the offender is a mem=
+
+Ground Truth: :ber will naturally be that to which the injured state
+Prediction: : ber will naturally be that to which the injured state
+
+Ground Truth: will resort in the first instance. It may however resort
+Prediction: will resort in the first instance . It may hawever resort
+
+Ground Truth: in
+Prediction: in
+
+Ground Truth: 23.
+Prediction: 23 .
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Corporal Injuries
+Prediction: Cerporal Pajuries
+
+Ground Truth: Simple Of <gap/> Extenuations.
+Prediction: Simple Of aused Uxtenationn .
+
+Ground Truth: employed; nor shall it be considered whether a person revolving
+Prediction: employed ; nor shall it be considered whether a person revolving
+
+Ground Truth: the circumstances at his leisure could or could not have
+Prediction: the circumstances at his leisure could or could not have
+
+Ground Truth: thought of a cheaper means of repelling the attack but whether
+Prediction: thought of a choaper means of repelling the attack but whether
+
+Ground Truth: any such cheaper means did actually occur to the party at
+Prediction: any such cheaper means did actually occur to the party at
+
+Ground Truth: the time.
+Prediction: the time .
+
+Ground Truth: Exposition.
+Prediction: Exposition .
+
+Ground Truth: [(A) Les mischief] As if a man were suddenly to assault
+Prediction: [ ( A ) Less mischief . ] As if a man were suddenty to assault
+
+Ground Truth: You with a stick at a time that a stout stick and an iron
+Prediction: You with a stick at a time that a stout stick and an iron
+
+Ground Truth: bar of the same size were both lying within your reach:
+Prediction: :bar of the same size were both lying within your reach :
+
+Ground Truth: where upon snatching up the iron bar you strike him in
+Prediction: where upon snatching up the iron bar you strike him in
+
+Ground Truth: such a manner as to give him dangerous bruise or kill
+Prediction: such a manner as to give him a dangerous bruise or kill
+
+Ground Truth: him. In such case unless it appears that you deliberately took
+Prediction: him . In such case unless it appears that you deliberately took
+
+Ground Truth: up the iron bar in preference to the stick intending there=
+Prediction: up the iron bar in preference to the stick intending there=
+
+Ground Truth: :with to kill him or hurt him more than was necessary, it
+Prediction: :with to kill him or hurt him more than was necessary , it
+
+Ground Truth: shall still be accounted justifiable self-defence
+Prediction: shall still be accounted justifiable self-defence
+
+Ground Truth: [(B) Uncertain efficacy] As if in the case just mentioned it hap=
+Prediction: [ ( B ) Uncertain efficacy ] As if in the case just mentioned it hape=
+
+Ground Truth: :pened that you were much weaker than the assailant; inso=
+Prediction: : pened that you were much weaker than the assailant ; inso=
+
+Ground Truth: :much that it would have been doubtful whether with the less
+Prediction: : much that it would have been doubtful whether with the less
+
+Ground Truth: powerful weapon of the two, you could have effectually defend=
+Prediction: powerful weapon of the two , you could have effectually defend=
+
+Ground Truth: :ed Yourself.
+Prediction: : ed Yourself .
+
+Ground Truth: may depend venture to depend on? If after pay-
+Prediction: may depend venture to depend on ? If after pay-
+
+Ground Truth: to this Lawyer
+Prediction: to this of awyer
+
+Ground Truth: ing four Guineas for four Volumes of his Truths,
+Prediction: -ing four Guineas for four Volumer of his Truths ,
+
+Ground Truth: I pay a couple to another, for any one that I
+Prediction: I pay a couple to another , for any one that I
+
+Ground Truth: self-
+Prediction: self -
+
+Ground Truth: may want, will his be all of the same sort?
+Prediction: may want , will his be <gp> of the same Sort ?
+
+Ground Truth: 70
+Prediction: 7
+
+Ground Truth: True it is that about 65 pages after, under
+Prediction: True it is that about 6a5 Pages after , under
+
+Ground Truth: another Title if I happen to fall upon it, I may
+Prediction: another Title if I happen to fall upon it , I may
+
+Ground Truth: see, that by her Husbands License "which he
+Prediction: see , that by her Husbands License which he
+
+Ground Truth: frequently covenants with her Friends to allow
+Prediction: frequently covenants with her Friends to allow
+
+Ground Truth: her a Wife may make a Will: or rather as
+Prediction: her " a Wife may make a Will : or rather as
+
+Ground Truth: the Author I may also see, that "if she has
+Prediction: the Author I may also see , that " if she whas
+
+Ground Truth: any Pinmoney or separate Maintenance" of which
+Prediction: any Pinmoney or separate Maintenance " of which
+
+Ground Truth: I have no other Intimation than from this
+Prediction: I have no other Intimation than from this
+
+Ground Truth: Passage and which that part of the Work which
+Prediction: Passage and which that Part of the Work which
+
+Ground Truth: is appropriated particularly to the subject of her
+Prediction: is appropriated particularly to the Subject of her
+
+Ground Truth: Power assures me, as far as it is in the power of
+Prediction: Powery assures me , as far as it is in the power of
+
+Ground Truth: general Words to assure, me that she cannot have,
+Prediction: general Words to assure , me that she cannot have ,
+
+Ground Truth: such and such Consequences will follow. But
+Prediction: such and such Consequences will follow . But
+
+Ground Truth: is not a Man to be put into Possession of the Law
+Prediction: is not a Man to be put into Possression of the Law
+
+Ground Truth: on any single Point but upon Terms [and those not
+Prediction: on any single Point but upon Terms ( and those not
+
+Ground Truth: declared] of his reading the whole Book? And
+Prediction: declared ] of his reading the whole Book ? And
+
+Ground Truth: in a voluminous Treatise on a very extensive &
+Prediction: in a voluminous Treatise on a very extensive &
+
+Ground Truth: divided
+Prediction: divided
+
+Ground Truth: 9
+Prediction: 3
+
+Ground Truth: (4
+Prediction: ( 4)
+
+Ground Truth: Art. II. VII. Appeal warranting function. A certain
+Prediction: Art . 11 . II . Appoeal warranting function . A certain
+
+Ground Truth: class of penal cases there is, in relation to which by
+Prediction: class of penal cases there is , in relation to which by
+
+Ground Truth: reason of the concurrence of certain circumstances, it
+Prediction: reason of the concurrence of certain circumstances it
+
+Ground Truth: may happen that in the eyes of the Legislature the
+Prediction: may hadppen that in the eyes of the Legislature the
+
+Ground Truth: certain evil composed of delay, vexation and expence
+Prediction: centain evih composed of delay -vesation and expence
+
+Ground Truth: to parties injured, might perhaps be not improperly
+Prediction: to parties injured , might perhaps be not improperly
+
+Ground Truth: regarded as outweighing the possible chance of effec
+Prediction: reganded as ontwighing the possible chance of effec-
+
+Ground Truth: tive mis-decision to the prejudice of the defendant
+Prediction: -tive imnsidecision to the prejudice of the defendent
+
+Ground Truth: on the part of the Immediate Judicatory, in which
+Prediction: on the part of the Iummidiate Judicatory in which
+
+Ground Truth: case it may perhaps be deemed fit by the Le-
+Prediction: case it may puhaope be deemed fit by the Le-
+
+Ground Truth: -gislature, in the framing of the Penal Code, to
+Prediction: -gislature , in the framny of the Penal Code , to
+
+Ground Truth: lay down as the general rule, that in these easy
+Prediction: lay down as the general rule , that in these casy
+
+Ground Truth: Appeal shall not have place. Offences of indigent
+Prediction: Appeal shall not have place . Offences of indigent
+
+Ground Truth: depredation, or say of predatory indigence, is the
+Prediction: depredation , or say of predatory ivndigence , is the
+
+Ground Truth: appellation which may serve for a general indication
+Prediction: appellation which may serve for a general endication
+
+Ground Truth: of the class of offences here in view. As to the enu-
+Prediction: of the class of offences here in view . As to the eim-
+
+Ground Truth: meration of these offences, See Procedure Code tit.
+Prediction: meration of these offences , See Procedure Bade tit .
+
+Ground Truth: Quasi Trial
+Prediction: Quas : Srial
+
+Ground Truth: Art. 12. Among two circumstances, by the consider-
+Prediction: Art . 12 . Qumong these circumstances , by the consider-
+
+Ground Truth: -ation of which, this opinion may on the part of the
+Prediction: -ation of which , this opinion may on the part of the
+
+Ground Truth: Legislature be perhaps produced are the following
+Prediction: Legistature be perhaps produced are the following
+
+Ground Truth: 1
+Prediction: 1
+
+Ground Truth: 38
+Prediction: 38
+
+Ground Truth: Note
+Prediction: Note
+
+Ground Truth: (a)The distinction is material: for as fixed income comes
+Prediction: ( a ) The distiniction is matenial : for as faxied income comis
+
+Ground Truth: in in masses at the beginning of a period and professional &c
+Prediction: in in masses at the beginning of a penod and professional &c
+
+Ground Truth: income in driblets day by day during the course of the same
+Prediction: income in drublets day by day during the course of the crme
+
+Ground Truth: period it will be found in calculation that on equal annual
+Prediction: period it will be found in calculation that on equal annual
+
+Ground Truth: amounts there will be twice as much to dispose of in any such
+Prediction: amounts there will be twice as much to dispose of in any such
+
+Ground Truth: way as that in question in the former case as in the latter.
+Prediction: way as that in question in the former case as in the latter .
+
+Ground Truth: 48
+Prediction: 48
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Of Frauds relative to the Coin.
+Prediction: Of Frauds relative to the Coin .
+
+Ground Truth: Quest. III. Why Coins of different Metal are put u=
+Prediction: Quest . III . Why Coins of different Metal are put u=
+
+Ground Truth: :pon the same footing.
+Prediction: u pon the same footing .
+
+Ground Truth: Reasons.
+Prediction: Reasons .
+
+Ground Truth: At first sight it may appear hard that a fraud upon
+Prediction: At first sight it may appear hard that a fraud upon
+
+Ground Truth: an Article of so small a value as the Copper Coin should be
+Prediction: an Article of so small a value as the Copper Coin should be
+
+Ground Truth: punished as severely as a fraud upon one of so high a value
+Prediction: punished as severely as a fraud upon one of so high a value
+
+Ground Truth: as the Silver or even the Gold Coin, since the profit that
+Prediction: as the Silver or even the Gold Coin , since the profit that
+
+Ground Truth: may be made by the falsifying any piece of the less precious
+Prediction: may be made by the falsifying any piece of the less precious
+
+Ground Truth: metal is not near so great as that which may be made
+Prediction: metal is not near so great as that which may be made
+
+Ground Truth: by the falsifying of the more precious metal. But the case
+Prediction: by the falsifying of the more precious metal . But the case
+
+Ground Truth: here is that the mischief is not to be estimated from the ef=
+Prediction: here is that the mischief is not to be estimated from the ef=
+
+Ground Truth: :fects of a single Act but from the effects of the Habit. Now
+Prediction: : fects of a single Act but from the effects of the Habit . Now
+
+Ground Truth: when the Habit is taken into the Account the one practice
+Prediction: when the Habit is taken into the Account the one practice
+
+Ground Truth: does not seem to demand in any considerable degree a great=
+Prediction: does not seem to demand in any considerable degree a great=
+
+Ground Truth: :er punishment than the other. Where the profit upon a
+Prediction: : er punishment than the other . Where the profit upon a
+
+Ground Truth: single piece is the greatest, the difficulty of getting it off is
+Prediction: single piece is the greatest , the difficulty of getting it off is
+
+Ground Truth: the greatest. The profit upon a base shilling may, it is
+Prediction: the greatest . The profit upon a base shilling may it is
+
+Ground Truth: true be 24 times as great (or perhaps more) as the profit
+Prediction: true be 24 times as great ( or perhaps more ) as the profit
+
+Ground Truth: upon
+Prediction: upon
+
+Ground Truth: 7 8
+Prediction: 72
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Defraudment by false standards
+Prediction: Defraudment by Jale tandards
+
+Ground Truth: particular regulations can be of service will need to be different
+Prediction: particular regulations can be of service will need to be different
+
+Ground Truth: according to the local circumstances of the different countries in
+Prediction: according to the local circumstances of the different countries in
+
+Ground Truth: which the several articles happen to be in use. Mean while any
+Prediction: which the several articles happen to be in use . Mean whole any
+
+Ground Truth: frauds that can be committed in relation to any of those articles
+Prediction: frauds that can be committed in relation to any of those articles
+
+Ground Truth: will not go unpunished: since they will all come under the general
+Prediction: will not go unpunished : since they will all come under the gene=
+
+Ground Truth: head of Sharping. ordinary defraudment.
+Prediction: : ral head of keapinge ordinary defraudment .
+
+Ground Truth: Instructions to the Legislator
+Prediction: Instructions to the Legestater
+
+Ground Truth: <gap/> The notion of a false standard supposes the existence
+Prediction: 1 . The notion of a false standard supposes the existence
+
+Ground Truth: of a genuine one. To establish these genuine ones for every pur:
+Prediction: of a genuine one . To establish these genuine ones for every pur=
+
+Ground Truth: :pose and in every convenient place is the business of the Sove:
+Prediction: : pose and in every convenient place is the business of the Sove :
+
+Ground Truth: :reign. To give these institutions their full effect and render the
+Prediction: : reign . To give these institutions their full effect and render the
+
+Ground Truth: occasions of punishing the offence less frequent the following
+Prediction: occasions of punishing the offence less frequent the following
+
+Ground Truth: expedients might be of use in the character of <gap/>
+Prediction: expedients might be of ase in the character of occepresentive
+
+Ground Truth: preventive measures. might be of use.
+Prediction: preventive measures , might be of use .
+
+Ground Truth: I. To establish public standards of each kind in the Metro:
+Prediction: I . To establish public standards of each kind in the metro=
+
+Ground Truth: :polis of every judicial district. See B. Of Procedure.
+Prediction: : polis of every judicial district . Se B . Of Procidure .
+
+Ground Truth: Tit. Of Jurisdiction.
+Prediction: Tit . Of Jurisdichion .
+
+Ground Truth: II. To permit none to be used by any trader but what are
+Prediction: II . To permit none to be used by any trader but what are
+
+Ground Truth: stamped by authority.
+Prediction: stamped by authority .
+
+Ground Truth: III. To cause frequent visitations to be made by certain offi:
+Prediction: II . To cause frequent visitations to be made by certain offi=
+
+Ground Truth: :cers at unexpected times (which, to ensure their being unexpected,
+Prediction: : cers at unexpected times ( which , to ensure their being unexpected =
+
+Ground Truth: may be determined by lot) in the Shops of the several Tradesmen;
+Prediction: may be determined by lot ) in the Shops of the several Tradesment ;
+
+Ground Truth: such
+Prediction: such
+
+Ground Truth: 3
+Prediction: 3
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Of State-Tumults.
+Prediction: Of State-Tumults .
+
+Ground Truth: of distant danger: nor whether by fear of danger to his per=
+Prediction: of distant danger : nor whether by fear of danger to his per=
+
+Ground Truth: :son, his property or his authority.
+Prediction: : son , his property or to his authority .
+
+Ground Truth: A State Tumult is a Misdemeanour.
+Prediction: A State Tumult is a Misdemeanour .
+
+Ground Truth: For damage sustained by parties injured in the
+Prediction: For damage sustained by parties injured in the
+
+Ground Truth: course of a tumult all offenders concerned in the same tumult
+Prediction: course of a tumult all offenders concerned in the same tumult
+
+Ground Truth: are liable, whether it can or cannot be proved that they act
+Prediction: are liable , whether it can or cannot be proved that they act
+
+Ground Truth: in concert.
+Prediction: in concert .
+
+Ground Truth: All illegal acts are to be deemed parts of the Same
+Prediction: All illegal acts are to be deemed parts of the same
+
+Ground Truth: tumult which are committed on the same occasion, or not
+Prediction: tumult which are committed on the same occasion , or not
+
+Ground Truth: more than [Ten] miles distance from each other in point
+Prediction: more than [ Ten ] miles distance from each other in point
+
+Ground Truth: of place, nor more than [Ten] days distance from each other
+Prediction: of place , nor more than [ Fe ] days distance from each other
+
+Ground Truth: in point of time.
+Prediction: in point of time .
+
+Ground Truth: Reasons.
+Prediction: Reasons .
+
+Ground Truth: 1. This makes it the interest of all persons concerned in the
+Prediction: 1 . This makes it the interest of all persons concerned in the
+
+Ground Truth: same tumult to sit a watch upon each other, and do what
+Prediction: same tumult to sit a watch upon each other , and do what
+
+Ground Truth: is in their power to moderate each others violence. By this
+Prediction: is in their power to moderate each others violence . By this
+
+Ground Truth: means it is subservient to the purpose of prevention.
+Prediction: means it is subservient to the purpose of prevention .
+
+Ground Truth: 2. It also gives a much better chance to parties injured
+Prediction: 2 . It also gives a much better chance to parties injured
+
+Ground Truth: of obtaining compleat compensation than they would other=
+Prediction: of obtaining compleat conpensation than they would other=
+
+Ground Truth: :wise have: and making the damage fall upon the au=
+Prediction: : wise have and making the damage fall upon the au=
+
+Ground Truth: :thors.
+Prediction: :thors .
+
+Ground Truth: 3. It facilitates the detection of offenders; by making it
+Prediction: 3 . It facilitates the detection of offenders ; by making it
+
+Ground Truth: the
+Prediction: the
+
+Ground Truth: 44
+Prediction: 44
+
+Ground Truth: few drops from it to save this worthy gentleman.
+Prediction: few drops from it to save this worthy gentleman .
+
+Ground Truth: If it be in the power of virtue to give a claim to
+Prediction: If it be in the power of virtue to give a claim to
+
+Ground Truth: mercy, has he not virtue to comm command it?
+Prediction: mercy , has he not virtue to comm command it ?
+
+Ground Truth: This faith, his hope, his charity, do they not all
+Prediction: His faith , his hope , his charity , do they not all
+
+Ground Truth: center in great persons?
+Prediction: center in great persons ?
+
+Ground Truth: Speak to him then, my Lord, once more: _
+Prediction: Speak to him then , my Lord , once more : _
+
+Ground Truth: say to him any thing that will make him easy.
+Prediction: say to him any thing that will make him easy .
+
+Ground Truth: Show him how right and wrong depend upon existing
+Prediction: Shew him how right and wrong depend upon existing
+
+Ground Truth: circumstances: _ whisper to him that all this Ma-
+Prediction: circumstances : _ whisper to him that all this Ma-
+
+Ground Truth: -chiavelism for throwing prisoners upon Counties
+Prediction: -chiavelism for throwing prisoners upon Counties
+
+Ground Truth: was a mere make-believe: satisfy him that nothing
+Prediction: was a mere make-believe : satisfy him that nothing
+
+Ground Truth: can be a matter of more profound indifference to
+Prediction: can be a matter of more profound indifference to
+
+Ground Truth: any body than it is to great persons in what Jal
+Prediction: any body than it is to great persons in what foch
+
+Ground Truth: Jail, or Hulk, or improved Colony, and in what numbers,
+Prediction: jail , or Hulk , or improved Colony , and in what number ,
+
+Ground Truth: human creatures starve or poison one another, so that
+Prediction: human creatures starve or poison one another , so that
+
+Ground Truth: there be not a "Panopticon for them to be sent to": _
+Prediction: there be not a " Panopticon for them to be sent to " : _
+
+Ground Truth: remind him, that in the place he has in view, no
+Prediction: remind him , that in the place he has in view , no
+
+Ground Truth: offence can, by any Jail or number of Jails, improved
+Prediction: offence can , by any Jail or number of Jails , improved
+
+Ground Truth: or unimproved, be ever given to Noble Lords, whose
+Prediction: or unimproved , be ever given to Roble Lords , whose
+
+Ground Truth: veto, when they are pleased to pronounce it, is so
+Prediction: veto , when they are pleased to promounce it , is to 
+
+Ground Truth: fatal to Acts of Parliament: _ assure him, that neither
+Prediction: fatal to Acts of Parliament : assure him , that neither
+
+Ground Truth: by the great person, nor by any other, is the purse
+Prediction: by the one great person , nor by any other , is the purse
+
+Ground Truth: ever taken out of the hands of Parliament, unless for
+Prediction: ever taken out of the hand of Parliament , unless for
+
+Ground Truth: a particular purpose, and to oblige a friend: certify
+Prediction: a particular purpose , and to oblige a friend : certify
+
+Ground Truth: to him, that measures of this sort are disposed of, mo-
+Prediction: to him , that measures of this sort are disposed of , mo-
+
+Ground Truth: -ment after moment, sometimes upon one principle,
+Prediction: -ment after moment , sometimes upon one principle ,
+
+Ground Truth: sometimes upon opposite principles, as the cove
+Prediction: sometimes upon opposite principles , as the coven-
+
+Ground Truth: convenience of each moment presents them to great
+Prediction: convenience of each moment presents them to great
+
+Ground Truth: minds: explain to him, that when persons are approved of,
+Prediction: minds : explain to him , that when persons are approvedof ,
+
+Ground Truth: & the purpose of the moment is to be seve served;
+Prediction: & the purpose of the moment is to be sever served ,
+
+Ground Truth: there
+Prediction: there
+
+Ground Truth: 1.
+Prediction: 1 .
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Of Irreparable Personal Injuries
+Prediction: Of Irrepurable Personal Injuries .
+
+Ground Truth: I
+Prediction: 1
+
+Ground Truth: Irreparable Personal Injuries are either 1. Irre=
+Prediction: Irreparable Personal Injuries are either 1 . Irre =
+
+Ground Truth: :parable Disfigurement: 2. Irreparable Disablement: or 3.
+Prediction: : parable Disfigurement . 2 . Irreparable Disablement : or 3 .
+
+Ground Truth: Mutilation.
+Prediction: Stutilation .
+
+Ground Truth: II
+Prediction: 11
+
+Ground Truth: Under Disfigurement is comprised Discolourment.
+Prediction: Under Disfigurement is comprised Discolourment
+
+Ground Truth: (A) (B)
+Prediction: ( A ) ( B )
+
+Ground Truth: Irreparable Disfigurement is where in the shape or colour
+Prediction: Irreparable Disfigurement is where in the shape or colour
+
+Ground Truth: of a man's person any unalterable change is produced
+Prediction: of a man ' s person any unalterable change is produced
+
+Ground Truth: the
+Prediction: the
+
+Ground Truth: the effect of which is to render his aspect less agreeable.
+Prediction: the effect of which is to runder his aspect less agreeable .
+
+Ground Truth: Exposition
+Prediction: Exposition
+
+Ground Truth: 1
+Prediction: 1
+
+Ground Truth: [A Shape] As if his nose or ears or lips be split, or
+Prediction: [ ( A ) Shape ] As if his nose or ears or lips be slit , or
+
+Ground Truth: a deep scar be made in any part of his body: so as
+Prediction: a deep sear be made in any part of his body : so as
+
+Ground Truth: either a
+Prediction: eitherpa
+
+Ground Truth: upon healing to leave a hollow or protuberance.
+Prediction: upon healing to leave a hollow or proticberance
+
+Ground Truth: 2
+Prediction: 2
+
+Ground Truth: [(B) Colour] As if a slight scar be made on any part
+Prediction: [ ( B ) Colour ] As if a slight Scar be made on any part
+
+Ground Truth: so as to leave neither hollow nor protuberance:
+Prediction: so as to leave neither hollow nor protiberance .
+
+Ground Truth: of his body; or any part of his body be marked with
+Prediction: of his body ; or any part of his body be marked with
+
+Ground Truth: an indelible stain.
+Prediction: an indelible stain .
+
+Ground Truth: Main-Text.
+Prediction: Main -Text .
+
+Ground Truth: III
+Prediction: [D ]
+
+Ground Truth: (A)
+Prediction: ( )
+
+Ground Truth: Irreparable Disablement may either be compleat
+Prediction: Irreparable Disablement may either be compleat
+
+Ground Truth: B
+Prediction: 2
+
+Ground Truth: or incompleat: it is compleat where a man is deprived
+Prediction: or incompleat ; it is compleat where a man is deprived
+
+Ground Truth: (C)
+Prediction: ( c )
+
+Ground Truth: of the use of a member altogether: incompleat when he
+Prediction: of the use of a member altogether ; incompleat when he
+
+Ground Truth: is deprived of the use of it in part.
+Prediction: is depriued of the use of it in part .
+
+Ground Truth: Exposition
+Prediction: Exposition
+
+Ground Truth: C
+Prediction: C
+
+Ground Truth: Simple Personal Injuries
+Prediction: Simple Personal Injurieys
+
+Ground Truth: Where the quantity of damage which was intended is the
+Prediction: Where the quantity of damage which was intended is the
+
+Ground Truth: very quantity which eventually ensues, the act may be said
+Prediction: very quantity which eventually ensues , the act may be said
+
+Ground Truth: to be adequately intentional with respect to its conse-
+Prediction: to be adequately intentional with respect to its conse=
+
+Ground Truth: -quences; when not so much, inadequately; when more,
+Prediction: =quences ; when not so much , inadequately ; when more ,
+
+Ground Truth: more than adequately
+Prediction: more than adequately
+
+Ground Truth: You intended for instance to strike the porter,
+Prediction: You intended for instance to strike the porter=
+
+Ground Truth: whose leg you have broken. If
+Prediction: whose ly you have boken . If
+
+Ground Truth: If your intention was to strike him in the leg in such
+Prediction: O your intention was to strike him in the legin such
+
+Ground Truth: manner that he might be obliged to have it cut off, or if
+Prediction: manner that he might be obliged to have it cut off , or if
+
+Ground Truth: you intended to strike him in the fore-arm in such manner
+Prediction: youintended to strike him in the fore arm in such manner
+
+Ground Truth: that he might be obliged to have his fore-arm cut off, and the
+Prediction: that he might be obliged to have his fore arm cut off , and the
+
+Ground Truth: case is that the damage he would suffer from the loss of a
+Prediction: cdse is that the damage he would suffer from the loss of a
+
+Ground Truth: leg would not be materially greater or less than what he
+Prediction: leg would not be materially greater or less than what he
+
+Ground Truth: would suffer from the loss of a fore-arm, in either of these
+Prediction: would suffer from the loss of a forearm , in either of these
+
+Ground Truth: cases the act was adequately intentional with regard to
+Prediction: cases theact was adequately intentional with regard to
+
+Ground Truth: the quality of damage.
+Prediction: the quantity of damage .
+
+Ground Truth: If your intention was only to hurt him in the fore-
+Prediction: If your intention was only to hurt him in the fore
+
+Ground Truth: arm or the leg without depriving him of either, the act
+Prediction: arm or the leg without depriving him of either , the act
+
+Ground Truth: e
+Prediction: a
+
+Ground Truth: was inad quately intentional: if your intention was to
+Prediction: was inadquately intentionals : if your intention was to
+
+Ground Truth: deprive him of his thigh or the whole of his arm the act
+Prediction: deprive him of his thigh or the whole of his arm the act
+
+Ground Truth: was-
+Prediction: was-
+
+Ground Truth: 2
+Prediction: 58
+
+Ground Truth: The design was _ that Convicts once sent there should
+Prediction: The design was _ that Convicts once sent there should
+
+Ground Truth: never come back again. The plan, if there had been any
+Prediction: never come back again . The plan , if there had been any
+
+Ground Truth: such thing, about the return of Convicts, would have been
+Prediction: such thing , about the return of Convicts , would have been
+
+Ground Truth: dictated either by what I call justice (in which case it would
+Prediction: dictated either by what I call justice ( in which case it would
+
+Ground Truth: have run counter to the design) or by the supposed profitable
+Prediction: have run counter to the design ) or by the supposed profitable
+
+Ground Truth: injustice. On the former supposition, arrangements would have been
+Prediction: injustice . On the fomer supposition , arrangements would have been
+
+Ground Truth: taken in the first place, for preventing the emigration of each
+Prediction: taken - in the first place , for preventing the emigration of each
+
+Ground Truth: Convict before the expiration of his legal terms of punishment_
+Prediction: Convict before the expiration of his legal term of punishment _
+
+Ground Truth: in the next place, for affording him the means of quitting the
+Prediction: in the next place , for affording him the means of quitting the
+
+Ground Truth: Country immediately after _ if such should be his choice: _ ar-
+Prediction: Country immediately after _ if such should be his choice : ar
+
+Ground Truth: -rangements, if not of the positive cast, at any rate of the negative
+Prediction: -rangements , if not of the positive cast , at any rate of the nega:
+
+Ground Truth: viz: by removing from that time forwards whatever
+Prediction: tive viz : by removing from that time forwards whatever
+
+Ground Truth: obstacle might till then have been opposed as such to his escape.
+Prediction: obstacle might till then have been opposed as such to his escape
+
+Ground Truth: Whatever had been the term of punishment fixed by each man's
+Prediction: Whatever had been the term of punishment fixed by each man ' s
+
+Ground Truth: sentence _ fourteen years _ between fourteen years and seven years _
+Prediction: sentence _ fourten years _ between fourteen years and seven years
+
+Ground Truth: seven years or any shorter term _ care would have been taken at
+Prediction: seven years or any shorter term _ care would have been taken at
+
+Ground Truth: any rate, that from and after the expiration of it, his return
+Prediction: any rate , that from and after the expiration of it , his return-
+
+Ground Truth: should not be opposed by any positive and_factitious obstacle, the
+Prediction: should not be opposed by any positive and - factitious obstacle , the
+
+Ground Truth: the effect of which would be to render it more difficult from this
+Prediction: effect of which would be to render it more difficult from this
+
+Ground Truth: new spot than it used to be from the old spots, to which this
+Prediction: new spot than it used to be from the odld spots , to which this
+
+Ground Truth: new discovered one was now substituted. _
+Prediction: new disconvered one was now substituted . _
+
+Ground Truth: Not to oppose, or suffer to be opposed, any obstruction to the
+Prediction: Not to oppose , or suffer to be opposed , any obstruction to the
+
+Ground Truth: return of a de jure emancipated Convict _ to take measures for
+Prediction: return of a de jire emancipated Convict _ to mtake measures for
+
+Ground Truth: rendering it neither more nor less easy than under the old
+Prediction: rendering it neither more nor less easy than under the old
+
+Ground Truth: system, or, if that could not be done, still easier _ one or other of
+Prediction: system , or , if that could not be done , still easer _ one or other of
+
+Ground Truth: those distinguishable lines of conduct would (in my humble
+Prediction: those distinguishable lines of conduct would ( in my humble
+
+Ground Truth: conception) have been the line of justice: which of them (since
+Prediction: conception ) have been the line of justice : which of them ( since
+
+Ground Truth: no one of them was pursued) is scarce worth arguing about.
+Prediction: no one of them was pursued ) is scarce worth arguing about .
+
+Ground Truth: There remains the line of supposed profitable injustice _
+Prediction: There remains the line of supposed profitable injustice
+
+Ground Truth: of
+Prediction: of
+

@@ -1,0 +1,80 @@
+2025-10-27 16:18:15,157 INFO {
+    "config_path": "./config.ini",
+    "image_folder": "./input/",
+    "cropped_lines_folder": "./Extraction_of_page_line_images/",
+    "save_dir": "./checkpoints/",
+    "out_dir": "Result_representation/",
+    "exp_name": "text_xmls",
+    "img_size": [
+        512,
+        64
+    ],
+    "nb_cls": 126,
+    "seed": 42,
+    "image_extension": "tif"
+}
+2025-10-27 16:18:15,474 INFO Loading HWR checkpoint from ./checkpoints/best_CER.pth
+2025-10-27 16:32:08,376 INFO {
+    "config_path": "./config.ini",
+    "image_folder": "./input/",
+    "cropped_lines_folder": "./Extraction_of_page_line_images/",
+    "save_dir": "./checkpoints/",
+    "out_dir": "Result_representation/",
+    "exp_name": "text_xmls",
+    "img_size": [
+        512,
+        64
+    ],
+    "nb_cls": 126,
+    "seed": 42,
+    "image_extension": "tif"
+}
+2025-10-27 16:32:08,711 INFO Loading HWR checkpoint from ./checkpoints/best_CER.pth
+2025-10-27 16:35:54,029 INFO {
+    "config_path": "./args/config.ini",
+    "image_folder": "./input/",
+    "cropped_lines_folder": "./Extraction_of_page_line_images/",
+    "save_dir": "./args/checkpoints/",
+    "out_dir": "Result_representation/",
+    "exp_name": "text_xmls",
+    "img_size": [
+        512,
+        64
+    ],
+    "nb_cls": 126,
+    "seed": 42,
+    "image_extension": "tif"
+}
+2025-10-27 16:35:54,341 INFO Loading HWR checkpoint from ./args/checkpoints/best_CER.pth
+2025-10-27 16:36:44,179 INFO {
+    "config_path": "./args/config.ini",
+    "image_folder": "./input/",
+    "cropped_lines_folder": "./Extraction_of_page_line_images/",
+    "save_dir": "./args/checkpoints/",
+    "out_dir": "Result_representation/",
+    "exp_name": "text_xmls",
+    "img_size": [
+        512,
+        64
+    ],
+    "nb_cls": 126,
+    "seed": 42,
+    "image_extension": "tif"
+}
+2025-10-27 16:36:44,491 INFO Loading HWR checkpoint from ./args/checkpoints/best_CER.pth
+2025-10-27 16:45:14,313 INFO {
+    "config_path": "./args/config.ini",
+    "image_folder": "./input/",
+    "cropped_lines_folder": "./Extraction_of_page_line_images/",
+    "save_dir": "./args/checkpoints/",
+    "out_dir": "Result_representation/",
+    "exp_name": "text_xmls",
+    "img_size": [
+        512,
+        64
+    ],
+    "nb_cls": 126,
+    "seed": 42,
+    "image_extension": "tif"
+}
+2025-10-27 16:45:14,712 INFO Loading HWR checkpoint from ./args/checkpoints/best_CER.pth

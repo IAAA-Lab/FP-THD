@@ -1,0 +1,1235 @@
+2025-05-01 13:35:55,766 INFO {
+    "alpha": 1.0,
+    "attn_mask_ratio": 0.1,
+    "blur_max_kernel": 5,
+    "blur_max_sigma": 5,
+    "blur_min_kernel": 3,
+    "blur_min_sigma": 3,
+    "cos_temp": 8,
+    "data_path": "./data/LAM/lines/",
+    "dila_ero_iter": 1,
+    "dila_ero_max_kernel": 2,
+    "dpi_max_factor": 1.5,
+    "dpi_min_factor": 0.5,
+    "elastic_distortion_max_alpha": 1,
+    "elastic_distortion_max_kernel_size": 3,
+    "elastic_distortion_max_magnitude": 20,
+    "elastic_distortion_max_sigma": 10,
+    "elastic_distortion_min_alpha": 0.5,
+    "elastic_distortion_min_kernel_size": 3,
+    "elastic_distortion_min_sigma": 1,
+    "ema_decay": 0.9999,
+    "eval_iter": 1000,
+    "exp_name": "lam",
+    "img_size": [
+        512,
+        64
+    ],
+    "jitter_brightness": 0.4,
+    "jitter_contrast": 0.4,
+    "jitter_hue": 0.2,
+    "jitter_saturation": 0.4,
+    "mask_ratio": 0.4,
+    "max_lr": 0.001,
+    "max_span_length": 8,
+    "nb_cls": 126,
+    "num_workers": 0,
+    "out_dir": "./output",
+    "patch_size": [
+        4,
+        32
+    ],
+    "perspective_high": 0.4,
+    "perspective_low": 0.0,
+    "print_iter": 100,
+    "proba": 0.5,
+    "proj": 8.0,
+    "save_dir": "./output/lam",
+    "seed": 123,
+    "sharpen_max_alpha": 1,
+    "sharpen_max_strength": 1,
+    "sharpen_min_alpha": 0,
+    "sharpen_min_strength": 0,
+    "spacing": 0,
+    "subcommand": "LAM",
+    "test_data_list": "./data/LAM/test.ln",
+    "total_iter": 100000,
+    "train_bs": 64,
+    "train_data_list": "./data/LAM/train.ln",
+    "use_wandb": false,
+    "val_bs": 8,
+    "val_data_list": "./data/LAM/val.ln",
+    "warm_up_iter": 1000,
+    "weight_decay": 0.5,
+    "zoom_max_h": 1,
+    "zoom_max_w": 1,
+    "zoom_min_h": 0.8,
+    "zoom_min_w": 0.99
+}
+2025-05-01 13:35:56,504 INFO total_param is 53521470
+2025-05-01 13:35:56,831 INFO Loading train loader...
+2025-05-01 13:35:57,091 INFO Loading val loader...
+2025-05-01 13:40:41,163 INFO Iter : 100 	 LR : 0.00010 	 training loss : 205.33746 	 
+2025-05-01 13:45:16,377 INFO Iter : 200 	 LR : 0.00020 	 training loss : 116.20861 	 
+2025-05-01 13:49:40,743 INFO Iter : 300 	 LR : 0.00030 	 training loss : 60.31906 	 
+2025-05-01 13:54:04,599 INFO Iter : 400 	 LR : 0.00040 	 training loss : 54.63481 	 
+2025-05-01 13:58:29,035 INFO Iter : 500 	 LR : 0.00050 	 training loss : 52.89116 	 
+2025-05-01 14:02:51,113 INFO Iter : 600 	 LR : 0.00060 	 training loss : 49.87593 	 
+2025-05-01 14:07:15,966 INFO Iter : 700 	 LR : 0.00070 	 training loss : 48.54016 	 
+2025-05-01 14:11:38,183 INFO Iter : 800 	 LR : 0.00080 	 training loss : 46.35033 	 
+2025-05-01 14:16:02,435 INFO Iter : 900 	 LR : 0.00090 	 training loss : 45.60090 	 
+2025-05-01 14:20:25,415 INFO Iter : 1000 	 LR : 0.00100 	 training loss : 44.81820 	 
+2025-05-01 14:20:45,057 INFO CER improved from 1000000.0000 to 0.0229!!!
+2025-05-01 14:20:45,387 INFO WER improved from 1000000.0000 to 0.0830!!!
+2025-05-01 14:20:45,699 INFO Val. loss : 5.273 	 CER : 0.0229 	 WER : 0.0830 	 
+2025-05-01 14:25:09,429 INFO Iter : 1100 	 LR : 0.00100 	 training loss : 44.49369 	 
+2025-05-01 14:29:31,471 INFO Iter : 1200 	 LR : 0.00100 	 training loss : 43.58652 	 
+2025-05-01 14:34:08,568 INFO Iter : 1300 	 LR : 0.00100 	 training loss : 42.65537 	 
+2025-05-01 14:38:30,710 INFO Iter : 1400 	 LR : 0.00100 	 training loss : 40.32137 	 
+2025-05-01 14:42:54,643 INFO Iter : 1500 	 LR : 0.00100 	 training loss : 40.17485 	 
+2025-05-01 14:47:17,997 INFO Iter : 1600 	 LR : 0.00100 	 training loss : 39.69992 	 
+2025-05-01 14:51:43,228 INFO Iter : 1700 	 LR : 0.00100 	 training loss : 36.06194 	 
+2025-05-01 14:56:06,318 INFO Iter : 1800 	 LR : 0.00100 	 training loss : 35.10577 	 
+2025-05-01 15:00:30,929 INFO Iter : 1900 	 LR : 0.00100 	 training loss : 33.69363 	 
+2025-05-01 15:04:53,451 INFO Iter : 2000 	 LR : 0.00100 	 training loss : 31.89030 	 
+2025-05-01 15:05:09,959 INFO CER improved from 0.0229 to 0.0194!!!
+2025-05-01 15:05:13,364 INFO WER improved from 0.0830 to 0.0724!!!
+2025-05-01 15:05:16,985 INFO Val. loss : 4.068 	 CER : 0.0194 	 WER : 0.0724 	 
+2025-05-01 15:09:40,307 INFO Iter : 2100 	 LR : 0.00100 	 training loss : 30.08015 	 
+2025-05-01 15:14:02,278 INFO Iter : 2200 	 LR : 0.00100 	 training loss : 28.16329 	 
+2025-05-01 15:18:26,700 INFO Iter : 2300 	 LR : 0.00100 	 training loss : 26.51018 	 
+2025-05-01 15:22:49,347 INFO Iter : 2400 	 LR : 0.00100 	 training loss : 25.26089 	 
+2025-05-01 15:27:13,020 INFO Iter : 2500 	 LR : 0.00100 	 training loss : 24.86443 	 
+2025-05-01 15:31:35,259 INFO Iter : 2600 	 LR : 0.00100 	 training loss : 23.15777 	 
+2025-05-01 15:36:00,068 INFO Iter : 2700 	 LR : 0.00100 	 training loss : 22.95213 	 
+2025-05-01 15:40:22,811 INFO Iter : 2800 	 LR : 0.00100 	 training loss : 21.04761 	 
+2025-05-01 15:44:46,935 INFO Iter : 2900 	 LR : 0.00100 	 training loss : 21.44562 	 
+2025-05-01 15:49:09,304 INFO Iter : 3000 	 LR : 0.00100 	 training loss : 20.16541 	 
+2025-05-01 15:49:25,600 INFO CER improved from 0.0194 to 0.0185!!!
+2025-05-01 15:49:29,045 INFO WER improved from 0.0724 to 0.0688!!!
+2025-05-01 15:49:32,673 INFO Val. loss : 3.710 	 CER : 0.0185 	 WER : 0.0688 	 
+2025-05-01 15:53:57,459 INFO Iter : 3100 	 LR : 0.00100 	 training loss : 18.23936 	 
+2025-05-01 15:58:20,512 INFO Iter : 3200 	 LR : 0.00100 	 training loss : 17.24821 	 
+2025-05-01 16:02:42,959 INFO Iter : 3300 	 LR : 0.00100 	 training loss : 18.46336 	 
+2025-05-01 16:07:08,217 INFO Iter : 3400 	 LR : 0.00100 	 training loss : 17.49198 	 
+2025-05-01 16:11:30,126 INFO Iter : 3500 	 LR : 0.00100 	 training loss : 16.30130 	 
+2025-05-01 16:15:55,394 INFO Iter : 3600 	 LR : 0.00100 	 training loss : 16.09964 	 
+2025-05-01 16:20:18,901 INFO Iter : 3700 	 LR : 0.00100 	 training loss : 15.85930 	 
+2025-05-01 16:24:41,596 INFO Iter : 3800 	 LR : 0.00100 	 training loss : 14.10715 	 
+2025-05-01 16:29:02,833 INFO Iter : 3900 	 LR : 0.00100 	 training loss : 14.53472 	 
+2025-05-01 16:33:27,748 INFO Iter : 4000 	 LR : 0.00100 	 training loss : 14.71605 	 
+2025-05-01 16:33:43,802 INFO CER improved from 0.0185 to 0.0178!!!
+2025-05-01 16:33:47,683 INFO WER improved from 0.0688 to 0.0661!!!
+2025-05-01 16:33:51,196 INFO Val. loss : 3.449 	 CER : 0.0178 	 WER : 0.0661 	 
+2025-05-01 16:38:13,355 INFO Iter : 4100 	 LR : 0.00100 	 training loss : 14.57609 	 
+2025-05-01 16:42:36,527 INFO Iter : 4200 	 LR : 0.00100 	 training loss : 14.20473 	 
+2025-05-01 16:46:58,576 INFO Iter : 4300 	 LR : 0.00100 	 training loss : 14.20109 	 
+2025-05-01 16:51:21,379 INFO Iter : 4400 	 LR : 0.00100 	 training loss : 13.70344 	 
+2025-05-01 16:55:43,939 INFO Iter : 4500 	 LR : 0.00099 	 training loss : 13.41075 	 
+2025-05-01 17:00:07,641 INFO Iter : 4600 	 LR : 0.00099 	 training loss : 13.17253 	 
+2025-05-01 17:04:29,680 INFO Iter : 4700 	 LR : 0.00099 	 training loss : 13.69112 	 
+2025-05-01 17:08:52,348 INFO Iter : 4800 	 LR : 0.00099 	 training loss : 13.52413 	 
+2025-05-01 17:13:14,967 INFO Iter : 4900 	 LR : 0.00099 	 training loss : 12.91992 	 
+2025-05-01 17:17:38,557 INFO Iter : 5000 	 LR : 0.00099 	 training loss : 12.97232 	 
+2025-05-01 17:17:54,154 INFO CER improved from 0.0178 to 0.0173!!!
+2025-05-01 17:17:57,619 INFO WER improved from 0.0661 to 0.0640!!!
+2025-05-01 17:18:01,198 INFO Val. loss : 3.297 	 CER : 0.0173 	 WER : 0.0640 	 
+2025-05-01 17:22:24,665 INFO Iter : 5100 	 LR : 0.00099 	 training loss : 13.04372 	 
+2025-05-01 17:26:47,818 INFO Iter : 5200 	 LR : 0.00099 	 training loss : 12.55529 	 
+2025-05-01 17:31:10,407 INFO Iter : 5300 	 LR : 0.00099 	 training loss : 12.42901 	 
+2025-05-01 17:35:34,438 INFO Iter : 5400 	 LR : 0.00099 	 training loss : 12.92176 	 
+2025-05-01 17:39:55,764 INFO Iter : 5500 	 LR : 0.00099 	 training loss : 11.42935 	 
+2025-05-01 17:44:19,401 INFO Iter : 5600 	 LR : 0.00099 	 training loss : 13.56408 	 
+2025-05-01 17:48:41,396 INFO Iter : 5700 	 LR : 0.00099 	 training loss : 12.24550 	 
+2025-05-01 17:53:03,801 INFO Iter : 5800 	 LR : 0.00099 	 training loss : 11.29706 	 
+2025-05-01 17:57:25,094 INFO Iter : 5900 	 LR : 0.00099 	 training loss : 11.39811 	 
+2025-05-01 18:01:48,745 INFO Iter : 6000 	 LR : 0.00099 	 training loss : 12.00885 	 
+2025-05-01 18:02:04,335 INFO CER improved from 0.0173 to 0.0169!!!
+2025-05-01 18:02:07,785 INFO WER improved from 0.0640 to 0.0631!!!
+2025-05-01 18:02:11,276 INFO Val. loss : 3.244 	 CER : 0.0169 	 WER : 0.0631 	 
+2025-05-01 18:06:33,575 INFO Iter : 6100 	 LR : 0.00099 	 training loss : 12.03113 	 
+2025-05-01 18:10:56,687 INFO Iter : 6200 	 LR : 0.00099 	 training loss : 11.87170 	 
+2025-05-01 18:15:17,649 INFO Iter : 6300 	 LR : 0.00099 	 training loss : 11.34306 	 
+2025-05-01 18:19:40,512 INFO Iter : 6400 	 LR : 0.00099 	 training loss : 11.41493 	 
+2025-05-01 18:24:02,651 INFO Iter : 6500 	 LR : 0.00099 	 training loss : 11.47464 	 
+2025-05-01 18:28:24,162 INFO Iter : 6600 	 LR : 0.00099 	 training loss : 11.16754 	 
+2025-05-01 18:32:47,356 INFO Iter : 6700 	 LR : 0.00099 	 training loss : 11.64421 	 
+2025-05-01 18:37:08,408 INFO Iter : 6800 	 LR : 0.00099 	 training loss : 11.93129 	 
+2025-05-01 18:41:32,368 INFO Iter : 6900 	 LR : 0.00099 	 training loss : 11.19755 	 
+2025-05-01 18:45:54,171 INFO Iter : 7000 	 LR : 0.00099 	 training loss : 11.34968 	 
+2025-05-01 18:46:09,624 INFO CER improved from 0.0169 to 0.0169!!!
+2025-05-01 18:46:13,079 INFO Val. loss : 3.250 	 CER : 0.0169 	 WER : 0.0636 	 
+2025-05-01 18:50:34,835 INFO Iter : 7100 	 LR : 0.00099 	 training loss : 11.68030 	 
+2025-05-01 18:54:57,195 INFO Iter : 7200 	 LR : 0.00099 	 training loss : 11.77909 	 
+2025-05-01 18:59:19,943 INFO Iter : 7300 	 LR : 0.00099 	 training loss : 10.95941 	 
+2025-05-01 19:03:41,440 INFO Iter : 7400 	 LR : 0.00099 	 training loss : 11.40486 	 
+2025-05-01 19:08:05,057 INFO Iter : 7500 	 LR : 0.00099 	 training loss : 11.36103 	 
+2025-05-01 19:12:27,123 INFO Iter : 7600 	 LR : 0.00099 	 training loss : 11.08758 	 
+2025-05-01 19:16:49,797 INFO Iter : 7700 	 LR : 0.00099 	 training loss : 10.73704 	 
+2025-05-01 19:21:11,629 INFO Iter : 7800 	 LR : 0.00098 	 training loss : 11.21087 	 
+2025-05-01 19:25:34,466 INFO Iter : 7900 	 LR : 0.00098 	 training loss : 10.50502 	 
+2025-05-01 19:29:55,524 INFO Iter : 8000 	 LR : 0.00098 	 training loss : 11.05169 	 
+2025-05-01 19:30:11,051 INFO CER improved from 0.0169 to 0.0167!!!
+2025-05-01 19:30:14,952 INFO Val. loss : 3.266 	 CER : 0.0167 	 WER : 0.0633 	 
+2025-05-01 19:34:38,977 INFO Iter : 8100 	 LR : 0.00098 	 training loss : 11.97501 	 
+2025-05-01 19:39:00,484 INFO Iter : 8200 	 LR : 0.00098 	 training loss : 9.52474 	 
+2025-05-01 19:43:23,425 INFO Iter : 8300 	 LR : 0.00098 	 training loss : 11.16377 	 
+2025-05-01 19:47:44,950 INFO Iter : 8400 	 LR : 0.00098 	 training loss : 10.51557 	 
+2025-05-01 19:52:08,529 INFO Iter : 8500 	 LR : 0.00098 	 training loss : 10.77062 	 
+2025-05-01 19:56:28,955 INFO Iter : 8600 	 LR : 0.00098 	 training loss : 10.40511 	 
+2025-05-01 20:00:52,218 INFO Iter : 8700 	 LR : 0.00098 	 training loss : 11.24990 	 
+2025-05-01 20:05:13,034 INFO Iter : 8800 	 LR : 0.00098 	 training loss : 10.03429 	 
+2025-05-01 20:09:36,216 INFO Iter : 8900 	 LR : 0.00098 	 training loss : 10.54559 	 
+2025-05-01 20:13:58,325 INFO Iter : 9000 	 LR : 0.00098 	 training loss : 10.71582 	 
+2025-05-01 20:14:13,901 INFO CER improved from 0.0167 to 0.0164!!!
+2025-05-01 20:14:17,375 INFO WER improved from 0.0631 to 0.0620!!!
+2025-05-01 20:14:20,858 INFO Val. loss : 3.264 	 CER : 0.0164 	 WER : 0.0620 	 
+2025-05-01 20:18:43,042 INFO Iter : 9100 	 LR : 0.00098 	 training loss : 10.83176 	 
+2025-05-01 20:23:05,086 INFO Iter : 9200 	 LR : 0.00098 	 training loss : 9.72316 	 
+2025-05-01 20:27:28,284 INFO Iter : 9300 	 LR : 0.00098 	 training loss : 9.81171 	 
+2025-05-01 20:31:49,105 INFO Iter : 9400 	 LR : 0.00098 	 training loss : 9.73326 	 
+2025-05-01 20:36:12,696 INFO Iter : 9500 	 LR : 0.00098 	 training loss : 9.88669 	 
+2025-05-01 20:40:34,852 INFO Iter : 9600 	 LR : 0.00098 	 training loss : 10.61346 	 
+2025-05-01 20:44:55,651 INFO Iter : 9700 	 LR : 0.00098 	 training loss : 10.04695 	 
+2025-05-01 20:49:18,466 INFO Iter : 9800 	 LR : 0.00098 	 training loss : 10.10501 	 
+2025-05-01 20:53:39,565 INFO Iter : 9900 	 LR : 0.00098 	 training loss : 10.69274 	 
+2025-05-01 20:58:03,654 INFO Iter : 10000 	 LR : 0.00098 	 training loss : 10.26697 	 
+2025-05-01 20:58:19,044 INFO CER improved from 0.0164 to 0.0164!!!
+2025-05-01 20:58:22,492 INFO WER improved from 0.0620 to 0.0614!!!
+2025-05-01 20:58:26,017 INFO Val. loss : 3.298 	 CER : 0.0164 	 WER : 0.0614 	 
+2025-05-01 21:02:47,084 INFO Iter : 10100 	 LR : 0.00097 	 training loss : 9.39327 	 
+2025-05-01 21:07:08,998 INFO Iter : 10200 	 LR : 0.00097 	 training loss : 9.75920 	 
+2025-05-01 21:11:30,226 INFO Iter : 10300 	 LR : 0.00097 	 training loss : 9.84141 	 
+2025-05-01 21:15:53,533 INFO Iter : 10400 	 LR : 0.00097 	 training loss : 10.27047 	 
+2025-05-01 21:20:15,242 INFO Iter : 10500 	 LR : 0.00097 	 training loss : 10.92742 	 
+2025-05-01 21:24:38,096 INFO Iter : 10600 	 LR : 0.00097 	 training loss : 10.17475 	 
+2025-05-01 21:28:59,256 INFO Iter : 10700 	 LR : 0.00097 	 training loss : 9.92549 	 
+2025-05-01 21:33:21,014 INFO Iter : 10800 	 LR : 0.00097 	 training loss : 9.81557 	 
+2025-05-01 21:37:41,464 INFO Iter : 10900 	 LR : 0.00097 	 training loss : 9.81570 	 
+2025-05-01 21:42:04,797 INFO Iter : 11000 	 LR : 0.00097 	 training loss : 10.61112 	 
+2025-05-01 21:42:20,176 INFO CER improved from 0.0164 to 0.0163!!!
+2025-05-01 21:42:23,595 INFO WER improved from 0.0614 to 0.0612!!!
+2025-05-01 21:42:27,249 INFO Val. loss : 3.223 	 CER : 0.0163 	 WER : 0.0612 	 
+2025-05-01 21:46:48,855 INFO Iter : 11100 	 LR : 0.00097 	 training loss : 10.88290 	 
+2025-05-01 21:51:11,678 INFO Iter : 11200 	 LR : 0.00097 	 training loss : 9.89531 	 
+2025-05-01 21:55:34,419 INFO Iter : 11300 	 LR : 0.00097 	 training loss : 9.42707 	 
+2025-05-01 21:59:57,414 INFO Iter : 11400 	 LR : 0.00097 	 training loss : 10.39026 	 
+2025-05-01 22:04:18,036 INFO Iter : 11500 	 LR : 0.00097 	 training loss : 10.06472 	 
+2025-05-01 22:08:41,385 INFO Iter : 11600 	 LR : 0.00097 	 training loss : 9.83277 	 
+2025-05-01 22:13:02,052 INFO Iter : 11700 	 LR : 0.00097 	 training loss : 9.72782 	 
+2025-05-01 22:17:24,277 INFO Iter : 11800 	 LR : 0.00097 	 training loss : 9.68447 	 
+2025-05-01 22:21:44,180 INFO Iter : 11900 	 LR : 0.00096 	 training loss : 10.19078 	 
+2025-05-01 22:26:09,338 INFO Iter : 12000 	 LR : 0.00096 	 training loss : 9.78781 	 
+2025-05-01 22:26:24,683 INFO CER improved from 0.0163 to 0.0163!!!
+2025-05-01 22:26:28,100 INFO Val. loss : 3.251 	 CER : 0.0163 	 WER : 0.0616 	 
+2025-05-01 22:30:48,172 INFO Iter : 12100 	 LR : 0.00096 	 training loss : 9.60659 	 
+2025-05-01 22:35:12,025 INFO Iter : 12200 	 LR : 0.00096 	 training loss : 9.87183 	 
+2025-05-01 22:39:33,785 INFO Iter : 12300 	 LR : 0.00096 	 training loss : 9.56309 	 
+2025-05-01 22:43:55,765 INFO Iter : 12400 	 LR : 0.00096 	 training loss : 9.93372 	 
+2025-05-01 22:48:16,137 INFO Iter : 12500 	 LR : 0.00096 	 training loss : 9.64264 	 
+2025-05-01 22:52:38,991 INFO Iter : 12600 	 LR : 0.00096 	 training loss : 9.20391 	 
+2025-05-01 22:57:00,288 INFO Iter : 12700 	 LR : 0.00096 	 training loss : 9.21007 	 
+2025-05-01 23:01:23,154 INFO Iter : 12800 	 LR : 0.00096 	 training loss : 9.45366 	 
+2025-05-01 23:05:45,164 INFO Iter : 12900 	 LR : 0.00096 	 training loss : 10.28259 	 
+2025-05-01 23:10:06,640 INFO Iter : 13000 	 LR : 0.00096 	 training loss : 10.05695 	 
+2025-05-01 23:10:21,955 INFO Val. loss : 3.182 	 CER : 0.0165 	 WER : 0.0624 	 
+2025-05-01 23:14:43,938 INFO Iter : 13100 	 LR : 0.00096 	 training loss : 9.40258 	 
+2025-05-01 23:19:04,625 INFO Iter : 13200 	 LR : 0.00096 	 training loss : 9.77100 	 
+2025-05-01 23:23:27,251 INFO Iter : 13300 	 LR : 0.00096 	 training loss : 9.68727 	 
+2025-05-01 23:27:47,635 INFO Iter : 13400 	 LR : 0.00096 	 training loss : 9.39187 	 
+2025-05-01 23:32:11,213 INFO Iter : 13500 	 LR : 0.00095 	 training loss : 9.18566 	 
+2025-05-01 23:36:32,032 INFO Iter : 13600 	 LR : 0.00095 	 training loss : 9.35837 	 
+2025-05-01 23:40:55,023 INFO Iter : 13700 	 LR : 0.00095 	 training loss : 8.78345 	 
+2025-05-01 23:45:17,070 INFO Iter : 13800 	 LR : 0.00095 	 training loss : 9.31682 	 
+2025-05-01 23:49:39,450 INFO Iter : 13900 	 LR : 0.00095 	 training loss : 8.68685 	 
+2025-05-01 23:53:59,960 INFO Iter : 14000 	 LR : 0.00095 	 training loss : 8.81408 	 
+2025-05-01 23:54:15,274 INFO CER improved from 0.0163 to 0.0160!!!
+2025-05-01 23:54:18,667 INFO WER improved from 0.0612 to 0.0603!!!
+2025-05-01 23:54:22,256 INFO Val. loss : 3.137 	 CER : 0.0160 	 WER : 0.0603 	 
+2025-05-01 23:58:44,411 INFO Iter : 14100 	 LR : 0.00095 	 training loss : 8.93163 	 
+2025-05-02 00:03:05,684 INFO Iter : 14200 	 LR : 0.00095 	 training loss : 9.30156 	 
+2025-05-02 00:07:28,085 INFO Iter : 14300 	 LR : 0.00095 	 training loss : 9.37513 	 
+2025-05-02 00:11:48,419 INFO Iter : 14400 	 LR : 0.00095 	 training loss : 9.00556 	 
+2025-05-02 00:16:10,196 INFO Iter : 14500 	 LR : 0.00095 	 training loss : 9.80637 	 
+2025-05-02 00:20:31,069 INFO Iter : 14600 	 LR : 0.00095 	 training loss : 8.75897 	 
+2025-05-02 00:24:54,807 INFO Iter : 14700 	 LR : 0.00095 	 training loss : 9.49581 	 
+2025-05-02 00:29:16,285 INFO Iter : 14800 	 LR : 0.00095 	 training loss : 9.37077 	 
+2025-05-02 00:33:38,256 INFO Iter : 14900 	 LR : 0.00095 	 training loss : 8.47767 	 
+2025-05-02 00:37:58,500 INFO Iter : 15000 	 LR : 0.00094 	 training loss : 8.95219 	 
+2025-05-02 00:38:13,793 INFO Val. loss : 3.148 	 CER : 0.0162 	 WER : 0.0619 	 
+2025-05-02 00:42:37,166 INFO Iter : 15100 	 LR : 0.00094 	 training loss : 9.22203 	 
+2025-05-02 00:46:58,283 INFO Iter : 15200 	 LR : 0.00094 	 training loss : 8.90949 	 
+2025-05-02 00:51:20,527 INFO Iter : 15300 	 LR : 0.00094 	 training loss : 9.26852 	 
+2025-05-02 00:55:40,504 INFO Iter : 15400 	 LR : 0.00094 	 training loss : 8.70616 	 
+2025-05-02 01:00:03,149 INFO Iter : 15500 	 LR : 0.00094 	 training loss : 9.27109 	 
+2025-05-02 01:04:24,730 INFO Iter : 15600 	 LR : 0.00094 	 training loss : 9.65318 	 
+2025-05-02 01:08:46,847 INFO Iter : 15700 	 LR : 0.00094 	 training loss : 8.21674 	 
+2025-05-02 01:13:08,796 INFO Iter : 15800 	 LR : 0.00094 	 training loss : 8.85547 	 
+2025-05-02 01:17:30,894 INFO Iter : 15900 	 LR : 0.00094 	 training loss : 8.98649 	 
+2025-05-02 01:21:52,767 INFO Iter : 16000 	 LR : 0.00094 	 training loss : 9.14178 	 
+2025-05-02 01:22:07,996 INFO Val. loss : 3.139 	 CER : 0.0163 	 WER : 0.0612 	 
+2025-05-02 01:26:29,729 INFO Iter : 16100 	 LR : 0.00094 	 training loss : 8.86842 	 
+2025-05-02 01:30:50,317 INFO Iter : 16200 	 LR : 0.00094 	 training loss : 9.49403 	 
+2025-05-02 01:35:10,647 INFO Iter : 16300 	 LR : 0.00093 	 training loss : 9.23603 	 
+2025-05-02 01:39:33,445 INFO Iter : 16400 	 LR : 0.00093 	 training loss : 9.11171 	 
+2025-05-02 01:43:53,800 INFO Iter : 16500 	 LR : 0.00093 	 training loss : 8.85905 	 
+2025-05-02 01:48:16,610 INFO Iter : 16600 	 LR : 0.00093 	 training loss : 8.47081 	 
+2025-05-02 01:52:36,979 INFO Iter : 16700 	 LR : 0.00093 	 training loss : 9.29201 	 
+2025-05-02 01:56:58,154 INFO Iter : 16800 	 LR : 0.00093 	 training loss : 8.73867 	 
+2025-05-02 02:01:18,828 INFO Iter : 16900 	 LR : 0.00093 	 training loss : 9.13880 	 
+2025-05-02 02:05:41,229 INFO Iter : 17000 	 LR : 0.00093 	 training loss : 8.88365 	 
+2025-05-02 02:05:56,556 INFO Val. loss : 3.156 	 CER : 0.0160 	 WER : 0.0614 	 
+2025-05-02 02:10:16,102 INFO Iter : 17100 	 LR : 0.00093 	 training loss : 8.75001 	 
+2025-05-02 02:14:38,110 INFO Iter : 17200 	 LR : 0.00093 	 training loss : 7.95182 	 
+2025-05-02 02:18:58,907 INFO Iter : 17300 	 LR : 0.00093 	 training loss : 9.39471 	 
+2025-05-02 02:23:20,514 INFO Iter : 17400 	 LR : 0.00093 	 training loss : 8.28476 	 
+2025-05-02 02:27:41,366 INFO Iter : 17500 	 LR : 0.00092 	 training loss : 9.30633 	 
+2025-05-02 02:32:03,878 INFO Iter : 17600 	 LR : 0.00092 	 training loss : 8.95780 	 
+2025-05-02 02:36:24,553 INFO Iter : 17700 	 LR : 0.00092 	 training loss : 8.96581 	 
+2025-05-02 02:40:46,324 INFO Iter : 17800 	 LR : 0.00092 	 training loss : 8.68068 	 
+2025-05-02 02:45:07,723 INFO Iter : 17900 	 LR : 0.00092 	 training loss : 8.59986 	 
+2025-05-02 02:49:29,178 INFO Iter : 18000 	 LR : 0.00092 	 training loss : 8.73945 	 
+2025-05-02 02:49:44,315 INFO Val. loss : 3.145 	 CER : 0.0161 	 WER : 0.0612 	 
+2025-05-02 02:54:05,534 INFO Iter : 18100 	 LR : 0.00092 	 training loss : 9.09132 	 
+2025-05-02 02:58:26,844 INFO Iter : 18200 	 LR : 0.00092 	 training loss : 9.05855 	 
+2025-05-02 03:02:46,556 INFO Iter : 18300 	 LR : 0.00092 	 training loss : 8.38949 	 
+2025-05-02 03:07:08,198 INFO Iter : 18400 	 LR : 0.00092 	 training loss : 8.94588 	 
+2025-05-02 03:11:29,398 INFO Iter : 18500 	 LR : 0.00092 	 training loss : 8.14324 	 
+2025-05-02 03:15:51,879 INFO Iter : 18600 	 LR : 0.00092 	 training loss : 7.64431 	 
+2025-05-02 03:20:12,279 INFO Iter : 18700 	 LR : 0.00091 	 training loss : 8.31891 	 
+2025-05-02 03:24:34,632 INFO Iter : 18800 	 LR : 0.00091 	 training loss : 8.53138 	 
+2025-05-02 03:28:54,382 INFO Iter : 18900 	 LR : 0.00091 	 training loss : 9.34977 	 
+2025-05-02 03:33:16,712 INFO Iter : 19000 	 LR : 0.00091 	 training loss : 8.50939 	 
+2025-05-02 03:33:31,790 INFO CER improved from 0.0160 to 0.0159!!!
+2025-05-02 03:33:35,400 INFO Val. loss : 3.133 	 CER : 0.0159 	 WER : 0.0614 	 
+2025-05-02 03:37:56,531 INFO Iter : 19100 	 LR : 0.00091 	 training loss : 8.11779 	 
+2025-05-02 03:42:18,853 INFO Iter : 19200 	 LR : 0.00091 	 training loss : 9.12099 	 
+2025-05-02 03:46:37,817 INFO Iter : 19300 	 LR : 0.00091 	 training loss : 8.36875 	 
+2025-05-02 03:50:57,247 INFO Iter : 19400 	 LR : 0.00091 	 training loss : 8.19281 	 
+2025-05-02 03:55:18,088 INFO Iter : 19500 	 LR : 0.00091 	 training loss : 8.51223 	 
+2025-05-02 03:59:39,061 INFO Iter : 19600 	 LR : 0.00091 	 training loss : 8.06933 	 
+2025-05-02 04:04:01,135 INFO Iter : 19700 	 LR : 0.00091 	 training loss : 8.16873 	 
+2025-05-02 04:08:20,513 INFO Iter : 19800 	 LR : 0.00090 	 training loss : 8.72341 	 
+2025-05-02 04:12:42,615 INFO Iter : 19900 	 LR : 0.00090 	 training loss : 8.52543 	 
+2025-05-02 04:17:01,120 INFO Iter : 20000 	 LR : 0.00090 	 training loss : 8.14759 	 
+2025-05-02 04:17:16,353 INFO Val. loss : 3.128 	 CER : 0.0161 	 WER : 0.0615 	 
+2025-05-02 04:21:38,015 INFO Iter : 20100 	 LR : 0.00090 	 training loss : 8.48167 	 
+2025-05-02 04:25:58,007 INFO Iter : 20200 	 LR : 0.00090 	 training loss : 8.54576 	 
+2025-05-02 04:30:19,605 INFO Iter : 20300 	 LR : 0.00090 	 training loss : 8.21088 	 
+2025-05-02 04:34:39,245 INFO Iter : 20400 	 LR : 0.00090 	 training loss : 8.44248 	 
+2025-05-02 04:39:00,761 INFO Iter : 20500 	 LR : 0.00090 	 training loss : 8.45941 	 
+2025-05-02 04:43:20,270 INFO Iter : 20600 	 LR : 0.00090 	 training loss : 8.16233 	 
+2025-05-02 04:47:40,244 INFO Iter : 20700 	 LR : 0.00090 	 training loss : 8.81566 	 
+2025-05-02 04:51:59,712 INFO Iter : 20800 	 LR : 0.00089 	 training loss : 7.98146 	 
+2025-05-02 04:56:21,052 INFO Iter : 20900 	 LR : 0.00089 	 training loss : 8.04877 	 
+2025-05-02 05:00:41,440 INFO Iter : 21000 	 LR : 0.00089 	 training loss : 9.34370 	 
+2025-05-02 05:00:56,666 INFO Val. loss : 3.127 	 CER : 0.0160 	 WER : 0.0603 	 
+2025-05-02 05:05:18,037 INFO Iter : 21100 	 LR : 0.00089 	 training loss : 9.04789 	 
+2025-05-02 05:09:38,271 INFO Iter : 21200 	 LR : 0.00089 	 training loss : 7.78161 	 
+2025-05-02 05:14:00,642 INFO Iter : 21300 	 LR : 0.00089 	 training loss : 8.14162 	 
+2025-05-02 05:18:20,828 INFO Iter : 21400 	 LR : 0.00089 	 training loss : 9.22786 	 
+2025-05-02 05:22:43,422 INFO Iter : 21500 	 LR : 0.00089 	 training loss : 8.85386 	 
+2025-05-02 05:27:03,670 INFO Iter : 21600 	 LR : 0.00089 	 training loss : 8.56211 	 
+2025-05-02 05:31:25,105 INFO Iter : 21700 	 LR : 0.00089 	 training loss : 8.57052 	 
+2025-05-02 05:35:45,313 INFO Iter : 21800 	 LR : 0.00089 	 training loss : 8.02713 	 
+2025-05-02 05:40:06,728 INFO Iter : 21900 	 LR : 0.00088 	 training loss : 8.46182 	 
+2025-05-02 05:44:26,988 INFO Iter : 22000 	 LR : 0.00088 	 training loss : 8.80445 	 
+2025-05-02 05:44:42,355 INFO CER improved from 0.0159 to 0.0158!!!
+2025-05-02 05:44:45,824 INFO Val. loss : 3.122 	 CER : 0.0158 	 WER : 0.0605 	 
+2025-05-02 05:49:06,747 INFO Iter : 22100 	 LR : 0.00088 	 training loss : 8.31178 	 
+2025-05-02 05:53:26,713 INFO Iter : 22200 	 LR : 0.00088 	 training loss : 8.80078 	 
+2025-05-02 05:57:48,144 INFO Iter : 22300 	 LR : 0.00088 	 training loss : 8.10403 	 
+2025-05-02 06:02:08,102 INFO Iter : 22400 	 LR : 0.00088 	 training loss : 8.14860 	 
+2025-05-02 06:06:29,506 INFO Iter : 22500 	 LR : 0.00088 	 training loss : 7.59888 	 
+2025-05-02 06:10:49,135 INFO Iter : 22600 	 LR : 0.00088 	 training loss : 8.44197 	 
+2025-05-02 06:15:09,371 INFO Iter : 22700 	 LR : 0.00088 	 training loss : 8.85446 	 
+2025-05-02 06:19:32,344 INFO Iter : 22800 	 LR : 0.00087 	 training loss : 7.71905 	 
+2025-05-02 06:23:52,418 INFO Iter : 22900 	 LR : 0.00087 	 training loss : 8.46856 	 
+2025-05-02 06:28:13,936 INFO Iter : 23000 	 LR : 0.00087 	 training loss : 7.84054 	 
+2025-05-02 06:28:29,044 INFO Val. loss : 3.091 	 CER : 0.0160 	 WER : 0.0609 	 
+2025-05-02 06:32:48,418 INFO Iter : 23100 	 LR : 0.00087 	 training loss : 8.69982 	 
+2025-05-02 06:37:08,820 INFO Iter : 23200 	 LR : 0.00087 	 training loss : 8.49987 	 
+2025-05-02 06:41:30,035 INFO Iter : 23300 	 LR : 0.00087 	 training loss : 7.81622 	 
+2025-05-02 06:45:51,064 INFO Iter : 23400 	 LR : 0.00087 	 training loss : 8.35814 	 
+2025-05-02 06:50:11,456 INFO Iter : 23500 	 LR : 0.00087 	 training loss : 8.28245 	 
+2025-05-02 06:54:33,159 INFO Iter : 23600 	 LR : 0.00087 	 training loss : 8.96299 	 
+2025-05-02 06:58:52,141 INFO Iter : 23700 	 LR : 0.00087 	 training loss : 8.30663 	 
+2025-05-02 07:03:12,812 INFO Iter : 23800 	 LR : 0.00086 	 training loss : 8.52229 	 
+2025-05-02 07:07:32,488 INFO Iter : 23900 	 LR : 0.00086 	 training loss : 7.94375 	 
+2025-05-02 07:11:52,846 INFO Iter : 24000 	 LR : 0.00086 	 training loss : 8.32725 	 
+2025-05-02 07:12:08,074 INFO Val. loss : 3.066 	 CER : 0.0161 	 WER : 0.0613 	 
+2025-05-02 07:16:28,084 INFO Iter : 24100 	 LR : 0.00086 	 training loss : 8.54841 	 
+2025-05-02 07:20:49,562 INFO Iter : 24200 	 LR : 0.00086 	 training loss : 8.78909 	 
+2025-05-02 07:25:07,662 INFO Iter : 24300 	 LR : 0.00086 	 training loss : 7.50966 	 
+2025-05-02 07:29:30,167 INFO Iter : 24400 	 LR : 0.00086 	 training loss : 7.94931 	 
+2025-05-02 07:33:51,510 INFO Iter : 24500 	 LR : 0.00086 	 training loss : 8.35452 	 
+2025-05-02 07:38:13,014 INFO Iter : 24600 	 LR : 0.00086 	 training loss : 8.82346 	 
+2025-05-02 07:42:32,486 INFO Iter : 24700 	 LR : 0.00085 	 training loss : 7.83120 	 
+2025-05-02 07:46:53,885 INFO Iter : 24800 	 LR : 0.00085 	 training loss : 7.92824 	 
+2025-05-02 07:51:12,718 INFO Iter : 24900 	 LR : 0.00085 	 training loss : 7.10582 	 
+2025-05-02 07:55:34,613 INFO Iter : 25000 	 LR : 0.00085 	 training loss : 8.09394 	 
+2025-05-02 07:55:49,692 INFO Val. loss : 3.059 	 CER : 0.0159 	 WER : 0.0609 	 
+2025-05-02 08:00:09,080 INFO Iter : 25100 	 LR : 0.00085 	 training loss : 7.90065 	 
+2025-05-02 08:04:30,674 INFO Iter : 25200 	 LR : 0.00085 	 training loss : 8.36648 	 
+2025-05-02 08:08:49,781 INFO Iter : 25300 	 LR : 0.00085 	 training loss : 7.55962 	 
+2025-05-02 08:13:10,188 INFO Iter : 25400 	 LR : 0.00085 	 training loss : 7.88180 	 
+2025-05-02 08:17:29,426 INFO Iter : 25500 	 LR : 0.00085 	 training loss : 7.63388 	 
+2025-05-02 08:21:50,178 INFO Iter : 25600 	 LR : 0.00084 	 training loss : 8.13648 	 
+2025-05-02 08:26:09,815 INFO Iter : 25700 	 LR : 0.00084 	 training loss : 8.09800 	 
+2025-05-02 08:30:30,311 INFO Iter : 25800 	 LR : 0.00084 	 training loss : 8.04142 	 
+2025-05-02 08:34:50,323 INFO Iter : 25900 	 LR : 0.00084 	 training loss : 7.93586 	 
+2025-05-02 08:39:10,555 INFO Iter : 26000 	 LR : 0.00084 	 training loss : 8.54194 	 
+2025-05-02 08:39:25,625 INFO Val. loss : 3.058 	 CER : 0.0159 	 WER : 0.0606 	 
+2025-05-02 08:43:46,701 INFO Iter : 26100 	 LR : 0.00084 	 training loss : 8.10165 	 
+2025-05-02 08:48:06,412 INFO Iter : 26200 	 LR : 0.00084 	 training loss : 7.70039 	 
+2025-05-02 08:52:27,352 INFO Iter : 26300 	 LR : 0.00084 	 training loss : 8.04604 	 
+2025-05-02 08:56:46,664 INFO Iter : 26400 	 LR : 0.00083 	 training loss : 8.13358 	 
+2025-05-02 09:01:08,721 INFO Iter : 26500 	 LR : 0.00083 	 training loss : 8.23586 	 
+2025-05-02 09:05:27,961 INFO Iter : 26600 	 LR : 0.00083 	 training loss : 9.00809 	 
+2025-05-02 09:09:48,154 INFO Iter : 26700 	 LR : 0.00083 	 training loss : 8.30340 	 
+2025-05-02 09:14:09,240 INFO Iter : 26800 	 LR : 0.00083 	 training loss : 7.70270 	 
+2025-05-02 09:18:29,923 INFO Iter : 26900 	 LR : 0.00083 	 training loss : 8.00059 	 
+2025-05-02 09:22:49,583 INFO Iter : 27000 	 LR : 0.00083 	 training loss : 8.32590 	 
+2025-05-02 09:23:04,617 INFO CER improved from 0.0158 to 0.0157!!!
+2025-05-02 09:23:08,157 INFO Val. loss : 3.052 	 CER : 0.0157 	 WER : 0.0603 	 
+2025-05-02 09:27:28,996 INFO Iter : 27100 	 LR : 0.00083 	 training loss : 8.29678 	 
+2025-05-02 09:31:48,449 INFO Iter : 27200 	 LR : 0.00083 	 training loss : 7.76272 	 
+2025-05-02 09:36:08,806 INFO Iter : 27300 	 LR : 0.00082 	 training loss : 7.27607 	 
+2025-05-02 09:40:28,267 INFO Iter : 27400 	 LR : 0.00082 	 training loss : 8.28380 	 
+2025-05-02 09:44:50,480 INFO Iter : 27500 	 LR : 0.00082 	 training loss : 7.72075 	 
+2025-05-02 09:49:10,080 INFO Iter : 27600 	 LR : 0.00082 	 training loss : 7.95982 	 
+2025-05-02 09:53:31,689 INFO Iter : 27700 	 LR : 0.00082 	 training loss : 7.40174 	 
+2025-05-02 09:57:51,956 INFO Iter : 27800 	 LR : 0.00082 	 training loss : 8.81685 	 
+2025-05-02 10:02:13,074 INFO Iter : 27900 	 LR : 0.00082 	 training loss : 7.75056 	 
+2025-05-02 10:06:34,394 INFO Iter : 28000 	 LR : 0.00082 	 training loss : 8.04301 	 
+2025-05-02 10:06:49,626 INFO Val. loss : 3.037 	 CER : 0.0157 	 WER : 0.0603 	 
+2025-05-02 10:11:11,194 INFO Iter : 28100 	 LR : 0.00081 	 training loss : 7.33314 	 
+2025-05-02 10:15:30,580 INFO Iter : 28200 	 LR : 0.00081 	 training loss : 8.10253 	 
+2025-05-02 10:19:52,970 INFO Iter : 28300 	 LR : 0.00081 	 training loss : 7.89206 	 
+2025-05-02 10:24:14,083 INFO Iter : 28400 	 LR : 0.00081 	 training loss : 8.29042 	 
+2025-05-02 10:28:34,689 INFO Iter : 28500 	 LR : 0.00081 	 training loss : 7.27328 	 
+2025-05-02 10:32:54,028 INFO Iter : 28600 	 LR : 0.00081 	 training loss : 7.59137 	 
+2025-05-02 10:37:14,843 INFO Iter : 28700 	 LR : 0.00081 	 training loss : 8.27131 	 
+2025-05-02 10:41:34,798 INFO Iter : 28800 	 LR : 0.00081 	 training loss : 7.55685 	 
+2025-05-02 10:45:56,239 INFO Iter : 28900 	 LR : 0.00080 	 training loss : 8.12362 	 
+2025-05-02 10:50:15,059 INFO Iter : 29000 	 LR : 0.00080 	 training loss : 7.65039 	 
+2025-05-02 10:50:30,039 INFO WER improved from 0.0603 to 0.0598!!!
+2025-05-02 10:50:33,504 INFO Val. loss : 3.039 	 CER : 0.0157 	 WER : 0.0598 	 
+2025-05-02 10:54:52,490 INFO Iter : 29100 	 LR : 0.00080 	 training loss : 7.99194 	 
+2025-05-02 10:59:13,812 INFO Iter : 29200 	 LR : 0.00080 	 training loss : 8.03624 	 
+2025-05-02 11:03:33,555 INFO Iter : 29300 	 LR : 0.00080 	 training loss : 8.13127 	 
+2025-05-02 11:07:55,069 INFO Iter : 29400 	 LR : 0.00080 	 training loss : 7.41657 	 
+2025-05-02 11:12:13,727 INFO Iter : 29500 	 LR : 0.00080 	 training loss : 7.85545 	 
+2025-05-02 11:16:35,758 INFO Iter : 29600 	 LR : 0.00080 	 training loss : 7.13526 	 
+2025-05-02 11:20:56,269 INFO Iter : 29700 	 LR : 0.00079 	 training loss : 8.65612 	 
+2025-05-02 11:25:15,499 INFO Iter : 29800 	 LR : 0.00079 	 training loss : 6.79747 	 
+2025-05-02 11:29:34,594 INFO Iter : 29900 	 LR : 0.00079 	 training loss : 7.34890 	 
+2025-05-02 11:33:54,674 INFO Iter : 30000 	 LR : 0.00079 	 training loss : 7.65853 	 
+2025-05-02 11:34:09,779 INFO Val. loss : 3.028 	 CER : 0.0157 	 WER : 0.0602 	 
+2025-05-02 11:38:28,257 INFO Iter : 30100 	 LR : 0.00079 	 training loss : 8.18699 	 
+2025-05-02 11:42:49,171 INFO Iter : 30200 	 LR : 0.00079 	 training loss : 7.74765 	 
+2025-05-02 11:47:08,125 INFO Iter : 30300 	 LR : 0.00079 	 training loss : 7.36139 	 
+2025-05-02 11:51:29,670 INFO Iter : 30400 	 LR : 0.00078 	 training loss : 7.50906 	 
+2025-05-02 11:55:48,285 INFO Iter : 30500 	 LR : 0.00078 	 training loss : 7.23004 	 
+2025-05-02 12:00:09,488 INFO Iter : 30600 	 LR : 0.00078 	 training loss : 6.91342 	 
+2025-05-02 12:04:28,900 INFO Iter : 30700 	 LR : 0.00078 	 training loss : 7.23600 	 
+2025-05-02 12:08:49,104 INFO Iter : 30800 	 LR : 0.00078 	 training loss : 7.43119 	 
+2025-05-02 12:13:09,609 INFO Iter : 30900 	 LR : 0.00078 	 training loss : 7.93627 	 
+2025-05-02 12:17:29,640 INFO Iter : 31000 	 LR : 0.00078 	 training loss : 7.44334 	 
+2025-05-02 12:17:44,626 INFO Val. loss : 3.022 	 CER : 0.0158 	 WER : 0.0601 	 
+2025-05-02 12:22:04,042 INFO Iter : 31100 	 LR : 0.00078 	 training loss : 7.41310 	 
+2025-05-02 12:26:25,264 INFO Iter : 31200 	 LR : 0.00077 	 training loss : 7.63662 	 
+2025-05-02 12:30:44,583 INFO Iter : 31300 	 LR : 0.00077 	 training loss : 7.21873 	 
+2025-05-02 12:35:06,610 INFO Iter : 31400 	 LR : 0.00077 	 training loss : 6.93987 	 
+2025-05-02 12:39:25,433 INFO Iter : 31500 	 LR : 0.00077 	 training loss : 7.51281 	 
+2025-05-02 12:43:47,021 INFO Iter : 31600 	 LR : 0.00077 	 training loss : 8.09306 	 
+2025-05-02 12:48:06,830 INFO Iter : 31700 	 LR : 0.00077 	 training loss : 7.41306 	 
+2025-05-02 12:52:28,570 INFO Iter : 31800 	 LR : 0.00077 	 training loss : 7.42250 	 
+2025-05-02 12:56:49,372 INFO Iter : 31900 	 LR : 0.00076 	 training loss : 7.77610 	 
+2025-05-02 13:01:11,992 INFO Iter : 32000 	 LR : 0.00076 	 training loss : 8.06159 	 
+2025-05-02 13:01:27,098 INFO Val. loss : 3.006 	 CER : 0.0159 	 WER : 0.0602 	 
+2025-05-02 13:05:47,336 INFO Iter : 32100 	 LR : 0.00076 	 training loss : 7.20333 	 
+2025-05-02 13:10:07,098 INFO Iter : 32200 	 LR : 0.00076 	 training loss : 7.59203 	 
+2025-05-02 13:14:25,968 INFO Iter : 32300 	 LR : 0.00076 	 training loss : 7.87304 	 
+2025-05-02 13:18:46,056 INFO Iter : 32400 	 LR : 0.00076 	 training loss : 8.09481 	 
+2025-05-02 13:23:07,462 INFO Iter : 32500 	 LR : 0.00076 	 training loss : 8.22403 	 
+2025-05-02 13:27:25,500 INFO Iter : 32600 	 LR : 0.00076 	 training loss : 7.45747 	 
+2025-05-02 13:31:46,150 INFO Iter : 32700 	 LR : 0.00075 	 training loss : 7.75003 	 
+2025-05-02 13:36:05,057 INFO Iter : 32800 	 LR : 0.00075 	 training loss : 7.62490 	 
+2025-05-02 13:40:25,321 INFO Iter : 32900 	 LR : 0.00075 	 training loss : 7.47945 	 
+2025-05-02 13:44:44,846 INFO Iter : 33000 	 LR : 0.00075 	 training loss : 6.98936 	 
+2025-05-02 13:44:59,925 INFO Val. loss : 3.001 	 CER : 0.0159 	 WER : 0.0603 	 
+2025-05-02 13:49:21,839 INFO Iter : 33100 	 LR : 0.00075 	 training loss : 8.10292 	 
+2025-05-02 13:53:42,283 INFO Iter : 33200 	 LR : 0.00075 	 training loss : 7.41154 	 
+2025-05-02 13:58:03,545 INFO Iter : 33300 	 LR : 0.00075 	 training loss : 7.89509 	 
+2025-05-02 14:02:22,507 INFO Iter : 33400 	 LR : 0.00074 	 training loss : 8.62831 	 
+2025-05-02 14:06:44,029 INFO Iter : 33500 	 LR : 0.00074 	 training loss : 7.71910 	 
+2025-05-02 14:11:04,212 INFO Iter : 33600 	 LR : 0.00074 	 training loss : 7.70798 	 
+2025-05-02 14:15:25,031 INFO Iter : 33700 	 LR : 0.00074 	 training loss : 7.30121 	 
+2025-05-02 14:19:43,793 INFO Iter : 33800 	 LR : 0.00074 	 training loss : 7.49414 	 
+2025-05-02 14:24:05,295 INFO Iter : 33900 	 LR : 0.00074 	 training loss : 8.42076 	 
+2025-05-02 14:28:25,155 INFO Iter : 34000 	 LR : 0.00074 	 training loss : 7.24306 	 
+2025-05-02 14:28:40,808 INFO Val. loss : 2.996 	 CER : 0.0159 	 WER : 0.0611 	 
+2025-05-02 14:33:01,187 INFO Iter : 34100 	 LR : 0.00073 	 training loss : 7.37002 	 
+2025-05-02 14:37:20,385 INFO Iter : 34200 	 LR : 0.00073 	 training loss : 6.36081 	 
+2025-05-02 14:41:41,545 INFO Iter : 34300 	 LR : 0.00073 	 training loss : 7.58088 	 
+2025-05-02 14:46:01,656 INFO Iter : 34400 	 LR : 0.00073 	 training loss : 7.47473 	 
+2025-05-02 14:50:22,491 INFO Iter : 34500 	 LR : 0.00073 	 training loss : 7.18609 	 
+2025-05-02 14:54:40,917 INFO Iter : 34600 	 LR : 0.00073 	 training loss : 8.06470 	 
+2025-05-02 14:59:00,598 INFO Iter : 34700 	 LR : 0.00073 	 training loss : 7.21996 	 
+2025-05-02 15:03:19,117 INFO Iter : 34800 	 LR : 0.00072 	 training loss : 6.92875 	 
+2025-05-02 15:07:41,148 INFO Iter : 34900 	 LR : 0.00072 	 training loss : 7.44932 	 
+2025-05-02 15:12:01,632 INFO Iter : 35000 	 LR : 0.00072 	 training loss : 7.97797 	 
+2025-05-02 15:12:16,878 INFO Val. loss : 3.015 	 CER : 0.0157 	 WER : 0.0600 	 
+2025-05-02 15:16:37,601 INFO Iter : 35100 	 LR : 0.00072 	 training loss : 7.22329 	 
+2025-05-02 15:20:57,492 INFO Iter : 35200 	 LR : 0.00072 	 training loss : 6.88851 	 
+2025-05-02 15:25:19,759 INFO Iter : 35300 	 LR : 0.00072 	 training loss : 6.96445 	 
+2025-05-02 15:29:39,304 INFO Iter : 35400 	 LR : 0.00072 	 training loss : 7.51365 	 
+2025-05-02 15:33:59,429 INFO Iter : 35500 	 LR : 0.00071 	 training loss : 7.14011 	 
+2025-05-02 15:38:19,214 INFO Iter : 35600 	 LR : 0.00071 	 training loss : 6.87434 	 
+2025-05-02 15:42:38,586 INFO Iter : 35700 	 LR : 0.00071 	 training loss : 7.94713 	 
+2025-05-02 15:46:59,039 INFO Iter : 35800 	 LR : 0.00071 	 training loss : 7.94199 	 
+2025-05-02 15:51:18,794 INFO Iter : 35900 	 LR : 0.00071 	 training loss : 7.99740 	 
+2025-05-02 15:55:40,205 INFO Iter : 36000 	 LR : 0.00071 	 training loss : 7.29839 	 
+2025-05-02 15:55:55,168 INFO WER improved from 0.0598 to 0.0597!!!
+2025-05-02 15:55:58,680 INFO Val. loss : 3.023 	 CER : 0.0157 	 WER : 0.0597 	 
+2025-05-02 16:00:18,579 INFO Iter : 36100 	 LR : 0.00071 	 training loss : 7.55138 	 
+2025-05-02 16:04:38,272 INFO Iter : 36200 	 LR : 0.00070 	 training loss : 7.13092 	 
+2025-05-02 16:08:57,944 INFO Iter : 36300 	 LR : 0.00070 	 training loss : 6.86378 	 
+2025-05-02 16:13:19,364 INFO Iter : 36400 	 LR : 0.00070 	 training loss : 6.74677 	 
+2025-05-02 16:17:37,562 INFO Iter : 36500 	 LR : 0.00070 	 training loss : 6.60893 	 
+2025-05-02 16:21:58,126 INFO Iter : 36600 	 LR : 0.00070 	 training loss : 7.80066 	 
+2025-05-02 16:26:17,639 INFO Iter : 36700 	 LR : 0.00070 	 training loss : 7.62504 	 
+2025-05-02 16:30:38,770 INFO Iter : 36800 	 LR : 0.00070 	 training loss : 6.99873 	 
+2025-05-02 16:34:57,124 INFO Iter : 36900 	 LR : 0.00069 	 training loss : 7.06066 	 
+2025-05-02 16:39:18,449 INFO Iter : 37000 	 LR : 0.00069 	 training loss : 6.92506 	 
+2025-05-02 16:39:33,622 INFO CER improved from 0.0157 to 0.0156!!!
+2025-05-02 16:39:37,093 INFO Val. loss : 3.018 	 CER : 0.0156 	 WER : 0.0599 	 
+2025-05-02 16:43:56,891 INFO Iter : 37100 	 LR : 0.00069 	 training loss : 6.97013 	 
+2025-05-02 16:48:18,598 INFO Iter : 37200 	 LR : 0.00069 	 training loss : 6.70532 	 
+2025-05-02 16:52:37,866 INFO Iter : 37300 	 LR : 0.00069 	 training loss : 7.68231 	 
+2025-05-02 16:56:59,776 INFO Iter : 37400 	 LR : 0.00069 	 training loss : 7.31131 	 
+2025-05-02 17:01:18,999 INFO Iter : 37500 	 LR : 0.00069 	 training loss : 7.22277 	 
+2025-05-02 17:05:39,180 INFO Iter : 37600 	 LR : 0.00068 	 training loss : 7.22422 	 
+2025-05-02 17:09:58,984 INFO Iter : 37700 	 LR : 0.00068 	 training loss : 7.45692 	 
+2025-05-02 17:14:20,572 INFO Iter : 37800 	 LR : 0.00068 	 training loss : 6.78130 	 
+2025-05-02 17:18:40,662 INFO Iter : 37900 	 LR : 0.00068 	 training loss : 6.89907 	 
+2025-05-02 17:23:02,229 INFO Iter : 38000 	 LR : 0.00068 	 training loss : 7.00602 	 
+2025-05-02 17:23:17,461 INFO CER improved from 0.0156 to 0.0155!!!
+2025-05-02 17:23:21,567 INFO Val. loss : 2.981 	 CER : 0.0155 	 WER : 0.0597 	 
+2025-05-02 17:27:41,415 INFO Iter : 38100 	 LR : 0.00068 	 training loss : 6.94969 	 
+2025-05-02 17:32:02,224 INFO Iter : 38200 	 LR : 0.00068 	 training loss : 6.63217 	 
+2025-05-02 17:36:21,325 INFO Iter : 38300 	 LR : 0.00067 	 training loss : 7.67954 	 
+2025-05-02 17:40:41,628 INFO Iter : 38400 	 LR : 0.00067 	 training loss : 7.37555 	 
+2025-05-02 17:45:00,240 INFO Iter : 38500 	 LR : 0.00067 	 training loss : 7.25021 	 
+2025-05-02 17:49:20,880 INFO Iter : 38600 	 LR : 0.00067 	 training loss : 7.11831 	 
+2025-05-02 17:53:41,121 INFO Iter : 38700 	 LR : 0.00067 	 training loss : 7.02631 	 
+2025-05-02 17:58:00,938 INFO Iter : 38800 	 LR : 0.00067 	 training loss : 6.76225 	 
+2025-05-02 18:02:22,305 INFO Iter : 38900 	 LR : 0.00067 	 training loss : 7.11472 	 
+2025-05-02 18:06:43,040 INFO Iter : 39000 	 LR : 0.00066 	 training loss : 7.46395 	 
+2025-05-02 18:06:57,973 INFO CER improved from 0.0155 to 0.0155!!!
+2025-05-02 18:07:01,508 INFO Val. loss : 2.972 	 CER : 0.0155 	 WER : 0.0600 	 
+2025-05-02 18:11:22,158 INFO Iter : 39100 	 LR : 0.00066 	 training loss : 6.93885 	 
+2025-05-02 18:15:43,352 INFO Iter : 39200 	 LR : 0.00066 	 training loss : 6.86170 	 
+2025-05-02 18:20:04,447 INFO Iter : 39300 	 LR : 0.00066 	 training loss : 6.54761 	 
+2025-05-02 18:24:24,166 INFO Iter : 39400 	 LR : 0.00066 	 training loss : 7.42041 	 
+2025-05-02 18:28:44,902 INFO Iter : 39500 	 LR : 0.00066 	 training loss : 7.03538 	 
+2025-05-02 18:33:04,709 INFO Iter : 39600 	 LR : 0.00065 	 training loss : 7.11376 	 
+2025-05-02 18:37:26,544 INFO Iter : 39700 	 LR : 0.00065 	 training loss : 6.60414 	 
+2025-05-02 18:41:46,457 INFO Iter : 39800 	 LR : 0.00065 	 training loss : 6.77426 	 
+2025-05-02 18:46:07,873 INFO Iter : 39900 	 LR : 0.00065 	 training loss : 7.13841 	 
+2025-05-02 18:50:28,296 INFO Iter : 40000 	 LR : 0.00065 	 training loss : 7.63189 	 
+2025-05-02 18:50:43,398 INFO Val. loss : 2.972 	 CER : 0.0156 	 WER : 0.0598 	 
+2025-05-02 18:55:04,669 INFO Iter : 40100 	 LR : 0.00065 	 training loss : 6.39960 	 
+2025-05-02 18:59:23,060 INFO Iter : 40200 	 LR : 0.00065 	 training loss : 7.32607 	 
+2025-05-02 19:03:44,132 INFO Iter : 40300 	 LR : 0.00064 	 training loss : 7.08890 	 
+2025-05-02 19:08:04,421 INFO Iter : 40400 	 LR : 0.00064 	 training loss : 6.75776 	 
+2025-05-02 19:12:24,995 INFO Iter : 40500 	 LR : 0.00064 	 training loss : 7.14955 	 
+2025-05-02 19:16:44,391 INFO Iter : 40600 	 LR : 0.00064 	 training loss : 6.93717 	 
+2025-05-02 19:21:05,998 INFO Iter : 40700 	 LR : 0.00064 	 training loss : 7.94376 	 
+2025-05-02 19:25:25,820 INFO Iter : 40800 	 LR : 0.00064 	 training loss : 6.79779 	 
+2025-05-02 19:29:48,374 INFO Iter : 40900 	 LR : 0.00063 	 training loss : 6.89740 	 
+2025-05-02 19:34:15,130 INFO Iter : 41000 	 LR : 0.00063 	 training loss : 7.45321 	 
+2025-05-02 19:34:32,676 INFO Val. loss : 2.954 	 CER : 0.0155 	 WER : 0.0602 	 
+2025-05-02 19:39:00,394 INFO Iter : 41100 	 LR : 0.00063 	 training loss : 6.76194 	 
+2025-05-02 19:43:27,493 INFO Iter : 41200 	 LR : 0.00063 	 training loss : 6.50490 	 
+2025-05-02 19:47:54,028 INFO Iter : 41300 	 LR : 0.00063 	 training loss : 6.21955 	 
+2025-05-02 19:52:20,495 INFO Iter : 41400 	 LR : 0.00063 	 training loss : 6.23264 	 
+2025-05-02 19:56:49,098 INFO Iter : 41500 	 LR : 0.00063 	 training loss : 6.47811 	 
+2025-05-02 20:01:14,769 INFO Iter : 41600 	 LR : 0.00062 	 training loss : 6.75712 	 
+2025-05-02 20:05:46,148 INFO Iter : 41700 	 LR : 0.00062 	 training loss : 6.59663 	 
+2025-05-02 20:10:13,132 INFO Iter : 41800 	 LR : 0.00062 	 training loss : 6.91230 	 
+2025-05-02 20:14:39,913 INFO Iter : 41900 	 LR : 0.00062 	 training loss : 6.96191 	 
+2025-05-02 20:19:05,526 INFO Iter : 42000 	 LR : 0.00062 	 training loss : 6.61031 	 
+2025-05-02 20:19:23,359 INFO CER improved from 0.0155 to 0.0155!!!
+2025-05-02 20:19:26,925 INFO Val. loss : 2.945 	 CER : 0.0155 	 WER : 0.0600 	 
+2025-05-02 20:23:55,617 INFO Iter : 42100 	 LR : 0.00062 	 training loss : 6.58229 	 
+2025-05-02 20:28:23,184 INFO Iter : 42200 	 LR : 0.00061 	 training loss : 6.62132 	 
+2025-05-02 20:32:52,400 INFO Iter : 42300 	 LR : 0.00061 	 training loss : 7.00654 	 
+2025-05-02 20:37:20,095 INFO Iter : 42400 	 LR : 0.00061 	 training loss : 6.71569 	 
+2025-05-02 20:41:47,758 INFO Iter : 42500 	 LR : 0.00061 	 training loss : 6.43428 	 
+2025-05-02 20:46:14,841 INFO Iter : 42600 	 LR : 0.00061 	 training loss : 6.15480 	 
+2025-05-02 20:50:42,040 INFO Iter : 42700 	 LR : 0.00061 	 training loss : 6.58063 	 
+2025-05-02 20:55:12,148 INFO Iter : 42800 	 LR : 0.00061 	 training loss : 7.41087 	 
+2025-05-02 20:59:39,158 INFO Iter : 42900 	 LR : 0.00060 	 training loss : 6.36303 	 
+2025-05-02 21:04:08,802 INFO Iter : 43000 	 LR : 0.00060 	 training loss : 6.98327 	 
+2025-05-02 21:04:26,603 INFO Val. loss : 2.943 	 CER : 0.0155 	 WER : 0.0599 	 
+2025-05-02 21:08:51,921 INFO Iter : 43100 	 LR : 0.00060 	 training loss : 6.79121 	 
+2025-05-02 21:13:21,720 INFO Iter : 43200 	 LR : 0.00060 	 training loss : 8.20495 	 
+2025-05-02 21:17:48,264 INFO Iter : 43300 	 LR : 0.00060 	 training loss : 6.67487 	 
+2025-05-02 21:22:14,951 INFO Iter : 43400 	 LR : 0.00060 	 training loss : 6.55232 	 
+2025-05-02 21:26:38,487 INFO Iter : 43500 	 LR : 0.00059 	 training loss : 6.43417 	 
+2025-05-02 21:31:08,090 INFO Iter : 43600 	 LR : 0.00059 	 training loss : 7.43740 	 
+2025-05-02 21:35:35,504 INFO Iter : 43700 	 LR : 0.00059 	 training loss : 6.82381 	 
+2025-05-02 21:40:00,806 INFO Iter : 43800 	 LR : 0.00059 	 training loss : 6.55241 	 
+2025-05-02 21:44:32,377 INFO Iter : 43900 	 LR : 0.00059 	 training loss : 6.53918 	 
+2025-05-02 21:49:00,339 INFO Iter : 44000 	 LR : 0.00059 	 training loss : 6.75827 	 
+2025-05-02 21:49:17,981 INFO CER improved from 0.0155 to 0.0153!!!
+2025-05-02 21:49:21,578 INFO WER improved from 0.0597 to 0.0594!!!
+2025-05-02 21:49:25,254 INFO Val. loss : 2.943 	 CER : 0.0153 	 WER : 0.0594 	 
+2025-05-02 21:53:52,772 INFO Iter : 44100 	 LR : 0.00059 	 training loss : 7.03008 	 
+2025-05-02 21:58:22,855 INFO Iter : 44200 	 LR : 0.00058 	 training loss : 7.06990 	 
+2025-05-02 22:02:50,411 INFO Iter : 44300 	 LR : 0.00058 	 training loss : 6.68131 	 
+2025-05-02 22:07:14,601 INFO Iter : 44400 	 LR : 0.00058 	 training loss : 5.96135 	 
+2025-05-02 22:11:35,525 INFO Iter : 44500 	 LR : 0.00058 	 training loss : 6.67122 	 
+2025-05-02 22:16:06,426 INFO Iter : 44600 	 LR : 0.00058 	 training loss : 6.34796 	 
+2025-05-02 22:20:33,770 INFO Iter : 44700 	 LR : 0.00058 	 training loss : 6.53975 	 
+2025-05-02 22:25:01,343 INFO Iter : 44800 	 LR : 0.00057 	 training loss : 6.61826 	 
+2025-05-02 22:29:26,918 INFO Iter : 44900 	 LR : 0.00057 	 training loss : 6.51542 	 
+2025-05-02 22:33:57,106 INFO Iter : 45000 	 LR : 0.00057 	 training loss : 6.68514 	 
+2025-05-02 22:34:14,689 INFO WER improved from 0.0594 to 0.0589!!!
+2025-05-02 22:34:18,240 INFO Val. loss : 2.951 	 CER : 0.0153 	 WER : 0.0589 	 
+2025-05-02 22:38:45,528 INFO Iter : 45100 	 LR : 0.00057 	 training loss : 6.76520 	 
+2025-05-02 22:43:11,290 INFO Iter : 45200 	 LR : 0.00057 	 training loss : 6.45825 	 
+2025-05-02 22:47:42,665 INFO Iter : 45300 	 LR : 0.00057 	 training loss : 6.51306 	 
+2025-05-02 22:52:09,779 INFO Iter : 45400 	 LR : 0.00056 	 training loss : 5.98546 	 
+2025-05-02 22:56:37,530 INFO Iter : 45500 	 LR : 0.00056 	 training loss : 6.33165 	 
+2025-05-02 23:01:06,222 INFO Iter : 45600 	 LR : 0.00056 	 training loss : 7.37293 	 
+2025-05-02 23:05:35,653 INFO Iter : 45700 	 LR : 0.00056 	 training loss : 6.10240 	 
+2025-05-02 23:10:01,374 INFO Iter : 45800 	 LR : 0.00056 	 training loss : 6.43330 	 
+2025-05-02 23:14:31,985 INFO Iter : 45900 	 LR : 0.00056 	 training loss : 7.11680 	 
+2025-05-02 23:18:52,797 INFO Iter : 46000 	 LR : 0.00056 	 training loss : 6.14448 	 
+2025-05-02 23:19:10,337 INFO Val. loss : 2.936 	 CER : 0.0155 	 WER : 0.0597 	 
+2025-05-02 23:23:41,107 INFO Iter : 46100 	 LR : 0.00055 	 training loss : 6.17962 	 
+2025-05-02 23:28:07,908 INFO Iter : 46200 	 LR : 0.00055 	 training loss : 5.87812 	 
+2025-05-02 23:32:37,191 INFO Iter : 46300 	 LR : 0.00055 	 training loss : 6.22240 	 
+2025-05-02 23:37:05,386 INFO Iter : 46400 	 LR : 0.00055 	 training loss : 7.43329 	 
+2025-05-02 23:41:34,001 INFO Iter : 46500 	 LR : 0.00055 	 training loss : 5.95032 	 
+2025-05-02 23:45:59,174 INFO Iter : 46600 	 LR : 0.00055 	 training loss : 6.40726 	 
+2025-05-02 23:50:27,817 INFO Iter : 46700 	 LR : 0.00054 	 training loss : 6.10869 	 
+2025-05-02 23:54:53,973 INFO Iter : 46800 	 LR : 0.00054 	 training loss : 6.80798 	 
+2025-05-02 23:59:24,857 INFO Iter : 46900 	 LR : 0.00054 	 training loss : 6.36519 	 
+2025-05-03 00:03:51,500 INFO Iter : 47000 	 LR : 0.00054 	 training loss : 6.98599 	 
+2025-05-03 00:04:09,165 INFO Val. loss : 2.936 	 CER : 0.0153 	 WER : 0.0597 	 
+2025-05-03 00:08:38,984 INFO Iter : 47100 	 LR : 0.00054 	 training loss : 6.53658 	 
+2025-05-03 00:13:07,895 INFO Iter : 47200 	 LR : 0.00054 	 training loss : 6.52980 	 
+2025-05-03 00:17:36,778 INFO Iter : 47300 	 LR : 0.00053 	 training loss : 5.94020 	 
+2025-05-03 00:22:01,711 INFO Iter : 47400 	 LR : 0.00053 	 training loss : 5.58870 	 
+2025-05-03 00:26:28,729 INFO Iter : 47500 	 LR : 0.00053 	 training loss : 5.59943 	 
+2025-05-03 00:30:54,953 INFO Iter : 47600 	 LR : 0.00053 	 training loss : 6.05927 	 
+2025-05-03 00:35:21,695 INFO Iter : 47700 	 LR : 0.00053 	 training loss : 6.54983 	 
+2025-05-03 00:39:49,035 INFO Iter : 47800 	 LR : 0.00053 	 training loss : 7.25214 	 
+2025-05-03 00:44:16,832 INFO Iter : 47900 	 LR : 0.00053 	 training loss : 6.09025 	 
+2025-05-03 00:48:44,730 INFO Iter : 48000 	 LR : 0.00052 	 training loss : 6.80386 	 
+2025-05-03 00:49:02,546 INFO CER improved from 0.0153 to 0.0151!!!
+2025-05-03 00:49:06,105 INFO WER improved from 0.0589 to 0.0586!!!
+2025-05-03 00:49:09,782 INFO Val. loss : 2.918 	 CER : 0.0151 	 WER : 0.0586 	 
+2025-05-03 00:53:31,468 INFO Iter : 48100 	 LR : 0.00052 	 training loss : 6.87913 	 
+2025-05-03 00:57:51,952 INFO Iter : 48200 	 LR : 0.00052 	 training loss : 6.52222 	 
+2025-05-03 01:02:16,975 INFO Iter : 48300 	 LR : 0.00052 	 training loss : 6.23200 	 
+2025-05-03 01:06:43,720 INFO Iter : 48400 	 LR : 0.00052 	 training loss : 6.73025 	 
+2025-05-03 01:11:11,633 INFO Iter : 48500 	 LR : 0.00052 	 training loss : 5.89431 	 
+2025-05-03 01:15:37,041 INFO Iter : 48600 	 LR : 0.00051 	 training loss : 6.12109 	 
+2025-05-03 01:20:04,360 INFO Iter : 48700 	 LR : 0.00051 	 training loss : 6.45269 	 
+2025-05-03 01:24:34,638 INFO Iter : 48800 	 LR : 0.00051 	 training loss : 6.02318 	 
+2025-05-03 01:29:00,308 INFO Iter : 48900 	 LR : 0.00051 	 training loss : 6.03722 	 
+2025-05-03 01:33:27,319 INFO Iter : 49000 	 LR : 0.00051 	 training loss : 6.01880 	 
+2025-05-03 01:33:44,891 INFO Val. loss : 2.908 	 CER : 0.0152 	 WER : 0.0587 	 
+2025-05-03 01:38:09,283 INFO Iter : 49100 	 LR : 0.00051 	 training loss : 6.60759 	 
+2025-05-03 01:42:40,699 INFO Iter : 49200 	 LR : 0.00050 	 training loss : 6.41216 	 
+2025-05-03 01:47:03,540 INFO Iter : 49300 	 LR : 0.00050 	 training loss : 6.26535 	 
+2025-05-03 01:51:32,421 INFO Iter : 49400 	 LR : 0.00050 	 training loss : 6.51711 	 
+2025-05-03 01:56:00,675 INFO Iter : 49500 	 LR : 0.00050 	 training loss : 6.08990 	 
+2025-05-03 02:00:31,331 INFO Iter : 49600 	 LR : 0.00050 	 training loss : 6.41193 	 
+2025-05-03 02:04:56,907 INFO Iter : 49700 	 LR : 0.00050 	 training loss : 6.10855 	 
+2025-05-03 02:09:25,015 INFO Iter : 49800 	 LR : 0.00050 	 training loss : 5.80054 	 
+2025-05-03 02:13:49,129 INFO Iter : 49900 	 LR : 0.00049 	 training loss : 6.24112 	 
+2025-05-03 02:18:10,248 INFO Iter : 50000 	 LR : 0.00049 	 training loss : 6.07355 	 
+2025-05-03 02:18:25,345 INFO Val. loss : 2.905 	 CER : 0.0152 	 WER : 0.0587 	 
+2025-05-03 02:22:45,405 INFO Iter : 50100 	 LR : 0.00049 	 training loss : 6.03089 	 
+2025-05-03 02:27:05,384 INFO Iter : 50200 	 LR : 0.00049 	 training loss : 6.07463 	 
+2025-05-03 02:31:24,644 INFO Iter : 50300 	 LR : 0.00049 	 training loss : 5.85457 	 
+2025-05-03 02:35:46,637 INFO Iter : 50400 	 LR : 0.00049 	 training loss : 5.75176 	 
+2025-05-03 02:40:07,661 INFO Iter : 50500 	 LR : 0.00048 	 training loss : 6.01820 	 
+2025-05-03 02:44:31,044 INFO Iter : 50600 	 LR : 0.00048 	 training loss : 5.84306 	 
+2025-05-03 02:48:50,767 INFO Iter : 50700 	 LR : 0.00048 	 training loss : 6.06601 	 
+2025-05-03 02:53:11,727 INFO Iter : 50800 	 LR : 0.00048 	 training loss : 5.91487 	 
+2025-05-03 02:57:33,145 INFO Iter : 50900 	 LR : 0.00048 	 training loss : 5.75124 	 
+2025-05-03 03:01:53,332 INFO Iter : 51000 	 LR : 0.00048 	 training loss : 6.14438 	 
+2025-05-03 03:02:08,469 INFO CER improved from 0.0151 to 0.0150!!!
+2025-05-03 03:02:12,051 INFO WER improved from 0.0586 to 0.0578!!!
+2025-05-03 03:02:15,755 INFO Val. loss : 2.917 	 CER : 0.0150 	 WER : 0.0578 	 
+2025-05-03 03:06:36,756 INFO Iter : 51100 	 LR : 0.00047 	 training loss : 5.48883 	 
+2025-05-03 03:10:57,451 INFO Iter : 51200 	 LR : 0.00047 	 training loss : 5.49940 	 
+2025-05-03 03:15:16,357 INFO Iter : 51300 	 LR : 0.00047 	 training loss : 5.63146 	 
+2025-05-03 03:19:38,631 INFO Iter : 51400 	 LR : 0.00047 	 training loss : 5.91368 	 
+2025-05-03 03:23:57,644 INFO Iter : 51500 	 LR : 0.00047 	 training loss : 5.61817 	 
+2025-05-03 03:28:17,956 INFO Iter : 51600 	 LR : 0.00047 	 training loss : 6.51771 	 
+2025-05-03 03:32:37,834 INFO Iter : 51700 	 LR : 0.00047 	 training loss : 6.05443 	 
+2025-05-03 03:36:56,994 INFO Iter : 51800 	 LR : 0.00046 	 training loss : 6.11383 	 
+2025-05-03 03:41:17,158 INFO Iter : 51900 	 LR : 0.00046 	 training loss : 5.67968 	 
+2025-05-03 03:45:37,989 INFO Iter : 52000 	 LR : 0.00046 	 training loss : 6.22963 	 
+2025-05-03 03:45:53,202 INFO CER improved from 0.0150 to 0.0149!!!
+2025-05-03 03:45:56,727 INFO WER improved from 0.0578 to 0.0571!!!
+2025-05-03 03:46:00,366 INFO Val. loss : 2.913 	 CER : 0.0149 	 WER : 0.0571 	 
+2025-05-03 03:50:20,837 INFO Iter : 52100 	 LR : 0.00046 	 training loss : 5.64084 	 
+2025-05-03 03:54:41,700 INFO Iter : 52200 	 LR : 0.00046 	 training loss : 5.42570 	 
+2025-05-03 03:59:02,514 INFO Iter : 52300 	 LR : 0.00046 	 training loss : 6.48173 	 
+2025-05-03 04:03:21,704 INFO Iter : 52400 	 LR : 0.00045 	 training loss : 5.77559 	 
+2025-05-03 04:07:42,356 INFO Iter : 52500 	 LR : 0.00045 	 training loss : 5.63003 	 
+2025-05-03 04:12:01,012 INFO Iter : 52600 	 LR : 0.00045 	 training loss : 5.51905 	 
+2025-05-03 04:16:23,218 INFO Iter : 52700 	 LR : 0.00045 	 training loss : 5.42807 	 
+2025-05-03 04:20:42,698 INFO Iter : 52800 	 LR : 0.00045 	 training loss : 5.85150 	 
+2025-05-03 04:25:03,131 INFO Iter : 52900 	 LR : 0.00045 	 training loss : 5.30078 	 
+2025-05-03 04:29:21,691 INFO Iter : 53000 	 LR : 0.00044 	 training loss : 5.25990 	 
+2025-05-03 04:29:36,637 INFO CER improved from 0.0149 to 0.0149!!!
+2025-05-03 04:29:40,120 INFO WER improved from 0.0571 to 0.0570!!!
+2025-05-03 04:29:43,776 INFO Val. loss : 2.909 	 CER : 0.0149 	 WER : 0.0570 	 
+2025-05-03 04:34:04,791 INFO Iter : 53100 	 LR : 0.00044 	 training loss : 5.51805 	 
+2025-05-03 04:38:25,519 INFO Iter : 53200 	 LR : 0.00044 	 training loss : 5.75697 	 
+2025-05-03 04:42:46,218 INFO Iter : 53300 	 LR : 0.00044 	 training loss : 5.59514 	 
+2025-05-03 04:47:06,272 INFO Iter : 53400 	 LR : 0.00044 	 training loss : 5.05321 	 
+2025-05-03 04:51:28,597 INFO Iter : 53500 	 LR : 0.00044 	 training loss : 5.95599 	 
+2025-05-03 04:55:48,822 INFO Iter : 53600 	 LR : 0.00044 	 training loss : 5.67464 	 
+2025-05-03 05:00:09,779 INFO Iter : 53700 	 LR : 0.00043 	 training loss : 5.53855 	 
+2025-05-03 05:04:28,357 INFO Iter : 53800 	 LR : 0.00043 	 training loss : 5.88963 	 
+2025-05-03 05:08:48,540 INFO Iter : 53900 	 LR : 0.00043 	 training loss : 5.96813 	 
+2025-05-03 05:13:08,567 INFO Iter : 54000 	 LR : 0.00043 	 training loss : 5.85742 	 
+2025-05-03 05:13:23,674 INFO CER improved from 0.0149 to 0.0147!!!
+2025-05-03 05:13:27,228 INFO Val. loss : 2.900 	 CER : 0.0147 	 WER : 0.0571 	 
+2025-05-03 05:17:47,256 INFO Iter : 54100 	 LR : 0.00043 	 training loss : 5.25847 	 
+2025-05-03 05:22:07,366 INFO Iter : 54200 	 LR : 0.00043 	 training loss : 5.76379 	 
+2025-05-03 05:26:28,814 INFO Iter : 54300 	 LR : 0.00042 	 training loss : 4.99803 	 
+2025-05-03 05:30:49,147 INFO Iter : 54400 	 LR : 0.00042 	 training loss : 5.14853 	 
+2025-05-03 05:35:09,942 INFO Iter : 54500 	 LR : 0.00042 	 training loss : 5.44838 	 
+2025-05-03 05:39:29,733 INFO Iter : 54600 	 LR : 0.00042 	 training loss : 5.32754 	 
+2025-05-03 05:43:51,148 INFO Iter : 54700 	 LR : 0.00042 	 training loss : 5.73657 	 
+2025-05-03 05:48:10,135 INFO Iter : 54800 	 LR : 0.00042 	 training loss : 4.77190 	 
+2025-05-03 05:52:31,885 INFO Iter : 54900 	 LR : 0.00041 	 training loss : 5.86796 	 
+2025-05-03 05:56:52,637 INFO Iter : 55000 	 LR : 0.00041 	 training loss : 5.47278 	 
+2025-05-03 05:57:07,639 INFO Val. loss : 2.911 	 CER : 0.0148 	 WER : 0.0570 	 
+2025-05-03 06:01:27,100 INFO Iter : 55100 	 LR : 0.00041 	 training loss : 5.29687 	 
+2025-05-03 06:05:48,136 INFO Iter : 55200 	 LR : 0.00041 	 training loss : 5.36119 	 
+2025-05-03 06:10:08,098 INFO Iter : 55300 	 LR : 0.00041 	 training loss : 5.42140 	 
+2025-05-03 06:14:30,019 INFO Iter : 55400 	 LR : 0.00041 	 training loss : 5.36040 	 
+2025-05-03 06:18:49,158 INFO Iter : 55500 	 LR : 0.00041 	 training loss : 5.97538 	 
+2025-05-03 06:23:10,168 INFO Iter : 55600 	 LR : 0.00040 	 training loss : 6.20870 	 
+2025-05-03 06:27:29,654 INFO Iter : 55700 	 LR : 0.00040 	 training loss : 5.68210 	 
+2025-05-03 06:31:50,009 INFO Iter : 55800 	 LR : 0.00040 	 training loss : 5.57653 	 
+2025-05-03 06:36:09,216 INFO Iter : 55900 	 LR : 0.00040 	 training loss : 5.69784 	 
+2025-05-03 06:40:32,272 INFO Iter : 56000 	 LR : 0.00040 	 training loss : 5.32363 	 
+2025-05-03 06:40:47,511 INFO CER improved from 0.0147 to 0.0146!!!
+2025-05-03 06:40:51,050 INFO WER improved from 0.0570 to 0.0563!!!
+2025-05-03 06:40:54,684 INFO Val. loss : 2.909 	 CER : 0.0146 	 WER : 0.0563 	 
+2025-05-03 06:45:15,243 INFO Iter : 56100 	 LR : 0.00040 	 training loss : 5.76523 	 
+2025-05-03 06:49:35,412 INFO Iter : 56200 	 LR : 0.00039 	 training loss : 4.80461 	 
+2025-05-03 06:53:55,167 INFO Iter : 56300 	 LR : 0.00039 	 training loss : 5.67064 	 
+2025-05-03 06:58:16,716 INFO Iter : 56400 	 LR : 0.00039 	 training loss : 4.58195 	 
+2025-05-03 07:02:35,455 INFO Iter : 56500 	 LR : 0.00039 	 training loss : 4.96920 	 
+2025-05-03 07:06:55,488 INFO Iter : 56600 	 LR : 0.00039 	 training loss : 5.34655 	 
+2025-05-03 07:11:14,192 INFO Iter : 56700 	 LR : 0.00039 	 training loss : 5.51064 	 
+2025-05-03 07:15:35,759 INFO Iter : 56800 	 LR : 0.00039 	 training loss : 6.23633 	 
+2025-05-03 07:19:54,437 INFO Iter : 56900 	 LR : 0.00038 	 training loss : 5.63843 	 
+2025-05-03 07:24:15,542 INFO Iter : 57000 	 LR : 0.00038 	 training loss : 5.28449 	 
+2025-05-03 07:24:30,476 INFO Val. loss : 2.904 	 CER : 0.0146 	 WER : 0.0565 	 
+2025-05-03 07:28:50,328 INFO Iter : 57100 	 LR : 0.00038 	 training loss : 4.94420 	 
+2025-05-03 07:33:11,941 INFO Iter : 57200 	 LR : 0.00038 	 training loss : 5.36911 	 
+2025-05-03 07:37:31,489 INFO Iter : 57300 	 LR : 0.00038 	 training loss : 4.75890 	 
+2025-05-03 07:41:53,291 INFO Iter : 57400 	 LR : 0.00038 	 training loss : 5.24387 	 
+2025-05-03 07:46:12,536 INFO Iter : 57500 	 LR : 0.00037 	 training loss : 5.28732 	 
+2025-05-03 07:50:32,228 INFO Iter : 57600 	 LR : 0.00037 	 training loss : 5.17352 	 
+2025-05-03 07:54:52,421 INFO Iter : 57700 	 LR : 0.00037 	 training loss : 5.43144 	 
+2025-05-03 07:59:14,890 INFO Iter : 57800 	 LR : 0.00037 	 training loss : 5.33408 	 
+2025-05-03 08:03:33,791 INFO Iter : 57900 	 LR : 0.00037 	 training loss : 4.74609 	 
+2025-05-03 08:07:54,789 INFO Iter : 58000 	 LR : 0.00037 	 training loss : 5.24126 	 
+2025-05-03 08:08:09,845 INFO Val. loss : 2.903 	 CER : 0.0146 	 WER : 0.0567 	 
+2025-05-03 08:12:28,964 INFO Iter : 58100 	 LR : 0.00037 	 training loss : 5.00755 	 
+2025-05-03 08:16:49,013 INFO Iter : 58200 	 LR : 0.00036 	 training loss : 6.10130 	 
+2025-05-03 08:21:09,473 INFO Iter : 58300 	 LR : 0.00036 	 training loss : 4.42067 	 
+2025-05-03 08:25:28,123 INFO Iter : 58400 	 LR : 0.00036 	 training loss : 5.13044 	 
+2025-05-03 08:29:49,417 INFO Iter : 58500 	 LR : 0.00036 	 training loss : 5.22110 	 
+2025-05-03 08:34:10,197 INFO Iter : 58600 	 LR : 0.00036 	 training loss : 5.56722 	 
+2025-05-03 08:38:31,036 INFO Iter : 58700 	 LR : 0.00036 	 training loss : 4.66469 	 
+2025-05-03 08:42:51,663 INFO Iter : 58800 	 LR : 0.00035 	 training loss : 5.28884 	 
+2025-05-03 08:47:12,638 INFO Iter : 58900 	 LR : 0.00035 	 training loss : 5.72533 	 
+2025-05-03 08:51:31,807 INFO Iter : 59000 	 LR : 0.00035 	 training loss : 5.49442 	 
+2025-05-03 08:51:46,784 INFO CER improved from 0.0146 to 0.0145!!!
+2025-05-03 08:51:50,340 INFO Val. loss : 2.900 	 CER : 0.0145 	 WER : 0.0567 	 
+2025-05-03 08:56:11,530 INFO Iter : 59100 	 LR : 0.00035 	 training loss : 4.63969 	 
+2025-05-03 09:00:31,207 INFO Iter : 59200 	 LR : 0.00035 	 training loss : 4.63765 	 
+2025-05-03 09:04:53,210 INFO Iter : 59300 	 LR : 0.00035 	 training loss : 5.25446 	 
+2025-05-03 09:09:12,790 INFO Iter : 59400 	 LR : 0.00035 	 training loss : 5.53907 	 
+2025-05-03 09:13:34,987 INFO Iter : 59500 	 LR : 0.00034 	 training loss : 5.04975 	 
+2025-05-03 09:17:54,611 INFO Iter : 59600 	 LR : 0.00034 	 training loss : 4.91442 	 
+2025-05-03 09:22:16,302 INFO Iter : 59700 	 LR : 0.00034 	 training loss : 5.59599 	 
+2025-05-03 09:26:36,296 INFO Iter : 59800 	 LR : 0.00034 	 training loss : 4.81071 	 
+2025-05-03 09:30:58,006 INFO Iter : 59900 	 LR : 0.00034 	 training loss : 4.71928 	 
+2025-05-03 09:35:17,065 INFO Iter : 60000 	 LR : 0.00034 	 training loss : 4.60894 	 
+2025-05-03 09:35:31,987 INFO CER improved from 0.0145 to 0.0144!!!
+2025-05-03 09:35:35,504 INFO WER improved from 0.0563 to 0.0560!!!
+2025-05-03 09:35:39,076 INFO Val. loss : 2.894 	 CER : 0.0144 	 WER : 0.0560 	 
+2025-05-03 09:39:58,412 INFO Iter : 60100 	 LR : 0.00034 	 training loss : 5.09847 	 
+2025-05-03 09:44:18,530 INFO Iter : 60200 	 LR : 0.00033 	 training loss : 4.77081 	 
+2025-05-03 09:48:38,724 INFO Iter : 60300 	 LR : 0.00033 	 training loss : 5.32164 	 
+2025-05-03 09:52:59,073 INFO Iter : 60400 	 LR : 0.00033 	 training loss : 5.14675 	 
+2025-05-03 09:57:20,335 INFO Iter : 60500 	 LR : 0.00033 	 training loss : 4.83419 	 
+2025-05-03 10:01:40,668 INFO Iter : 60600 	 LR : 0.00033 	 training loss : 5.20567 	 
+2025-05-03 10:06:00,727 INFO Iter : 60700 	 LR : 0.00033 	 training loss : 4.55634 	 
+2025-05-03 10:10:21,942 INFO Iter : 60800 	 LR : 0.00032 	 training loss : 4.92081 	 
+2025-05-03 10:14:43,266 INFO Iter : 60900 	 LR : 0.00032 	 training loss : 4.62104 	 
+2025-05-03 10:19:02,766 INFO Iter : 61000 	 LR : 0.00032 	 training loss : 4.50303 	 
+2025-05-03 10:19:17,810 INFO WER improved from 0.0560 to 0.0557!!!
+2025-05-03 10:19:21,391 INFO Val. loss : 2.898 	 CER : 0.0144 	 WER : 0.0557 	 
+2025-05-03 10:23:42,649 INFO Iter : 61100 	 LR : 0.00032 	 training loss : 5.36373 	 
+2025-05-03 10:28:02,693 INFO Iter : 61200 	 LR : 0.00032 	 training loss : 4.51621 	 
+2025-05-03 10:32:24,992 INFO Iter : 61300 	 LR : 0.00032 	 training loss : 4.66994 	 
+2025-05-03 10:36:44,383 INFO Iter : 61400 	 LR : 0.00032 	 training loss : 4.87947 	 
+2025-05-03 10:41:03,595 INFO Iter : 61500 	 LR : 0.00031 	 training loss : 4.68261 	 
+2025-05-03 10:45:25,244 INFO Iter : 61600 	 LR : 0.00031 	 training loss : 5.07560 	 
+2025-05-03 10:49:45,299 INFO Iter : 61700 	 LR : 0.00031 	 training loss : 4.68613 	 
+2025-05-03 10:54:08,407 INFO Iter : 61800 	 LR : 0.00031 	 training loss : 4.64358 	 
+2025-05-03 10:58:28,773 INFO Iter : 61900 	 LR : 0.00031 	 training loss : 4.79807 	 
+2025-05-03 11:02:50,399 INFO Iter : 62000 	 LR : 0.00031 	 training loss : 4.28982 	 
+2025-05-03 11:03:05,604 INFO Val. loss : 2.890 	 CER : 0.0145 	 WER : 0.0558 	 
+2025-05-03 11:07:24,826 INFO Iter : 62100 	 LR : 0.00031 	 training loss : 4.74930 	 
+2025-05-03 11:11:46,950 INFO Iter : 62200 	 LR : 0.00030 	 training loss : 4.97099 	 
+2025-05-03 11:16:06,058 INFO Iter : 62300 	 LR : 0.00030 	 training loss : 4.83935 	 
+2025-05-03 11:20:26,768 INFO Iter : 62400 	 LR : 0.00030 	 training loss : 4.37531 	 
+2025-05-03 11:24:45,708 INFO Iter : 62500 	 LR : 0.00030 	 training loss : 4.61691 	 
+2025-05-03 11:29:06,431 INFO Iter : 62600 	 LR : 0.00030 	 training loss : 4.14275 	 
+2025-05-03 11:33:25,364 INFO Iter : 62700 	 LR : 0.00030 	 training loss : 5.22589 	 
+2025-05-03 11:37:47,464 INFO Iter : 62800 	 LR : 0.00030 	 training loss : 4.42577 	 
+2025-05-03 11:42:06,506 INFO Iter : 62900 	 LR : 0.00029 	 training loss : 4.65219 	 
+2025-05-03 11:46:29,260 INFO Iter : 63000 	 LR : 0.00029 	 training loss : 4.62579 	 
+2025-05-03 11:46:44,411 INFO WER improved from 0.0557 to 0.0554!!!
+2025-05-03 11:46:47,897 INFO Val. loss : 2.898 	 CER : 0.0145 	 WER : 0.0554 	 
+2025-05-03 11:51:08,348 INFO Iter : 63100 	 LR : 0.00029 	 training loss : 4.25394 	 
+2025-05-03 11:55:30,077 INFO Iter : 63200 	 LR : 0.00029 	 training loss : 4.54298 	 
+2025-05-03 11:59:48,316 INFO Iter : 63300 	 LR : 0.00029 	 training loss : 4.43102 	 
+2025-05-03 12:04:08,220 INFO Iter : 63400 	 LR : 0.00029 	 training loss : 4.14847 	 
+2025-05-03 12:08:29,006 INFO Iter : 63500 	 LR : 0.00029 	 training loss : 4.58814 	 
+2025-05-03 12:12:48,692 INFO Iter : 63600 	 LR : 0.00028 	 training loss : 4.33190 	 
+2025-05-03 12:17:07,779 INFO Iter : 63700 	 LR : 0.00028 	 training loss : 4.44956 	 
+2025-05-03 12:21:29,304 INFO Iter : 63800 	 LR : 0.00028 	 training loss : 4.57675 	 
+2025-05-03 12:25:48,495 INFO Iter : 63900 	 LR : 0.00028 	 training loss : 4.61483 	 
+2025-05-03 12:30:10,398 INFO Iter : 64000 	 LR : 0.00028 	 training loss : 4.39539 	 
+2025-05-03 12:30:25,401 INFO CER improved from 0.0144 to 0.0144!!!
+2025-05-03 12:30:28,911 INFO WER improved from 0.0554 to 0.0548!!!
+2025-05-03 12:30:32,569 INFO Val. loss : 2.904 	 CER : 0.0144 	 WER : 0.0548 	 
+2025-05-03 12:34:51,330 INFO Iter : 64100 	 LR : 0.00028 	 training loss : 3.94064 	 
+2025-05-03 12:39:14,391 INFO Iter : 64200 	 LR : 0.00028 	 training loss : 4.65805 	 
+2025-05-03 12:43:33,843 INFO Iter : 64300 	 LR : 0.00027 	 training loss : 4.98590 	 
+2025-05-03 12:47:55,654 INFO Iter : 64400 	 LR : 0.00027 	 training loss : 4.66959 	 
+2025-05-03 12:52:16,412 INFO Iter : 64500 	 LR : 0.00027 	 training loss : 5.31381 	 
+2025-05-03 12:56:38,145 INFO Iter : 64600 	 LR : 0.00027 	 training loss : 3.76169 	 
+2025-05-03 13:00:56,704 INFO Iter : 64700 	 LR : 0.00027 	 training loss : 4.18937 	 
+2025-05-03 13:05:16,305 INFO Iter : 64800 	 LR : 0.00027 	 training loss : 4.76518 	 
+2025-05-03 13:09:38,014 INFO Iter : 64900 	 LR : 0.00027 	 training loss : 4.69083 	 
+2025-05-03 13:13:58,144 INFO Iter : 65000 	 LR : 0.00026 	 training loss : 4.42157 	 
+2025-05-03 13:14:13,163 INFO CER improved from 0.0144 to 0.0143!!!
+2025-05-03 13:14:16,645 INFO WER improved from 0.0548 to 0.0544!!!
+2025-05-03 13:14:20,294 INFO Val. loss : 2.904 	 CER : 0.0143 	 WER : 0.0544 	 
+2025-05-03 13:18:42,229 INFO Iter : 65100 	 LR : 0.00026 	 training loss : 4.23950 	 
+2025-05-03 13:23:01,708 INFO Iter : 65200 	 LR : 0.00026 	 training loss : 4.12186 	 
+2025-05-03 13:27:23,124 INFO Iter : 65300 	 LR : 0.00026 	 training loss : 4.06904 	 
+2025-05-03 13:31:42,614 INFO Iter : 65400 	 LR : 0.00026 	 training loss : 3.90791 	 
+2025-05-03 13:36:02,968 INFO Iter : 65500 	 LR : 0.00026 	 training loss : 4.23137 	 
+2025-05-03 13:40:23,303 INFO Iter : 65600 	 LR : 0.00026 	 training loss : 3.94610 	 
+2025-05-03 13:44:43,129 INFO Iter : 65700 	 LR : 0.00025 	 training loss : 3.80914 	 
+2025-05-03 13:49:03,100 INFO Iter : 65800 	 LR : 0.00025 	 training loss : 3.87688 	 
+2025-05-03 13:53:23,250 INFO Iter : 65900 	 LR : 0.00025 	 training loss : 3.78640 	 
+2025-05-03 13:57:43,290 INFO Iter : 66000 	 LR : 0.00025 	 training loss : 4.30461 	 
+2025-05-03 13:57:58,239 INFO WER improved from 0.0544 to 0.0541!!!
+2025-05-03 13:58:01,729 INFO Val. loss : 2.915 	 CER : 0.0143 	 WER : 0.0541 	 
+2025-05-03 14:02:22,555 INFO Iter : 66100 	 LR : 0.00025 	 training loss : 4.03357 	 
+2025-05-03 14:06:43,355 INFO Iter : 66200 	 LR : 0.00025 	 training loss : 3.77179 	 
+2025-05-03 14:11:03,528 INFO Iter : 66300 	 LR : 0.00025 	 training loss : 3.78903 	 
+2025-05-03 14:15:22,561 INFO Iter : 66400 	 LR : 0.00024 	 training loss : 4.44460 	 
+2025-05-03 14:19:44,052 INFO Iter : 66500 	 LR : 0.00024 	 training loss : 4.10975 	 
+2025-05-03 14:24:03,648 INFO Iter : 66600 	 LR : 0.00024 	 training loss : 3.73289 	 
+2025-05-03 14:28:23,241 INFO Iter : 66700 	 LR : 0.00024 	 training loss : 3.86281 	 
+2025-05-03 14:32:42,744 INFO Iter : 66800 	 LR : 0.00024 	 training loss : 4.07025 	 
+2025-05-03 14:37:04,909 INFO Iter : 66900 	 LR : 0.00024 	 training loss : 3.56453 	 
+2025-05-03 14:41:22,534 INFO Iter : 67000 	 LR : 0.00024 	 training loss : 4.10709 	 
+2025-05-03 14:41:38,087 INFO CER improved from 0.0143 to 0.0141!!!
+2025-05-03 14:41:41,628 INFO WER improved from 0.0541 to 0.0534!!!
+2025-05-03 14:41:45,327 INFO Val. loss : 2.927 	 CER : 0.0141 	 WER : 0.0534 	 
+2025-05-03 14:46:06,623 INFO Iter : 67100 	 LR : 0.00024 	 training loss : 3.65419 	 
+2025-05-03 14:50:26,159 INFO Iter : 67200 	 LR : 0.00023 	 training loss : 4.10492 	 
+2025-05-03 14:54:47,813 INFO Iter : 67300 	 LR : 0.00023 	 training loss : 3.72218 	 
+2025-05-03 14:59:07,413 INFO Iter : 67400 	 LR : 0.00023 	 training loss : 4.49330 	 
+2025-05-03 15:03:28,094 INFO Iter : 67500 	 LR : 0.00023 	 training loss : 3.47001 	 
+2025-05-03 15:07:47,983 INFO Iter : 67600 	 LR : 0.00023 	 training loss : 4.78884 	 
+2025-05-03 15:12:10,916 INFO Iter : 67700 	 LR : 0.00023 	 training loss : 4.45936 	 
+2025-05-03 15:16:30,187 INFO Iter : 67800 	 LR : 0.00023 	 training loss : 3.84416 	 
+2025-05-03 15:20:48,824 INFO Iter : 67900 	 LR : 0.00022 	 training loss : 3.65457 	 
+2025-05-03 15:25:10,297 INFO Iter : 68000 	 LR : 0.00022 	 training loss : 3.82325 	 
+2025-05-03 15:25:25,352 INFO Val. loss : 2.923 	 CER : 0.0141 	 WER : 0.0536 	 
+2025-05-03 15:29:44,344 INFO Iter : 68100 	 LR : 0.00022 	 training loss : 3.84102 	 
+2025-05-03 15:34:06,666 INFO Iter : 68200 	 LR : 0.00022 	 training loss : 4.20091 	 
+2025-05-03 15:38:26,754 INFO Iter : 68300 	 LR : 0.00022 	 training loss : 3.84864 	 
+2025-05-03 15:42:47,893 INFO Iter : 68400 	 LR : 0.00022 	 training loss : 3.83374 	 
+2025-05-03 15:47:06,897 INFO Iter : 68500 	 LR : 0.00022 	 training loss : 4.35147 	 
+2025-05-03 15:51:26,856 INFO Iter : 68600 	 LR : 0.00022 	 training loss : 3.81358 	 
+2025-05-03 15:55:47,756 INFO Iter : 68700 	 LR : 0.00021 	 training loss : 3.96167 	 
+2025-05-03 16:00:08,399 INFO Iter : 68800 	 LR : 0.00021 	 training loss : 3.55889 	 
+2025-05-03 16:04:25,878 INFO Iter : 68900 	 LR : 0.00021 	 training loss : 3.79568 	 
+2025-05-03 16:08:46,360 INFO Iter : 69000 	 LR : 0.00021 	 training loss : 3.40822 	 
+2025-05-03 16:09:01,410 INFO Val. loss : 2.930 	 CER : 0.0141 	 WER : 0.0534 	 
+2025-05-03 16:13:22,114 INFO Iter : 69100 	 LR : 0.00021 	 training loss : 3.98718 	 
+2025-05-03 16:17:43,965 INFO Iter : 69200 	 LR : 0.00021 	 training loss : 3.36511 	 
+2025-05-03 16:22:03,364 INFO Iter : 69300 	 LR : 0.00021 	 training loss : 3.53655 	 
+2025-05-03 16:26:24,774 INFO Iter : 69400 	 LR : 0.00020 	 training loss : 4.13145 	 
+2025-05-03 16:30:44,211 INFO Iter : 69500 	 LR : 0.00020 	 training loss : 4.20695 	 
+2025-05-03 16:35:05,233 INFO Iter : 69600 	 LR : 0.00020 	 training loss : 3.88765 	 
+2025-05-03 16:39:25,265 INFO Iter : 69700 	 LR : 0.00020 	 training loss : 3.65952 	 
+2025-05-03 16:43:45,320 INFO Iter : 69800 	 LR : 0.00020 	 training loss : 3.40005 	 
+2025-05-03 16:48:04,493 INFO Iter : 69900 	 LR : 0.00020 	 training loss : 3.14328 	 
+2025-05-03 16:52:26,719 INFO Iter : 70000 	 LR : 0.00020 	 training loss : 4.47465 	 
+2025-05-03 16:52:41,732 INFO Val. loss : 2.937 	 CER : 0.0141 	 WER : 0.0534 	 
+2025-05-03 16:57:01,439 INFO Iter : 70100 	 LR : 0.00020 	 training loss : 4.16980 	 
+2025-05-03 17:01:21,579 INFO Iter : 70200 	 LR : 0.00019 	 training loss : 3.97738 	 
+2025-05-03 17:05:40,923 INFO Iter : 70300 	 LR : 0.00019 	 training loss : 3.14566 	 
+2025-05-03 17:10:01,253 INFO Iter : 70400 	 LR : 0.00019 	 training loss : 4.28016 	 
+2025-05-03 17:14:21,531 INFO Iter : 70500 	 LR : 0.00019 	 training loss : 3.81097 	 
+2025-05-03 17:18:41,837 INFO Iter : 70600 	 LR : 0.00019 	 training loss : 3.68549 	 
+2025-05-03 17:23:01,507 INFO Iter : 70700 	 LR : 0.00019 	 training loss : 3.96252 	 
+2025-05-03 17:27:24,110 INFO Iter : 70800 	 LR : 0.00019 	 training loss : 4.35385 	 
+2025-05-03 17:31:44,043 INFO Iter : 70900 	 LR : 0.00019 	 training loss : 3.71741 	 
+2025-05-03 17:36:05,434 INFO Iter : 71000 	 LR : 0.00018 	 training loss : 3.40641 	 
+2025-05-03 17:36:20,445 INFO CER improved from 0.0141 to 0.0140!!!
+2025-05-03 17:36:23,885 INFO WER improved from 0.0534 to 0.0528!!!
+2025-05-03 17:36:27,580 INFO Val. loss : 2.948 	 CER : 0.0140 	 WER : 0.0528 	 
+2025-05-03 17:40:45,660 INFO Iter : 71100 	 LR : 0.00018 	 training loss : 3.85204 	 
+2025-05-03 17:45:05,072 INFO Iter : 71200 	 LR : 0.00018 	 training loss : 3.09311 	 
+2025-05-03 17:49:26,399 INFO Iter : 71300 	 LR : 0.00018 	 training loss : 3.94670 	 
+2025-05-03 17:53:45,671 INFO Iter : 71400 	 LR : 0.00018 	 training loss : 3.97810 	 
+2025-05-03 17:58:06,020 INFO Iter : 71500 	 LR : 0.00018 	 training loss : 3.88300 	 
+2025-05-03 18:02:26,696 INFO Iter : 71600 	 LR : 0.00018 	 training loss : 2.75859 	 
+2025-05-03 18:06:47,253 INFO Iter : 71700 	 LR : 0.00018 	 training loss : 3.19779 	 
+2025-05-03 18:11:06,330 INFO Iter : 71800 	 LR : 0.00018 	 training loss : 4.15886 	 
+2025-05-03 18:15:28,090 INFO Iter : 71900 	 LR : 0.00017 	 training loss : 3.52787 	 
+2025-05-03 18:19:47,612 INFO Iter : 72000 	 LR : 0.00017 	 training loss : 3.50540 	 
+2025-05-03 18:20:02,711 INFO Val. loss : 2.971 	 CER : 0.0142 	 WER : 0.0529 	 
+2025-05-03 18:24:23,588 INFO Iter : 72100 	 LR : 0.00017 	 training loss : 3.35323 	 
+2025-05-03 18:28:44,032 INFO Iter : 72200 	 LR : 0.00017 	 training loss : 3.27381 	 
+2025-05-03 18:33:04,991 INFO Iter : 72300 	 LR : 0.00017 	 training loss : 4.01285 	 
+2025-05-03 18:37:22,987 INFO Iter : 72400 	 LR : 0.00017 	 training loss : 3.10384 	 
+2025-05-03 18:41:44,273 INFO Iter : 72500 	 LR : 0.00017 	 training loss : 3.40910 	 
+2025-05-03 18:46:03,505 INFO Iter : 72600 	 LR : 0.00017 	 training loss : 3.44547 	 
+2025-05-03 18:50:25,177 INFO Iter : 72700 	 LR : 0.00016 	 training loss : 3.63927 	 
+2025-05-03 18:54:45,147 INFO Iter : 72800 	 LR : 0.00016 	 training loss : 3.69865 	 
+2025-05-03 18:59:06,684 INFO Iter : 72900 	 LR : 0.00016 	 training loss : 3.05424 	 
+2025-05-03 19:03:25,149 INFO Iter : 73000 	 LR : 0.00016 	 training loss : 3.07978 	 
+2025-05-03 19:03:40,107 INFO WER improved from 0.0528 to 0.0526!!!
+2025-05-03 19:03:43,808 INFO Val. loss : 2.997 	 CER : 0.0141 	 WER : 0.0526 	 
+2025-05-03 19:08:05,547 INFO Iter : 73100 	 LR : 0.00016 	 training loss : 3.18273 	 
+2025-05-03 19:12:25,008 INFO Iter : 73200 	 LR : 0.00016 	 training loss : 3.31516 	 
+2025-05-03 19:16:46,968 INFO Iter : 73300 	 LR : 0.00016 	 training loss : 3.82347 	 
+2025-05-03 19:21:06,295 INFO Iter : 73400 	 LR : 0.00016 	 training loss : 3.05471 	 
+2025-05-03 19:25:28,372 INFO Iter : 73500 	 LR : 0.00016 	 training loss : 3.51979 	 
+2025-05-03 19:29:48,437 INFO Iter : 73600 	 LR : 0.00015 	 training loss : 3.80114 	 
+2025-05-03 19:34:09,935 INFO Iter : 73700 	 LR : 0.00015 	 training loss : 3.48556 	 
+2025-05-03 19:38:28,652 INFO Iter : 73800 	 LR : 0.00015 	 training loss : 3.15673 	 
+2025-05-03 19:42:50,542 INFO Iter : 73900 	 LR : 0.00015 	 training loss : 3.52601 	 
+2025-05-03 19:47:09,671 INFO Iter : 74000 	 LR : 0.00015 	 training loss : 2.96380 	 
+2025-05-03 19:47:24,722 INFO Val. loss : 3.002 	 CER : 0.0141 	 WER : 0.0528 	 
+2025-05-03 19:51:47,476 INFO Iter : 74100 	 LR : 0.00015 	 training loss : 3.45273 	 
+2025-05-03 19:56:07,030 INFO Iter : 74200 	 LR : 0.00015 	 training loss : 3.09425 	 
+2025-05-03 20:00:28,277 INFO Iter : 74300 	 LR : 0.00015 	 training loss : 3.39159 	 
+2025-05-03 20:04:49,087 INFO Iter : 74400 	 LR : 0.00014 	 training loss : 3.39267 	 
+2025-05-03 20:09:09,101 INFO Iter : 74500 	 LR : 0.00014 	 training loss : 3.73229 	 
+2025-05-03 20:13:29,357 INFO Iter : 74600 	 LR : 0.00014 	 training loss : 3.19112 	 
+2025-05-03 20:17:48,594 INFO Iter : 74700 	 LR : 0.00014 	 training loss : 3.45056 	 
+2025-05-03 20:22:09,160 INFO Iter : 74800 	 LR : 0.00014 	 training loss : 3.13989 	 
+2025-05-03 20:26:28,978 INFO Iter : 74900 	 LR : 0.00014 	 training loss : 3.31670 	 
+2025-05-03 20:30:50,248 INFO Iter : 75000 	 LR : 0.00014 	 training loss : 3.88164 	 
+2025-05-03 20:31:05,350 INFO Val. loss : 3.018 	 CER : 0.0141 	 WER : 0.0529 	 
+2025-05-03 20:35:24,610 INFO Iter : 75100 	 LR : 0.00014 	 training loss : 3.34733 	 
+2025-05-03 20:39:44,877 INFO Iter : 75200 	 LR : 0.00014 	 training loss : 3.10011 	 
+2025-05-03 20:44:05,486 INFO Iter : 75300 	 LR : 0.00013 	 training loss : 3.03253 	 
+2025-05-03 20:48:27,302 INFO Iter : 75400 	 LR : 0.00013 	 training loss : 3.20007 	 
+2025-05-03 20:52:46,814 INFO Iter : 75500 	 LR : 0.00013 	 training loss : 3.09274 	 
+2025-05-03 20:57:07,573 INFO Iter : 75600 	 LR : 0.00013 	 training loss : 2.69441 	 
+2025-05-03 21:01:26,971 INFO Iter : 75700 	 LR : 0.00013 	 training loss : 3.55675 	 
+2025-05-03 21:05:48,794 INFO Iter : 75800 	 LR : 0.00013 	 training loss : 3.49232 	 
+2025-05-03 21:10:09,156 INFO Iter : 75900 	 LR : 0.00013 	 training loss : 2.86927 	 
+2025-05-03 21:14:31,737 INFO Iter : 76000 	 LR : 0.00013 	 training loss : 3.18801 	 
+2025-05-03 21:14:46,711 INFO CER improved from 0.0140 to 0.0139!!!
+2025-05-03 21:14:50,229 INFO WER improved from 0.0526 to 0.0522!!!
+2025-05-03 21:14:53,968 INFO Val. loss : 3.024 	 CER : 0.0139 	 WER : 0.0522 	 
+2025-05-03 21:19:13,284 INFO Iter : 76100 	 LR : 0.00013 	 training loss : 3.13918 	 
+2025-05-03 21:23:34,601 INFO Iter : 76200 	 LR : 0.00013 	 training loss : 3.36916 	 
+2025-05-03 21:27:53,792 INFO Iter : 76300 	 LR : 0.00012 	 training loss : 2.70589 	 
+2025-05-03 21:32:13,558 INFO Iter : 76400 	 LR : 0.00012 	 training loss : 2.65913 	 
+2025-05-03 21:36:35,062 INFO Iter : 76500 	 LR : 0.00012 	 training loss : 2.88745 	 
+2025-05-03 21:40:56,132 INFO Iter : 76600 	 LR : 0.00012 	 training loss : 2.93057 	 
+2025-05-03 21:45:15,051 INFO Iter : 76700 	 LR : 0.00012 	 training loss : 3.11290 	 
+2025-05-03 21:49:36,284 INFO Iter : 76800 	 LR : 0.00012 	 training loss : 2.50475 	 
+2025-05-03 21:53:55,539 INFO Iter : 76900 	 LR : 0.00012 	 training loss : 2.81225 	 
+2025-05-03 21:58:16,963 INFO Iter : 77000 	 LR : 0.00012 	 training loss : 3.11381 	 
+2025-05-03 21:58:32,213 INFO Val. loss : 3.048 	 CER : 0.0140 	 WER : 0.0526 	 
+2025-05-03 22:02:51,367 INFO Iter : 77100 	 LR : 0.00012 	 training loss : 2.76564 	 
+2025-05-03 22:07:12,501 INFO Iter : 77200 	 LR : 0.00012 	 training loss : 2.99106 	 
+2025-05-03 22:11:31,790 INFO Iter : 77300 	 LR : 0.00011 	 training loss : 3.03974 	 
+2025-05-03 22:15:53,592 INFO Iter : 77400 	 LR : 0.00011 	 training loss : 2.86161 	 
+2025-05-03 22:20:11,797 INFO Iter : 77500 	 LR : 0.00011 	 training loss : 3.16623 	 
+2025-05-03 22:24:31,272 INFO Iter : 77600 	 LR : 0.00011 	 training loss : 3.38186 	 
+2025-05-03 22:28:52,398 INFO Iter : 77700 	 LR : 0.00011 	 training loss : 2.69380 	 
+2025-05-03 22:33:11,436 INFO Iter : 77800 	 LR : 0.00011 	 training loss : 3.01717 	 
+2025-05-03 22:37:32,120 INFO Iter : 77900 	 LR : 0.00011 	 training loss : 3.00623 	 
+2025-05-03 22:41:50,791 INFO Iter : 78000 	 LR : 0.00011 	 training loss : 2.67626 	 
+2025-05-03 22:42:05,761 INFO Val. loss : 3.060 	 CER : 0.0140 	 WER : 0.0525 	 
+2025-05-03 22:46:27,149 INFO Iter : 78100 	 LR : 0.00011 	 training loss : 3.19286 	 
+2025-05-03 22:50:47,615 INFO Iter : 78200 	 LR : 0.00011 	 training loss : 3.49236 	 
+2025-05-03 22:55:08,454 INFO Iter : 78300 	 LR : 0.00010 	 training loss : 2.36673 	 
+2025-05-03 22:59:27,458 INFO Iter : 78400 	 LR : 0.00010 	 training loss : 3.51400 	 
+2025-05-03 23:03:48,601 INFO Iter : 78500 	 LR : 0.00010 	 training loss : 2.68287 	 
+2025-05-03 23:08:07,607 INFO Iter : 78600 	 LR : 0.00010 	 training loss : 2.84962 	 
+2025-05-03 23:12:29,520 INFO Iter : 78700 	 LR : 0.00010 	 training loss : 2.56969 	 
+2025-05-03 23:16:48,722 INFO Iter : 78800 	 LR : 0.00010 	 training loss : 3.01501 	 
+2025-05-03 23:21:10,177 INFO Iter : 78900 	 LR : 0.00010 	 training loss : 2.46832 	 
+2025-05-03 23:25:29,745 INFO Iter : 79000 	 LR : 0.00010 	 training loss : 2.71734 	 
+2025-05-03 23:25:44,651 INFO WER improved from 0.0522 to 0.0522!!!
+2025-05-03 23:25:48,505 INFO Val. loss : 3.093 	 CER : 0.0140 	 WER : 0.0522 	 
+2025-05-03 23:30:09,217 INFO Iter : 79100 	 LR : 0.00010 	 training loss : 3.02430 	 
+2025-05-03 23:34:29,306 INFO Iter : 79200 	 LR : 0.00010 	 training loss : 2.75640 	 
+2025-05-03 23:38:51,534 INFO Iter : 79300 	 LR : 0.00009 	 training loss : 3.27578 	 
+2025-05-03 23:43:12,487 INFO Iter : 79400 	 LR : 0.00009 	 training loss : 2.83254 	 
+2025-05-03 23:47:33,642 INFO Iter : 79500 	 LR : 0.00009 	 training loss : 2.32331 	 
+2025-05-03 23:51:54,377 INFO Iter : 79600 	 LR : 0.00009 	 training loss : 2.67580 	 
+2025-05-03 23:56:14,567 INFO Iter : 79700 	 LR : 0.00009 	 training loss : 2.40000 	 
+2025-05-04 00:00:34,792 INFO Iter : 79800 	 LR : 0.00009 	 training loss : 2.84217 	 
+2025-05-04 00:04:56,340 INFO Iter : 79900 	 LR : 0.00009 	 training loss : 2.95534 	 
+2025-05-04 00:09:15,651 INFO Iter : 80000 	 LR : 0.00009 	 training loss : 2.64659 	 
+2025-05-04 00:09:30,638 INFO Val. loss : 3.113 	 CER : 0.0140 	 WER : 0.0528 	 
+2025-05-04 00:13:50,734 INFO Iter : 80100 	 LR : 0.00009 	 training loss : 2.45639 	 
+2025-05-04 00:18:10,384 INFO Iter : 80200 	 LR : 0.00009 	 training loss : 2.85525 	 
+2025-05-04 00:22:31,868 INFO Iter : 80300 	 LR : 0.00009 	 training loss : 3.03548 	 
+2025-05-04 00:26:51,511 INFO Iter : 80400 	 LR : 0.00008 	 training loss : 2.40242 	 
+2025-05-04 00:31:14,630 INFO Iter : 80500 	 LR : 0.00008 	 training loss : 2.86497 	 
+2025-05-04 00:35:34,016 INFO Iter : 80600 	 LR : 0.00008 	 training loss : 2.12736 	 
+2025-05-04 00:39:56,195 INFO Iter : 80700 	 LR : 0.00008 	 training loss : 2.23763 	 
+2025-05-04 00:44:16,654 INFO Iter : 80800 	 LR : 0.00008 	 training loss : 2.35852 	 
+2025-05-04 00:48:35,025 INFO Iter : 80900 	 LR : 0.00008 	 training loss : 2.38528 	 
+2025-05-04 00:52:55,890 INFO Iter : 81000 	 LR : 0.00008 	 training loss : 2.24368 	 
+2025-05-04 00:53:11,029 INFO CER improved from 0.0139 to 0.0139!!!
+2025-05-04 00:53:14,762 INFO Val. loss : 3.141 	 CER : 0.0139 	 WER : 0.0525 	 
+2025-05-04 00:57:34,303 INFO Iter : 81100 	 LR : 0.00008 	 training loss : 2.44759 	 
+2025-05-04 01:01:56,790 INFO Iter : 81200 	 LR : 0.00008 	 training loss : 3.20789 	 
+2025-05-04 01:06:16,173 INFO Iter : 81300 	 LR : 0.00008 	 training loss : 2.18783 	 
+2025-05-04 01:10:36,948 INFO Iter : 81400 	 LR : 0.00008 	 training loss : 2.48080 	 
+2025-05-04 01:14:56,887 INFO Iter : 81500 	 LR : 0.00008 	 training loss : 2.13841 	 
+2025-05-04 01:19:17,961 INFO Iter : 81600 	 LR : 0.00007 	 training loss : 2.43220 	 
+2025-05-04 01:23:36,955 INFO Iter : 81700 	 LR : 0.00007 	 training loss : 2.30311 	 
+2025-05-04 01:27:59,505 INFO Iter : 81800 	 LR : 0.00007 	 training loss : 2.26413 	 
+2025-05-04 01:32:19,945 INFO Iter : 81900 	 LR : 0.00007 	 training loss : 2.52879 	 
+2025-05-04 01:36:41,695 INFO Iter : 82000 	 LR : 0.00007 	 training loss : 2.10240 	 
+2025-05-04 01:36:56,932 INFO CER improved from 0.0139 to 0.0138!!!
+2025-05-04 01:37:00,706 INFO Val. loss : 3.164 	 CER : 0.0138 	 WER : 0.0525 	 
+2025-05-04 01:41:21,972 INFO Iter : 82100 	 LR : 0.00007 	 training loss : 2.69644 	 
+2025-05-04 01:45:42,042 INFO Iter : 82200 	 LR : 0.00007 	 training loss : 2.02992 	 
+2025-05-04 01:50:01,449 INFO Iter : 82300 	 LR : 0.00007 	 training loss : 2.31730 	 
+2025-05-04 01:54:22,708 INFO Iter : 82400 	 LR : 0.00007 	 training loss : 2.46162 	 
+2025-05-04 01:58:41,288 INFO Iter : 82500 	 LR : 0.00007 	 training loss : 2.22262 	 
+2025-05-04 02:03:02,305 INFO Iter : 82600 	 LR : 0.00007 	 training loss : 2.05274 	 
+2025-05-04 02:07:20,863 INFO Iter : 82700 	 LR : 0.00007 	 training loss : 2.06341 	 
+2025-05-04 02:11:41,894 INFO Iter : 82800 	 LR : 0.00006 	 training loss : 2.42957 	 
+2025-05-04 02:16:01,422 INFO Iter : 82900 	 LR : 0.00006 	 training loss : 1.94542 	 
+2025-05-04 02:20:22,349 INFO Iter : 83000 	 LR : 0.00006 	 training loss : 2.79775 	 
+2025-05-04 02:20:37,550 INFO Val. loss : 3.193 	 CER : 0.0140 	 WER : 0.0528 	 
+2025-05-04 02:24:56,855 INFO Iter : 83100 	 LR : 0.00006 	 training loss : 2.47771 	 
+2025-05-04 02:29:17,396 INFO Iter : 83200 	 LR : 0.00006 	 training loss : 2.16682 	 
+2025-05-04 02:33:36,572 INFO Iter : 83300 	 LR : 0.00006 	 training loss : 2.59947 	 
+2025-05-04 02:37:57,353 INFO Iter : 83400 	 LR : 0.00006 	 training loss : 2.28806 	 
+2025-05-04 02:42:17,152 INFO Iter : 83500 	 LR : 0.00006 	 training loss : 2.04727 	 
+2025-05-04 02:46:38,454 INFO Iter : 83600 	 LR : 0.00006 	 training loss : 1.95665 	 
+2025-05-04 02:50:57,560 INFO Iter : 83700 	 LR : 0.00006 	 training loss : 2.63742 	 
+2025-05-04 02:55:18,130 INFO Iter : 83800 	 LR : 0.00006 	 training loss : 2.43531 	 
+2025-05-04 02:59:37,299 INFO Iter : 83900 	 LR : 0.00006 	 training loss : 2.79717 	 
+2025-05-04 03:03:57,780 INFO Iter : 84000 	 LR : 0.00006 	 training loss : 2.56808 	 
+2025-05-04 03:04:12,800 INFO Val. loss : 3.221 	 CER : 0.0141 	 WER : 0.0530 	 
+2025-05-04 03:08:32,413 INFO Iter : 84100 	 LR : 0.00005 	 training loss : 2.46506 	 
+2025-05-04 03:12:51,838 INFO Iter : 84200 	 LR : 0.00005 	 training loss : 1.73552 	 
+2025-05-04 03:17:12,130 INFO Iter : 84300 	 LR : 0.00005 	 training loss : 1.81643 	 
+2025-05-04 03:21:31,776 INFO Iter : 84400 	 LR : 0.00005 	 training loss : 2.32510 	 
+2025-05-04 03:25:53,016 INFO Iter : 84500 	 LR : 0.00005 	 training loss : 1.83000 	 
+2025-05-04 03:30:12,812 INFO Iter : 84600 	 LR : 0.00005 	 training loss : 2.42123 	 
+2025-05-04 03:34:34,604 INFO Iter : 84700 	 LR : 0.00005 	 training loss : 2.21999 	 
+2025-05-04 03:38:54,092 INFO Iter : 84800 	 LR : 0.00005 	 training loss : 1.91042 	 
+2025-05-04 03:43:14,745 INFO Iter : 84900 	 LR : 0.00005 	 training loss : 2.69853 	 
+2025-05-04 03:47:33,611 INFO Iter : 85000 	 LR : 0.00005 	 training loss : 2.42512 	 
+2025-05-04 03:47:48,582 INFO Val. loss : 3.241 	 CER : 0.0141 	 WER : 0.0531 	 
+2025-05-04 03:52:09,081 INFO Iter : 85100 	 LR : 0.00005 	 training loss : 2.25536 	 
+2025-05-04 03:56:29,488 INFO Iter : 85200 	 LR : 0.00005 	 training loss : 2.14316 	 
+2025-05-04 04:00:51,800 INFO Iter : 85300 	 LR : 0.00005 	 training loss : 1.86404 	 
+2025-05-04 04:05:12,759 INFO Iter : 85400 	 LR : 0.00005 	 training loss : 2.03519 	 
+2025-05-04 04:09:33,871 INFO Iter : 85500 	 LR : 0.00005 	 training loss : 2.21943 	 
+2025-05-04 04:13:51,642 INFO Iter : 85600 	 LR : 0.00004 	 training loss : 1.99811 	 
+2025-05-04 04:18:12,559 INFO Iter : 85700 	 LR : 0.00004 	 training loss : 2.10237 	 
+2025-05-04 04:22:31,634 INFO Iter : 85800 	 LR : 0.00004 	 training loss : 2.06728 	 
+2025-05-04 04:26:52,594 INFO Iter : 85900 	 LR : 0.00004 	 training loss : 2.29157 	 
+2025-05-04 04:31:12,407 INFO Iter : 86000 	 LR : 0.00004 	 training loss : 2.14788 	 
+2025-05-04 04:31:27,375 INFO Val. loss : 3.271 	 CER : 0.0142 	 WER : 0.0533 	 
+2025-05-04 04:35:48,632 INFO Iter : 86100 	 LR : 0.00004 	 training loss : 2.44189 	 
+2025-05-04 04:40:08,318 INFO Iter : 86200 	 LR : 0.00004 	 training loss : 2.39019 	 
+2025-05-04 04:44:30,079 INFO Iter : 86300 	 LR : 0.00004 	 training loss : 2.20305 	 
+2025-05-04 04:48:49,434 INFO Iter : 86400 	 LR : 0.00004 	 training loss : 2.09396 	 
+2025-05-04 04:53:08,594 INFO Iter : 86500 	 LR : 0.00004 	 training loss : 1.97592 	 
+2025-05-04 04:57:26,722 INFO Iter : 86600 	 LR : 0.00004 	 training loss : 1.90678 	 
+2025-05-04 05:01:47,603 INFO Iter : 86700 	 LR : 0.00004 	 training loss : 2.01053 	 
+2025-05-04 05:06:06,773 INFO Iter : 86800 	 LR : 0.00004 	 training loss : 1.74402 	 
+2025-05-04 05:10:26,656 INFO Iter : 86900 	 LR : 0.00004 	 training loss : 2.27276 	 
+2025-05-04 05:14:47,241 INFO Iter : 87000 	 LR : 0.00004 	 training loss : 1.94860 	 
+2025-05-04 05:15:02,365 INFO Val. loss : 3.303 	 CER : 0.0143 	 WER : 0.0534 	 
+2025-05-04 05:19:24,438 INFO Iter : 87100 	 LR : 0.00004 	 training loss : 1.73001 	 
+2025-05-04 05:23:43,129 INFO Iter : 87200 	 LR : 0.00003 	 training loss : 1.99523 	 
+2025-05-04 05:28:03,235 INFO Iter : 87300 	 LR : 0.00003 	 training loss : 2.20122 	 
+2025-05-04 05:32:23,981 INFO Iter : 87400 	 LR : 0.00003 	 training loss : 1.93363 	 
+2025-05-04 05:36:43,679 INFO Iter : 87500 	 LR : 0.00003 	 training loss : 2.09133 	 
+2025-05-04 05:41:04,485 INFO Iter : 87600 	 LR : 0.00003 	 training loss : 2.29602 	 
+2025-05-04 05:45:24,236 INFO Iter : 87700 	 LR : 0.00003 	 training loss : 1.84833 	 
+2025-05-04 05:49:45,898 INFO Iter : 87800 	 LR : 0.00003 	 training loss : 1.99543 	 
+2025-05-04 05:54:06,024 INFO Iter : 87900 	 LR : 0.00003 	 training loss : 2.22619 	 
+2025-05-04 05:58:27,936 INFO Iter : 88000 	 LR : 0.00003 	 training loss : 1.91176 	 
+2025-05-04 05:58:43,005 INFO Val. loss : 3.341 	 CER : 0.0143 	 WER : 0.0529 	 
+2025-05-04 06:03:01,765 INFO Iter : 88100 	 LR : 0.00003 	 training loss : 2.39548 	 
+2025-05-04 06:07:22,800 INFO Iter : 88200 	 LR : 0.00003 	 training loss : 2.09439 	 
+2025-05-04 06:11:42,523 INFO Iter : 88300 	 LR : 0.00003 	 training loss : 1.85070 	 
+2025-05-04 06:16:02,501 INFO Iter : 88400 	 LR : 0.00003 	 training loss : 2.35800 	 
+2025-05-04 06:20:21,951 INFO Iter : 88500 	 LR : 0.00003 	 training loss : 1.71914 	 
+2025-05-04 06:24:42,263 INFO Iter : 88600 	 LR : 0.00003 	 training loss : 2.22396 	 
+2025-05-04 06:29:01,175 INFO Iter : 88700 	 LR : 0.00003 	 training loss : 2.36672 	 
+2025-05-04 06:33:21,412 INFO Iter : 88800 	 LR : 0.00003 	 training loss : 2.10568 	 
+2025-05-04 06:37:41,359 INFO Iter : 88900 	 LR : 0.00003 	 training loss : 2.25611 	 
+2025-05-04 06:42:03,905 INFO Iter : 89000 	 LR : 0.00003 	 training loss : 1.70064 	 
+2025-05-04 06:42:18,987 INFO Val. loss : 3.372 	 CER : 0.0144 	 WER : 0.0534 	 
+2025-05-04 06:46:39,078 INFO Iter : 89100 	 LR : 0.00002 	 training loss : 1.70279 	 
+2025-05-04 06:51:00,083 INFO Iter : 89200 	 LR : 0.00002 	 training loss : 1.73140 	 
+2025-05-04 06:55:20,555 INFO Iter : 89300 	 LR : 0.00002 	 training loss : 1.75162 	 
+2025-05-04 06:59:40,846 INFO Iter : 89400 	 LR : 0.00002 	 training loss : 1.89537 	 
+2025-05-04 07:04:00,075 INFO Iter : 89500 	 LR : 0.00002 	 training loss : 1.56417 	 
+2025-05-04 07:08:21,787 INFO Iter : 89600 	 LR : 0.00002 	 training loss : 1.94362 	 
+2025-05-04 07:12:41,262 INFO Iter : 89700 	 LR : 0.00002 	 training loss : 1.80106 	 
+2025-05-04 07:17:03,190 INFO Iter : 89800 	 LR : 0.00002 	 training loss : 1.68750 	 
+2025-05-04 07:21:22,584 INFO Iter : 89900 	 LR : 0.00002 	 training loss : 2.02701 	 
+2025-05-04 07:25:43,393 INFO Iter : 90000 	 LR : 0.00002 	 training loss : 2.17071 	 
+2025-05-04 07:25:58,325 INFO Val. loss : 3.406 	 CER : 0.0143 	 WER : 0.0535 	 
+2025-05-04 07:30:17,851 INFO Iter : 90100 	 LR : 0.00002 	 training loss : 1.69586 	 
+2025-05-04 07:34:39,528 INFO Iter : 90200 	 LR : 0.00002 	 training loss : 2.16192 	 
+2025-05-04 07:38:59,294 INFO Iter : 90300 	 LR : 0.00002 	 training loss : 1.69116 	 
+2025-05-04 07:43:21,388 INFO Iter : 90400 	 LR : 0.00002 	 training loss : 1.82916 	 
+2025-05-04 07:47:40,105 INFO Iter : 90500 	 LR : 0.00002 	 training loss : 1.96572 	 
+2025-05-04 07:52:01,213 INFO Iter : 90600 	 LR : 0.00002 	 training loss : 2.12625 	 
+2025-05-04 07:56:22,531 INFO Iter : 90700 	 LR : 0.00002 	 training loss : 1.54303 	 
+2025-05-04 08:00:42,630 INFO Iter : 90800 	 LR : 0.00002 	 training loss : 1.46292 	 
+2025-05-04 08:05:02,859 INFO Iter : 90900 	 LR : 0.00002 	 training loss : 1.74470 	 
+2025-05-04 08:09:21,619 INFO Iter : 91000 	 LR : 0.00002 	 training loss : 1.82080 	 
+2025-05-04 08:09:36,596 INFO Val. loss : 3.449 	 CER : 0.0144 	 WER : 0.0542 	 
+2025-05-04 08:13:58,040 INFO Iter : 91100 	 LR : 0.00002 	 training loss : 1.52085 	 
+2025-05-04 08:18:17,881 INFO Iter : 91200 	 LR : 0.00002 	 training loss : 1.31447 	 
+2025-05-04 08:22:39,025 INFO Iter : 91300 	 LR : 0.00001 	 training loss : 1.66669 	 
+2025-05-04 08:26:58,186 INFO Iter : 91400 	 LR : 0.00001 	 training loss : 1.72254 	 
+2025-05-04 08:31:19,733 INFO Iter : 91500 	 LR : 0.00001 	 training loss : 2.25754 	 
+2025-05-04 08:35:38,790 INFO Iter : 91600 	 LR : 0.00001 	 training loss : 1.66883 	 
+2025-05-04 08:39:59,645 INFO Iter : 91700 	 LR : 0.00001 	 training loss : 1.63892 	 
+2025-05-04 08:44:20,103 INFO Iter : 91800 	 LR : 0.00001 	 training loss : 1.97783 	 
+2025-05-04 08:48:41,455 INFO Iter : 91900 	 LR : 0.00001 	 training loss : 1.75968 	 
+2025-05-04 08:53:01,162 INFO Iter : 92000 	 LR : 0.00001 	 training loss : 1.90898 	 
+2025-05-04 08:53:16,186 INFO Val. loss : 3.470 	 CER : 0.0143 	 WER : 0.0537 	 
+2025-05-04 08:57:36,566 INFO Iter : 92100 	 LR : 0.00001 	 training loss : 1.70617 	 
+2025-05-04 09:01:56,189 INFO Iter : 92200 	 LR : 0.00001 	 training loss : 1.72483 	 
+2025-05-04 09:06:16,839 INFO Iter : 92300 	 LR : 0.00001 	 training loss : 1.52610 	 
+2025-05-04 09:10:36,346 INFO Iter : 92400 	 LR : 0.00001 	 training loss : 1.84716 	 
+2025-05-04 09:14:56,605 INFO Iter : 92500 	 LR : 0.00001 	 training loss : 1.49944 	 
+2025-05-04 09:19:15,047 INFO Iter : 92600 	 LR : 0.00001 	 training loss : 1.43818 	 
+2025-05-04 09:23:35,188 INFO Iter : 92700 	 LR : 0.00001 	 training loss : 1.53868 	 
+2025-05-04 09:27:55,902 INFO Iter : 92800 	 LR : 0.00001 	 training loss : 1.53915 	 
+2025-05-04 09:32:17,388 INFO Iter : 92900 	 LR : 0.00001 	 training loss : 1.88303 	 
+2025-05-04 09:36:37,783 INFO Iter : 93000 	 LR : 0.00001 	 training loss : 2.10671 	 
+2025-05-04 09:36:52,778 INFO Val. loss : 3.488 	 CER : 0.0144 	 WER : 0.0539 	 
+2025-05-04 09:41:14,302 INFO Iter : 93100 	 LR : 0.00001 	 training loss : 1.77816 	 
+2025-05-04 09:45:33,526 INFO Iter : 93200 	 LR : 0.00001 	 training loss : 1.62892 	 
+2025-05-04 09:49:53,476 INFO Iter : 93300 	 LR : 0.00001 	 training loss : 1.94810 	 
+2025-05-04 09:54:12,411 INFO Iter : 93400 	 LR : 0.00001 	 training loss : 1.88665 	 
+2025-05-04 09:58:32,627 INFO Iter : 93500 	 LR : 0.00001 	 training loss : 1.30132 	 
+2025-05-04 10:02:51,351 INFO Iter : 93600 	 LR : 0.00001 	 training loss : 1.38071 	 
+2025-05-04 10:07:13,262 INFO Iter : 93700 	 LR : 0.00001 	 training loss : 1.83405 	 
+2025-05-04 10:11:32,347 INFO Iter : 93800 	 LR : 0.00001 	 training loss : 1.67623 	 
+2025-05-04 10:15:52,360 INFO Iter : 93900 	 LR : 0.00001 	 training loss : 1.90840 	 
+2025-05-04 10:20:15,287 INFO Iter : 94000 	 LR : 0.00001 	 training loss : 1.69975 	 
+2025-05-04 10:20:30,314 INFO Val. loss : 3.520 	 CER : 0.0144 	 WER : 0.0540 	 
+2025-05-04 10:24:50,290 INFO Iter : 94100 	 LR : 0.00001 	 training loss : 1.32255 	 
+2025-05-04 10:29:10,437 INFO Iter : 94200 	 LR : 0.00001 	 training loss : 1.56309 	 
+2025-05-04 10:33:29,993 INFO Iter : 94300 	 LR : 0.00001 	 training loss : 1.66204 	 
+2025-05-04 10:37:52,413 INFO Iter : 94400 	 LR : 0.00001 	 training loss : 1.43678 	 
+2025-05-04 10:42:12,773 INFO Iter : 94500 	 LR : 0.00001 	 training loss : 1.49826 	 
+2025-05-04 10:46:34,333 INFO Iter : 94600 	 LR : 0.00000 	 training loss : 1.43768 	 
+2025-05-04 10:50:54,118 INFO Iter : 94700 	 LR : 0.00000 	 training loss : 1.38392 	 
+2025-05-04 10:55:15,620 INFO Iter : 94800 	 LR : 0.00000 	 training loss : 1.32901 	 
+2025-05-04 10:59:34,721 INFO Iter : 94900 	 LR : 0.00000 	 training loss : 1.47304 	 
+2025-05-04 11:03:55,789 INFO Iter : 95000 	 LR : 0.00000 	 training loss : 1.75043 	 
+2025-05-04 11:04:10,917 INFO Val. loss : 3.548 	 CER : 0.0144 	 WER : 0.0540 	 
+2025-05-04 11:08:30,241 INFO Iter : 95100 	 LR : 0.00000 	 training loss : 1.30471 	 
+2025-05-04 11:12:51,604 INFO Iter : 95200 	 LR : 0.00000 	 training loss : 1.48385 	 
+2025-05-04 11:17:11,871 INFO Iter : 95300 	 LR : 0.00000 	 training loss : 1.88416 	 
+2025-05-04 11:21:33,935 INFO Iter : 95400 	 LR : 0.00000 	 training loss : 1.30661 	 
+2025-05-04 11:25:55,296 INFO Iter : 95500 	 LR : 0.00000 	 training loss : 1.53784 	 
+2025-05-04 11:30:17,174 INFO Iter : 95600 	 LR : 0.00000 	 training loss : 1.13688 	 
+2025-05-04 11:34:36,331 INFO Iter : 95700 	 LR : 0.00000 	 training loss : 1.69267 	 
+2025-05-04 11:38:58,170 INFO Iter : 95800 	 LR : 0.00000 	 training loss : 1.56963 	 
+2025-05-04 11:43:17,102 INFO Iter : 95900 	 LR : 0.00000 	 training loss : 1.32243 	 
+2025-05-04 11:47:38,933 INFO Iter : 96000 	 LR : 0.00000 	 training loss : 1.36384 	 
+2025-05-04 11:47:54,048 INFO Val. loss : 3.576 	 CER : 0.0144 	 WER : 0.0542 	 
+2025-05-04 11:52:14,440 INFO Iter : 96100 	 LR : 0.00000 	 training loss : 1.92643 	 
+2025-05-04 11:56:35,905 INFO Iter : 96200 	 LR : 0.00000 	 training loss : 1.56555 	 
+2025-05-04 12:00:56,395 INFO Iter : 96300 	 LR : 0.00000 	 training loss : 1.52770 	 
+2025-05-04 12:05:17,499 INFO Iter : 96400 	 LR : 0.00000 	 training loss : 1.83759 	 
+2025-05-04 12:09:37,073 INFO Iter : 96500 	 LR : 0.00000 	 training loss : 1.76166 	 
+2025-05-04 12:13:57,773 INFO Iter : 96600 	 LR : 0.00000 	 training loss : 1.56318 	 
+2025-05-04 12:18:18,061 INFO Iter : 96700 	 LR : 0.00000 	 training loss : 1.59771 	 
+2025-05-04 12:22:39,125 INFO Iter : 96800 	 LR : 0.00000 	 training loss : 1.42995 	 
+2025-05-04 12:27:00,180 INFO Iter : 96900 	 LR : 0.00000 	 training loss : 1.06122 	 
+2025-05-04 12:31:19,632 INFO Iter : 97000 	 LR : 0.00000 	 training loss : 1.31806 	 
+2025-05-04 12:31:34,576 INFO Val. loss : 3.602 	 CER : 0.0144 	 WER : 0.0542 	 
+2025-05-04 12:35:55,546 INFO Iter : 97100 	 LR : 0.00000 	 training loss : 1.76926 	 
+2025-05-04 12:40:15,804 INFO Iter : 97200 	 LR : 0.00000 	 training loss : 1.42674 	 
+2025-05-04 12:44:36,291 INFO Iter : 97300 	 LR : 0.00000 	 training loss : 1.90013 	 
+2025-05-04 12:48:56,070 INFO Iter : 97400 	 LR : 0.00000 	 training loss : 1.49792 	 
+2025-05-04 12:53:17,283 INFO Iter : 97500 	 LR : 0.00000 	 training loss : 1.62512 	 
+2025-05-04 12:57:37,003 INFO Iter : 97600 	 LR : 0.00000 	 training loss : 1.44626 	 
+2025-05-04 13:01:59,840 INFO Iter : 97700 	 LR : 0.00000 	 training loss : 1.24177 	 
+2025-05-04 13:06:20,420 INFO Iter : 97800 	 LR : 0.00000 	 training loss : 1.84867 	 
+2025-05-04 13:10:41,711 INFO Iter : 97900 	 LR : 0.00000 	 training loss : 1.25191 	 
+2025-05-04 13:15:01,393 INFO Iter : 98000 	 LR : 0.00000 	 training loss : 1.86731 	 
+2025-05-04 13:15:16,379 INFO Val. loss : 3.621 	 CER : 0.0144 	 WER : 0.0542 	 
+2025-05-04 13:19:37,383 INFO Iter : 98100 	 LR : 0.00000 	 training loss : 1.44086 	 
+2025-05-04 13:23:57,133 INFO Iter : 98200 	 LR : 0.00000 	 training loss : 1.11557 	 
+2025-05-04 13:28:17,583 INFO Iter : 98300 	 LR : 0.00000 	 training loss : 1.71030 	 
+2025-05-04 13:32:37,114 INFO Iter : 98400 	 LR : 0.00000 	 training loss : 1.89948 	 
+2025-05-04 13:36:59,011 INFO Iter : 98500 	 LR : 0.00000 	 training loss : 1.52465 	 
+2025-05-04 13:41:19,171 INFO Iter : 98600 	 LR : 0.00000 	 training loss : 1.43589 	 
+2025-05-04 13:45:40,994 INFO Iter : 98700 	 LR : 0.00000 	 training loss : 1.30951 	 
+2025-05-04 13:50:01,418 INFO Iter : 98800 	 LR : 0.00000 	 training loss : 1.65894 	 
+2025-05-04 13:54:22,551 INFO Iter : 98900 	 LR : 0.00000 	 training loss : 1.80469 	 
+2025-05-04 13:58:43,958 INFO Iter : 99000 	 LR : 0.00000 	 training loss : 1.43965 	 
+2025-05-04 13:58:59,007 INFO Val. loss : 3.637 	 CER : 0.0143 	 WER : 0.0539 	 
+2025-05-04 14:03:20,882 INFO Iter : 99100 	 LR : 0.00000 	 training loss : 1.46111 	 
+2025-05-04 14:07:40,997 INFO Iter : 99200 	 LR : 0.00000 	 training loss : 1.32682 	 
+2025-05-04 14:12:01,818 INFO Iter : 99300 	 LR : 0.00000 	 training loss : 1.56030 	 
+2025-05-04 14:16:20,965 INFO Iter : 99400 	 LR : 0.00000 	 training loss : 1.87415 	 
+2025-05-04 14:20:41,254 INFO Iter : 99500 	 LR : 0.00000 	 training loss : 1.24423 	 
+2025-05-04 14:25:01,017 INFO Iter : 99600 	 LR : 0.00000 	 training loss : 1.10696 	 
+2025-05-04 14:29:21,379 INFO Iter : 99700 	 LR : 0.00000 	 training loss : 1.67376 	 
+2025-05-04 14:33:40,692 INFO Iter : 99800 	 LR : 0.00000 	 training loss : 1.73822 	 
+2025-05-04 14:38:01,934 INFO Iter : 99900 	 LR : 0.00000 	 training loss : 0.94399 	 

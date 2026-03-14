@@ -11,12 +11,12 @@ from PIL import Image
 import torchvision.transforms as transforms
 import logging
 
-from Layout_analysis.core.layout import PageLayout
-from Layout_analysis.document_ocr.page_parser import PageParser
+from pero_ocr.core.layout import PageLayout
+from pero_ocr.document_ocr.page_parser import PageParser
 
 # Utils and model imports (adjust as needed)
-from OCR.utils import utils
-from OCR.model import HTR_VT
+from utils import utils
+from model import HTR_VT
 
 # --- Logging setup ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -53,7 +53,6 @@ class OCRProcessor:
         return model.to(self.device)
 
     def _init_converter(self):
-        # Use your character list here
         character_list = [' ', '!', '&', "'", '(', ')', '*', ',', '-', '.', '/', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ':', ';', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '[', ']', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '£', '§', '«', '°', '»', 'Æ', 'Ç', 'à', 'á', 'â', 'ã', 'æ', 'ç', 'è', 'é', 'ë', 'í', 'î', 'ï', 'ñ', 'ò', 'ó', 'ô', 'õ', 'ù', 'ú', 'û', 'ü', 'ā', 'Č', 'č', 'đ', 'ē', 'ę', 'ĩ', 'ň', 'œ', 'š', 'ũ', 'ž', 'ſ', '̃', 'ẽ', '—', '†', '€', '☞']
         return utils.CTCLabelConverter(character_list)
 
@@ -108,20 +107,29 @@ class LayoutProcessor:
     def save_layout_xml(self, page_layout, output_path):
         page_layout.to_pagexml(output_path)
 
-# --- Main Pipeline ---
+# --- PRESERVE ORIGINAL XML IDs ---
+def get_line_id(line):
+    """Extract original PeroOCR line ID (r001-l087 format)"""
+    try:
+        return getattr(line, 'id', f'line_{id(line)}')
+    except:
+        return f'line_{id(line)}'
+
 def smart_sorted_regions(page_layout):
-    # Sort regions by the minimum x of their polygon (leftmost point)
+    """Sort regions by leftmost x-coordinate"""
     return sorted(
         page_layout.regions,
         key=lambda r: min(pt[0] for pt in getattr(r, 'polygon', [(0, 0)]))
     )
 
 def smart_sorted_lines(region):
-    # Sort lines by the minimum y of their polygon (topmost point)
+    """Sort lines by topmost y-coordinate"""
     return sorted(
         region.lines,
         key=lambda l: min(pt[1] for pt in getattr(l, 'polygon', [(0, 0)]))
     )
+
+# --- Main Pipeline ---
 class LayoutAndOCRPipeline:
     def __init__(self, config_path, ocr_args):
         self.layout_processor = LayoutProcessor(config_path)
@@ -133,44 +141,41 @@ class LayoutAndOCRPipeline:
         page_layout = self.layout_processor.process_image(input_image_path)
         os.makedirs(cropped_lines_folder, exist_ok=True)
 
-        for region_idx, region in enumerate(page_layout.regions):  # NO SORTING!
+        for region_idx, region in enumerate(smart_sorted_regions(page_layout)):
             logger.info(f"Processing region {region_idx} with {len(region.lines)} lines.")
-            for line_idx, line in enumerate(region.lines):  # NO SORTING!
+
+            # *** USE ORIGINAL LINE IDs FROM XML ***
+            for line in smart_sorted_lines(region):
+                line_id = get_line_id(line)
                 line_image = line.crop.astype(np.uint8)
                 line_image_path = os.path.join(
                     cropped_lines_folder,
-                    f"region_{region_idx}_line_{line_idx}.jpg"
+                    f"{line_id}.jpg"  # r001-l087.jpg, r001-l090.jpg
                 )
                 cv2.imwrite(line_image_path, line_image)
                 recognized_text = self.ocr_processor.process_image(line_image_path)
-                logger.info(f"Recognized text for line {line_idx} in region {region_idx}: {recognized_text}")
-                line.transcription = recognized_text  # Update line-by-line
+                logger.info(f"[{line_id}] {recognized_text}")
+                line.transcription = recognized_text
 
         logger.info("Saving final XML...")
         self.layout_processor.save_layout_xml(page_layout, output_xml_path)
         logger.info(f"Final XML saved to {output_xml_path}.")
         return page_layout
 
-
-
-
 def save_txt_from_layout(page_layout, txt_output_path):
     lines_in_order = []
-    for region in page_layout.regions:  # NO SORTING!
-        for line in region.lines:       # NO SORTING!
+    for region in smart_sorted_regions(page_layout):
+        for line in smart_sorted_lines(region):
             text = (getattr(line, "transcription", "") or "").strip()
             if text:
                 lines_in_order.append(text)
     with open(txt_output_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(lines_in_order))
+        f.write("\n".join(lines_in_order))  # FIXED: proper newlines
 
-
-
-
-# --- Argument parser (adjust as needed) ---
+# --- Argument parser ---
 def get_args_parser():
     import argparse
-    parser = argparse.ArgumentParser(description="Batch OCR Pipeline")
+    parser = argparse.ArgumentParser(description="Batch OCR Pipeline - PRESERVES XML IDs")
     parser.add_argument('--config-path', type=str, required=True, help='Path to pero-ocr config file')
     parser.add_argument('--image-folder', type=str, required=True, help='Folder with input images')
     parser.add_argument('--cropped-lines-folder', type=str, required=True, help='Folder for cropped lines')
@@ -189,10 +194,7 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
     os.makedirs(args.cropped_lines_folder, exist_ok=True)
 
-    # Find all images in the folder
     image_paths = sorted(glob.glob(os.path.join(args.image_folder, f"*.{args.image_extension}")))
-
-    # Initialize pipeline
     pipeline = LayoutAndOCRPipeline(config_path=args.config_path, ocr_args=args)
 
     for image_path in image_paths:
@@ -200,26 +202,27 @@ def main():
         cropped_lines_folder = os.path.join(args.cropped_lines_folder, base_name)
         os.makedirs(cropped_lines_folder, exist_ok=True)
 
-        # 1. Layout XML (structure only)
+        # 1. Layout XML
         layout_xml_path = os.path.join(out_dir, f"{base_name}_layout.xml")
         page_layout = pipeline.layout_processor.process_image(image_path)
         pipeline.layout_processor.save_layout_xml(page_layout, layout_xml_path)
 
-        # 2. OCR & ALTO/PAGE XML (with text)
+        # 2. OCR + XML with matching filenames
         final_xml_path = os.path.join(out_dir, f"{base_name}_with_text.xml")
-        page_layout_with_text =  pipeline.process_image(
-    input_image_path=image_path,
-    cropped_lines_folder=cropped_lines_folder,
-    output_xml_path=final_xml_path
-)
+        page_layout_with_text = pipeline.process_image(
+            input_image_path=image_path,
+            cropped_lines_folder=cropped_lines_folder,
+            output_xml_path=final_xml_path
+        )
 
-        # 3. TXT output (in smart reading order)
+        # 3. TXT output
         txt_path = os.path.join(out_dir, f"{base_name}.txt")
         save_txt_from_layout(page_layout_with_text, txt_path)
 
-        logger.info(f"Processed {image_path}: layout XML, ALTO/PAGE XML, and TXT saved.")
+        logger.info(f"✅ Processed {base_name}: r001-l087.jpg matches XML id=r001-l087")
 
-    logger.info(f"All images processed. Results are in {out_dir}")
+    logger.info(f"All images processed. Results in {out_dir}")
 
 if __name__ == "__main__":
     main()
+

@@ -1,0 +1,887 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2019-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Pero OCR</Creator>
+    <Created>2026-03-14T14:55:20.113009+00:00</Created>
+    <LastChange>2026-03-14T14:55:20.113009+00:00</LastChange>
+  </Metadata>
+  <Page imageFilename="images/Miguel_Del_Molino_book_page_58.tif" imageWidth="2664" imageHeight="3904">
+    <TextRegion id="r005">
+      <Coords points="1416,296 1367,300 1374,392 1545,389 1545,296 1416,296"/>
+      <TextLine id="r005-l001" index="0" custom="heights_v2:[71.9,21.1]">
+        <Coords points="1367,300 1374,392 1416,389 1457,389 1498,389 1545,389 1545,296 1498,296 1457,296 1416,296 1367,300"/>
+        <Baseline points="1372,371 1416,368 1457,368 1498,368 1545,368"/>
+        <TextEquiv>
+          <Unicode>Ie  </Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r000">
+      <Coords points="230,1792 414,1795 428,1490 239,1487 230,1792"/>
+      <TextLine id="r000-l045" index="0" custom="heights_v2:[45.9,20.5]">
+        <Coords points="239,1487 239,1553 286,1553 330,1553 373,1553 424,1556 428,1490 239,1487"/>
+        <Baseline points="239,1533 286,1533 330,1533 375,1533 425,1536"/>
+        <TextEquiv>
+          <Unicode>V i de i d </Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l048" index="1" custom="heights_v2:[38.0,17.1]">
+        <Coords points="425,1555 425,1548 371,1548 330,1545 283,1545 237,1545 236,1600 283,1600 326,1600 371,1603 423,1603 425,1555"/>
+        <Baseline points="236,1583 283,1583 327,1583 371,1586 424,1586"/>
+        <TextEquiv>
+          <Unicode>i mſræa oI</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l051" index="2" custom="heights_v2:[36.5,16.8]">
+        <Coords points="423,1597 374,1594 327,1594 283,1594 236,1591 234,1644 283,1647 327,1647 370,1647 421,1650 423,1597"/>
+        <Baseline points="235,1627 283,1630 327,1630 371,1630 421,1633"/>
+        <TextEquiv>
+          <Unicode>I —8. co 2.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l054" index="3" custom="heights_v2:[36.8,16.5]">
+        <Coords points="421,1641 368,1641 324,1641 280,1641 235,1638 233,1691 280,1694 324,1694 368,1694 419,1694 421,1641"/>
+        <Baseline points="233,1675 280,1678 324,1678 368,1678 420,1678"/>
+        <TextEquiv>
+          <Unicode>v e rſ eq ui-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l055" index="4" custom="heights_v2:[38.0,16.5]">
+        <Coords points="419,1687 368,1687 324,1687 280,1687 233,1687 231,1741 280,1741 324,1741 368,1741 417,1741 419,1687"/>
+        <Baseline points="232,1725 280,1725 324,1725 368,1725 417,1725"/>
+        <TextEquiv>
+          <Unicode>d ui t c5</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r000-l058" index="5" custom="heights_v2:[38.8,16.5]">
+        <Coords points="417,1739 368,1736 321,1736 277,1736 231,1736 230,1792 277,1792 321,1792 364,1792 414,1795 417,1739"/>
+        <Baseline points="230,1775 277,1775 321,1775 365,1775 415,1778"/>
+        <TextEquiv>
+          <Unicode>dẽnatus</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r001">
+      <Coords points="281,2467 233,2467 239,2568 378,2565 425,2518 425,2464 281,2467"/>
+      <TextLine id="r001-l087" index="0" custom="heights_v2:[38.1,15.6]">
+        <Coords points="233,2467 236,2521 284,2521 327,2518 371,2518 425,2518 425,2464 281,2467 233,2467"/>
+        <Baseline points="235,2505 283,2505 327,2502 371,2502 425,2502"/>
+        <TextEquiv>
+          <Unicode> e te rmi</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r001-l089" index="1" custom="heights_v2:[37.4,15.5]">
+        <Coords points="307,2566 327,2565 378,2565 378,2512 327,2512 284,2515 239,2515 239,2568 307,2566"/>
+        <Baseline points="239,2552 286,2552 327,2549 378,2549"/>
+        <TextEquiv>
+          <Unicode>oum i I</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r002">
+      <Coords points="426,746 492,743 489,690 423,693 426,746"/>
+      <TextLine id="r002-l014" index="0" custom="heights_v2:[36.8,16.2]">
+        <Coords points="492,743 489,690 423,693 426,746 492,743"/>
+        <Baseline points="425,730 491,727"/>
+        <TextEquiv>
+          <Unicode>m</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r003">
+      <Coords points="475,2882 437,2882 437,2933 475,2933 475,2882"/>
+      <TextLine id="r003-l104" index="0" custom="heights_v2:[35.5,15.6]">
+        <Coords points="437,2882 437,2933 475,2933 475,2882 437,2882"/>
+        <Baseline points="437,2918 475,2918"/>
+        <TextEquiv>
+          <Unicode></Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r004">
+      <Coords points="482,2026 490,2360 484,2584 497,2857 490,3188 495,3353 1460,3347 1461,2744 1451,2472 1445,1749 1452,403 917,394 491,400 494,1072 478,1803 482,2026"/>
+      <TextLine id="r004-l003" index="0" custom="heights_v2:[40.4,17.7]">
+        <Coords points="1273,400 1234,400 1176,399 1095,397 1023,397 917,394 811,397 705,397 600,400 491,400 491,458 602,458 705,455 813,455 915,452 1023,455 1126,455 1234,458 1337,458 1450,461 1452,403 1273,400"/>
+        <Baseline points="491,441 601,441 705,437 812,437 916,434 1023,437 1127,437 1234,441 1338,441 1451,444"/>
+        <TextEquiv>
+          <Unicode>bata per ipſũ procuratorẽ cõtractus,vide infra,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l004" index="1" custom="heights_v2:[39.3,17.5]">
+        <Coords points="1452,464 1339,461 1235,458 1130,458 1024,455 920,452 814,455 708,455 604,455 495,452 494,509 604,512 708,512 816,512 918,509 1022,512 1130,515 1233,515 1337,518 1450,521 1452,478 1452,464"/>
+        <Baseline points="494,491 604,494 708,494 815,494 919,491 1023,494 1130,497 1234,497 1338,500 1451,504"/>
+        <TextEquiv>
+          <Unicode>in verbo pcurator verſu.pcurator cõſtitut &amp;c.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l007" index="2" custom="heights_v2:[39.1,17.4]">
+        <Coords points="1451,521 1345,518 1244,515 1144,512 1043,509 944,508 845,505 742,509 641,512 538,512 538,568 643,568 743,565 843,562 944,565 1041,565 1142,568 1243,571 1343,574 1450,578 1451,549 1451,521"/>
+        <Baseline points="538,551 642,551 743,548 843,544 944,548 1042,548 1142,551 1243,554 1344,557 1451,560"/>
+        <TextEquiv>
+          <Unicode>Appellans ſi nõ dicit,q facit electionẽ proſe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l008" index="3" custom="heights_v2:[38.6,17.4]">
+        <Coords points="1451,578 1339,575 1234,575 1128,572 1024,569 917,566 812,566 705,566 601,566 492,563 492,573 492,619 601,622 705,622 812,622 915,622 1022,625 1126,628 1234,631 1337,631 1450,634 1451,619 1451,578"/>
+        <Baseline points="492,601 601,604 705,604 812,604 916,604 1023,607 1127,611 1234,614 1338,614 1451,617"/>
+        <TextEquiv>
+          <Unicode>cutionis iurisfirme:ſi poſtea infra decẽ dies con</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l010" index="4" custom="heights_v2:[38.9,17.4]">
+        <Coords points="1451,635 1339,631 1235,628 1131,625 1023,625 920,622 815,622 708,622 604,622 494,622 494,678 604,678 708,678 815,678 918,678 1023,681 1129,681 1233,685 1337,688 1450,691 1450,690 1451,635"/>
+        <Baseline points="494,661 604,661 708,661 815,661 919,661 1023,664 1130,664 1234,667 1338,670 1451,674"/>
+        <TextEquiv>
+          <Unicode>tentos in foro vnico de executione rei iudicate</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l013" index="5" custom="heights_v2:[39.1,17.5]">
+        <Coords points="1450,685 1338,685 1234,685 1128,682 1024,679 916,679 812,679 704,682 601,682 492,685 493,741 601,738 706,738 812,735 916,735 1022,735 1126,738 1234,741 1338,741 1450,741 1450,685"/>
+        <Baseline points="492,724 601,721 705,721 812,718 916,718 1023,718 1127,721 1234,724 1338,724 1450,724"/>
+        <TextEquiv>
+          <Unicode>Calata.præſentat iuris firmam, &amp; eius inhibitio</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l016" index="6" custom="heights_v2:[39.1,17.5]">
+        <Coords points="1450,738 1338,738 1233,741 1127,741 1024,738 917,735 812,735 705,735 600,738 493,741 493,798 602,795 705,792 812,792 915,792 1022,795 1127,798 1234,798 1338,795 1450,795 1450,738"/>
+        <Baseline points="493,780 601,777 705,774 812,774 916,774 1023,777 1127,781 1234,781 1338,777 1450,777"/>
+        <TextEquiv>
+          <Unicode>nẽ,an dicta preſentatio ſufficiat,ac ſi expreſſe di</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l018" index="7" custom="heights_v2:[39.2,17.2]">
+        <Coords points="1450,798 1338,798 1234,798 1128,795 1024,792 916,792 812,792 705,792 601,792 493,795 493,851 601,848 705,848 812,848 916,848 1022,848 1126,851 1234,854 1338,854 1450,854 1450,798"/>
+        <Baseline points="493,834 601,831 705,831 812,831 916,831 1023,831 1127,834 1234,837 1338,837 1450,837"/>
+        <TextEquiv>
+          <Unicode>xiſſet appellans,quod faciebat electionem pro</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l020" index="8" custom="heights_v2:[39.1,17.4]">
+        <Coords points="494,905 605,905 708,902 812,905 915,905 1023,908 1126,908 1231,911 1334,911 1448,911 1448,855 1334,855 1231,855 1128,852 1023,852 917,848 812,848 709,845 603,848 494,848 494,905"/>
+        <Baseline points="494,888 604,888 708,884 812,888 916,888 1023,891 1127,891 1231,894 1334,894 1448,894"/>
+        <TextEquiv>
+          <Unicode>ſecutionis iuris firme grauaminum factorũ : vi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l022" index="9" custom="heights_v2:[39.1,17.4]">
+        <Coords points="493,919 495,962 604,958 708,962 811,962 916,965 1023,965 1127,965 1231,965 1335,965 1448,962 1447,905 1333,908 1231,908 1127,908 1023,908 916,908 813,905 708,905 605,902 493,905 493,919"/>
+        <Baseline points="494,944 604,941 708,944 812,944 916,947 1023,947 1127,947 1231,947 1334,947 1448,944"/>
+        <TextEquiv>
+          <Unicode>di hoc dubitari in conſilio propter verba dicti</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l024" index="10" custom="heights_v2:[38.9,17.4]">
+        <Coords points="494,1015 595,1015 692,1015 790,1018 887,1018 982,1021 1080,1021 1177,1021 1275,1021 1379,1021 1379,965 1275,965 1177,965 1080,965 982,965 889,962 790,962 694,959 595,959 494,959 494,1015"/>
+        <Baseline points="494,998 595,998 692,998 790,1001 888,1001 982,1004 1080,1004 1177,1004 1275,1004 1379,1004"/>
+        <TextEquiv>
+          <Unicode>fori de executione rei iudicatæ cogitabitis.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l026" index="11" custom="heights_v2:[39.0,17.4]">
+        <Coords points="1449,1022 1344,1022 1243,1022 1146,1022 1046,1018 944,1018 848,1015 746,1015 645,1015 541,1015 541,1072 645,1072 746,1072 846,1072 944,1075 1044,1075 1146,1078 1243,1078 1344,1078 1448,1078 1449,1022"/>
+        <Baseline points="541,1054 645,1054 746,1054 847,1054 944,1057 1045,1057 1146,1061 1243,1061 1344,1061 1448,1061"/>
+        <TextEquiv>
+          <Unicode>Appellatio interpoſita ad papam per illum,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l028" index="12" custom="heights_v2:[39.0,17.6]">
+        <Coords points="1448,1075 1338,1075 1234,1075 1130,1075 1024,1072 919,1072 815,1072 708,1072 604,1072 494,1072 494,1129 604,1129 708,1129 815,1129 919,1129 1022,1129 1130,1132 1234,1132 1338,1132 1448,1132 1448,1075"/>
+        <Baseline points="494,1111 604,1111 708,1111 815,1111 919,1111 1023,1111 1130,1114 1234,1114 1338,1114 1448,1114"/>
+        <TextEquiv>
+          <Unicode>qui dixit ſe clericum : &amp; poſtea fuit declaratus</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l030" index="13" custom="heights_v2:[39.1,17.8]">
+        <Coords points="1448,1129 1337,1132 1233,1135 1131,1132 1023,1132 920,1129 815,1129 708,1129 604,1129 493,1132 495,1189 604,1185 708,1185 815,1185 918,1185 1023,1189 1129,1189 1234,1192 1338,1189 1448,1186 1448,1129"/>
+        <Baseline points="494,1171 604,1168 708,1168 815,1168 919,1168 1023,1171 1130,1171 1234,1174 1338,1171 1448,1168"/>
+        <TextEquiv>
+          <Unicode>eſſe bigamus p iudicẽ eccleſiaſticum, a qua de-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l032" index="14" custom="heights_v2:[38.8,17.6]">
+        <Coords points="1448,1217 1447,1185 1333,1189 1231,1189 1127,1189 1023,1189 917,1185 812,1185 708,1185 604,1185 493,1189 495,1245 604,1242 708,1242 812,1242 915,1242 1023,1245 1127,1245 1231,1245 1335,1245 1447,1242 1448,1217"/>
+        <Baseline points="494,1227 604,1224 708,1224 812,1224 916,1224 1023,1227 1127,1227 1231,1227 1334,1227 1447,1224"/>
+        <TextEquiv>
+          <Unicode>claratione fuit appellatnm , an dicta appellatio</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l034" index="15" custom="heights_v2:[39.0,17.8]">
+        <Coords points="1447,1242 1334,1242 1231,1242 1127,1242 1020,1242 917,1239 812,1239 705,1239 600,1242 491,1242 491,1299 602,1299 705,1296 812,1296 915,1296 1020,1299 1127,1299 1231,1299 1334,1299 1447,1299 1447,1242"/>
+        <Baseline points="491,1281 601,1281 705,1278 812,1278 916,1278 1020,1281 1127,1281 1231,1281 1334,1281 1447,1281"/>
+        <TextEquiv>
+          <Unicode>impediat executionem ſententie iudicis ſæcu-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l036" index="16" custom="heights_v2:[38.7,17.8]">
+        <Coords points="1447,1299 1334,1299 1229,1302 1127,1302 1020,1302 917,1299 812,1299 706,1296 601,1296 491,1296 491,1352 601,1352 704,1352 812,1355 915,1355 1020,1359 1127,1359 1231,1359 1334,1355 1447,1355 1447,1299"/>
+        <Baseline points="491,1334 601,1334 705,1334 812,1338 916,1338 1020,1341 1127,1341 1231,1341 1334,1338 1447,1338"/>
+        <TextEquiv>
+          <Unicode>laris,vide infra in verbo,firma verſu. Quidã fuit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l039" index="17" custom="heights_v2:[38.9,18.0]">
+        <Coords points="1447,1355 1334,1355 1231,1355 1124,1355 1020,1355 913,1355 809,1355 702,1355 599,1352 488,1352 488,1364 488,1409 597,1409 702,1412 809,1412 913,1412 1020,1412 1124,1412 1231,1412 1334,1412 1446,1412 1447,1355"/>
+        <Baseline points="488,1391 598,1391 702,1394 809,1394 913,1394 1020,1394 1124,1394 1231,1394 1334,1394 1447,1394"/>
+        <TextEquiv>
+          <Unicode>condemnatus &amp;c.&amp; circa predicta eſt notandũ,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l041" index="18" custom="heights_v2:[38.9,17.9]">
+        <Coords points="491,1466 601,1466 705,1466 809,1466 913,1466 1019,1466 1124,1469 1228,1469 1332,1466 1445,1462 1444,1406 1330,1409 1226,1412 1124,1412 1021,1409 913,1409 809,1409 705,1409 601,1409 491,1409 491,1466"/>
+        <Baseline points="491,1448 601,1448 705,1448 809,1448 913,1448 1020,1448 1124,1451 1227,1451 1331,1448 1445,1445"/>
+        <TextEquiv>
+          <Unicode>quod p die.17.Februarij:anno.1475.in conſi.iu-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l044" index="19" custom="heights_v2:[38.8,17.9]">
+        <Coords points="488,1525 599,1525 702,1522 809,1522 912,1519 1016,1522 1124,1525 1227,1522 1332,1522 1445,1519 1444,1462 1330,1466 1227,1466 1122,1469 1018,1466 914,1462 808,1466 702,1466 597,1469 488,1469 488,1525"/>
+        <Baseline points="488,1508 598,1508 702,1504 809,1504 913,1501 1017,1504 1124,1508 1227,1504 1331,1504 1445,1501"/>
+        <TextEquiv>
+          <Unicode>ſti.Arago.fuit poſitum dubium ſequens , quidã</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l047" index="20" custom="heights_v2:[39.0,17.4]">
+        <Coords points="488,1578 598,1578 702,1578 809,1578 913,1578 1016,1578 1124,1582 1227,1582 1331,1582 1445,1582 1445,1525 1331,1525 1227,1525 1124,1525 1018,1522 913,1522 809,1522 702,1522 598,1522 488,1522 488,1578"/>
+        <Baseline points="488,1561 598,1561 702,1561 809,1561 913,1561 1017,1561 1124,1564 1227,1564 1331,1564 1445,1564"/>
+        <TextEquiv>
+          <Unicode>vocatus Fredericus de Vrries,ad impediendum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l050" index="21" custom="heights_v2:[38.4,17.7]">
+        <Coords points="488,1635 598,1635 702,1635 809,1635 913,1635 1017,1635 1124,1635 1227,1635 1332,1635 1445,1632 1444,1576 1330,1579 1227,1579 1124,1579 1017,1579 913,1579 809,1579 702,1579 598,1579 488,1579 488,1635"/>
+        <Baseline points="488,1618 598,1618 702,1618 809,1618 913,1618 1017,1618 1124,1618 1227,1618 1331,1618 1445,1615"/>
+        <TextEquiv>
+          <Unicode>quendam proceſſum, qui contra eum in curia</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l053" index="22" custom="heights_v2:[38.4,17.7]">
+        <Coords points="482,1657 482,1692 592,1692 699,1692 803,1689 910,1689 1013,1689 1120,1692 1225,1692 1331,1689 1445,1689 1445,1633 1331,1633 1223,1636 1120,1636 1015,1633 910,1633 803,1633 698,1636 592,1636 482,1636 482,1657"/>
+        <Baseline points="482,1674 592,1674 699,1674 803,1671 910,1671 1013,1671 1120,1674 1224,1674 1331,1671 1445,1671"/>
+        <TextEquiv>
+          <Unicode>iuſti.Arago. ventilabatur,preſentauit locumte-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l057" index="23" custom="heights_v2:[38.5,17.8]">
+        <Coords points="1445,1692 1331,1692 1227,1692 1122,1689 1018,1686 910,1686 806,1686 698,1689 595,1689 485,1689 485,1746 595,1746 699,1746 806,1743 910,1743 1016,1743 1120,1746 1227,1749 1331,1749 1445,1749 1445,1692"/>
+        <Baseline points="485,1728 595,1728 699,1728 806,1725 910,1725 1017,1725 1120,1728 1227,1731 1331,1731 1445,1731"/>
+        <TextEquiv>
+          <Unicode>nen.iuſti.Arago.iurisfirmam eccleſiaſticam : &amp;</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l060" index="24" custom="heights_v2:[38.9,17.7]">
+        <Coords points="1445,1746 1331,1746 1224,1746 1120,1746 1013,1746 910,1746 803,1746 699,1746 592,1746 480,1749 482,1805 592,1802 699,1802 803,1802 910,1802 1013,1802 1120,1802 1224,1802 1331,1802 1445,1802 1445,1749 1445,1746"/>
+        <Baseline points="482,1788 592,1785 699,1785 803,1785 910,1785 1013,1785 1120,1785 1224,1785 1331,1785 1445,1785"/>
+        <TextEquiv>
+          <Unicode>eius inhibitionem,per quã cõſtabat , illum fore</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l062" index="25" custom="heights_v2:[38.4,17.8]">
+        <Coords points="1445,1803 1334,1803 1226,1806 1122,1803 1013,1803 911,1800 803,1800 696,1800 587,1803 478,1803 479,1859 589,1859 696,1856 803,1856 909,1856 1013,1859 1120,1859 1228,1862 1334,1859 1446,1859 1445,1803"/>
+        <Baseline points="479,1841 589,1841 696,1838 803,1838 910,1838 1013,1841 1120,1841 1227,1844 1334,1841 1445,1841"/>
+        <TextEquiv>
+          <Unicode>clericum , &amp; locũtenens. remiſit eũ ad ſuũ iudi</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l064" index="26" custom="heights_v2:[38.6,17.9]">
+        <Coords points="1446,1859 1334,1859 1227,1859 1120,1859 1015,1856 910,1856 803,1856 694,1859 589,1859 479,1859 480,1916 589,1916 696,1916 803,1913 910,1913 1013,1913 1120,1916 1227,1916 1334,1916 1446,1916 1446,1859"/>
+        <Baseline points="480,1898 589,1898 696,1898 803,1895 910,1895 1013,1895 1120,1898 1227,1898 1334,1898 1446,1898"/>
+        <TextEquiv>
+          <Unicode>cẽ eccleſiaſticũ. Demum alia pars citauit dictũ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l067" index="27" custom="heights_v2:[38.6,18.0]">
+        <Coords points="1446,1913 1334,1913 1227,1913 1125,1910 1017,1910 910,1910 805,1913 699,1913 591,1916 482,1916 482,1972 592,1972 699,1969 806,1969 910,1966 1017,1966 1123,1966 1227,1969 1334,1969 1447,1969 1446,1913"/>
+        <Baseline points="482,1954 592,1954 699,1951 806,1951 910,1948 1017,1948 1124,1948 1227,1951 1334,1951 1446,1951"/>
+        <TextEquiv>
+          <Unicode>Fredericũ coram iudice eccleſiaſtico,&amp; ibi alle</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l069" index="28" custom="heights_v2:[38.6,18.0]">
+        <Coords points="1447,1969 1336,1966 1231,1966 1124,1966 1020,1966 913,1966 809,1966 701,1969 597,1973 488,1972 488,2029 599,2029 702,2026 809,2023 913,2023 1020,2023 1124,2023 1231,2023 1334,2023 1447,2026 1447,1969"/>
+        <Baseline points="488,2011 598,2011 702,2008 809,2005 913,2005 1020,2005 1124,2005 1231,2005 1334,2005 1447,2008"/>
+        <TextEquiv>
+          <Unicode>gauit illũ fore bigamum,ſuplicando, tolli dictã</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l071" index="29" custom="heights_v2:[38.5,17.9]">
+        <Coords points="483,2083 592,2083 699,2079 806,2079 910,2079 1017,2079 1123,2079 1227,2083 1334,2083 1448,2083 1447,2026 1334,2026 1227,2026 1125,2023 1017,2023 910,2023 806,2023 699,2023 591,2026 482,2026 483,2083"/>
+        <Baseline points="482,2065 592,2065 699,2061 806,2061 910,2061 1017,2061 1124,2061 1227,2065 1334,2065 1447,2065"/>
+        <TextEquiv>
+          <Unicode>inhibitionẽ.Et conſtito,q erat bigamus,fuit ſu-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l073" index="30" custom="heights_v2:[38.3,18.0]">
+        <Coords points="484,2139 592,2139 699,2136 806,2136 910,2136 1016,2133 1124,2136 1227,2136 1334,2136 1448,2136 1448,2111 1447,2080 1334,2080 1227,2080 1124,2080 1018,2077 908,2080 806,2080 699,2080 591,2083 483,2083 484,2139"/>
+        <Baseline points="484,2121 592,2121 699,2118 806,2118 910,2118 1017,2115 1124,2118 1227,2118 1334,2118 1448,2118"/>
+        <TextEquiv>
+          <Unicode>blata inhibitio,&amp; fuit pronunciatum,illum eſſe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l075" index="31" custom="heights_v2:[38.2,18.0]">
+        <Coords points="486,2193 595,2193 701,2190 806,2193 913,2190 1016,2190 1124,2193 1227,2193 1334,2193 1447,2196 1448,2162 1448,2140 1336,2137 1227,2137 1124,2137 1018,2133 913,2133 805,2137 703,2133 594,2137 485,2137 485,2152 486,2193"/>
+        <Baseline points="485,2175 595,2175 702,2172 806,2175 913,2172 1017,2172 1124,2175 1227,2175 1334,2175 1448,2178"/>
+        <TextEquiv>
+          <Unicode>bigamum.Aqua ſententia dictus Fredericus ap</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l077" index="32" custom="heights_v2:[38.4,17.7]">
+        <Coords points="487,2249 595,2249 702,2246 809,2246 913,2246 1020,2246 1126,2246 1231,2249 1338,2249 1449,2246 1448,2190 1337,2193 1231,2193 1128,2190 1020,2190 913,2190 809,2190 702,2190 594,2193 486,2193 487,2249"/>
+        <Baseline points="487,2231 595,2231 702,2228 809,2228 913,2228 1020,2228 1127,2228 1231,2231 1338,2231 1449,2228"/>
+        <TextEquiv>
+          <Unicode>pellauit ad papam.Et dictus Fredericus fecit fi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l079" index="33" custom="heights_v2:[38.7,17.7]">
+        <Coords points="488,2303 598,2303 706,2303 809,2300 916,2300 1019,2299 1127,2303 1231,2303 1338,2303 1449,2300 1449,2243 1337,2246 1231,2246 1127,2246 1021,2243 916,2243 809,2243 704,2246 598,2246 488,2246 488,2278 488,2303"/>
+        <Baseline points="488,2285 598,2285 705,2285 809,2282 916,2282 1020,2282 1127,2285 1231,2285 1338,2285 1449,2282"/>
+        <TextEquiv>
+          <Unicode>dem locũten.iuſti. Arago. qualiter appellaue-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l081" index="34" custom="heights_v2:[38.4,17.8]">
+        <Coords points="1449,2303 1338,2303 1234,2303 1127,2303 1024,2300 916,2300 811,2303 705,2303 601,2303 491,2303 491,2359 601,2359 705,2359 813,2359 916,2356 1022,2356 1127,2359 1234,2359 1338,2359 1450,2359 1449,2303"/>
+        <Baseline points="491,2342 601,2342 705,2342 812,2342 916,2338 1023,2338 1127,2342 1234,2342 1338,2342 1450,2342"/>
+        <TextEquiv>
+          <Unicode>rat ad papam a dicta ſententia, &amp; ſic pretẽdeba</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l083" index="35" custom="heights_v2:[38.5,17.8]">
+        <Coords points="491,2416 601,2413 705,2413 813,2413 916,2410 1019,2410 1126,2413 1231,2416 1334,2416 1448,2416 1448,2360 1334,2360 1231,2360 1128,2357 1021,2353 916,2353 811,2357 705,2357 601,2357 490,2360 491,2416"/>
+        <Baseline points="491,2398 601,2395 705,2395 812,2395 916,2392 1020,2392 1127,2395 1231,2398 1334,2398 1448,2398"/>
+        <TextEquiv>
+          <Unicode>tur,q dicta appellatio ſuſpendebat dictam pro</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l085" index="36" custom="heights_v2:[38.2,17.6]">
+        <Coords points="488,2444 488,2472 598,2469 705,2469 809,2469 916,2466 1019,2466 1126,2469 1231,2472 1338,2472 1451,2472 1450,2417 1338,2417 1231,2417 1128,2414 1021,2410 916,2410 808,2414 705,2413 598,2413 488,2417 488,2444"/>
+        <Baseline points="488,2455 598,2452 705,2452 809,2452 916,2449 1020,2449 1127,2452 1231,2455 1338,2455 1451,2455"/>
+        <TextEquiv>
+          <Unicode>nuntiationẽ , p quã fuit pronuntiatum illum eſſe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l088" index="37" custom="heights_v2:[38.3,17.9]">
+        <Coords points="1451,2470 1338,2470 1232,2467 1128,2464 1020,2464 916,2464 808,2467 705,2467 597,2470 488,2470 488,2526 599,2526 705,2523 809,2523 916,2520 1020,2520 1126,2520 1230,2523 1338,2526 1451,2526 1451,2472 1451,2470"/>
+        <Baseline points="488,2508 598,2508 705,2505 809,2505 916,2502 1020,2502 1127,2502 1231,2505 1338,2508 1451,2508"/>
+        <TextEquiv>
+          <Unicode>bigamum.Fuit per oẽs concordes de cõſilio de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l091" index="38" custom="heights_v2:[38.4,18.0]">
+        <Coords points="488,2586 599,2583 706,2580 809,2577 916,2577 1020,2577 1126,2577 1231,2580 1337,2580 1450,2583 1452,2527 1339,2524 1231,2524 1128,2520 1020,2520 916,2520 809,2520 704,2524 597,2527 487,2530 488,2586"/>
+        <Baseline points="488,2568 598,2565 705,2562 809,2559 916,2559 1020,2559 1127,2559 1231,2562 1338,2562 1451,2565"/>
+        <TextEquiv>
+          <Unicode>liberatũ,quod nõ obſtãte dicta appellatione, lo</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l093" index="39" custom="heights_v2:[38.1,17.7]">
+        <Coords points="486,2639 595,2636 702,2633 809,2633 916,2630 1020,2630 1127,2630 1233,2630 1340,2633 1454,2636 1455,2581 1455,2580 1342,2577 1235,2574 1127,2574 1020,2574 916,2574 808,2577 702,2577 594,2580 484,2584 486,2639"/>
+        <Baseline points="486,2622 595,2619 702,2615 809,2615 916,2612 1020,2612 1127,2612 1234,2612 1341,2615 1454,2619"/>
+        <TextEquiv>
+          <Unicode>cũte,debebat mãdare pcedi ad vlteriora: &amp; fuit</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l095" index="40" custom="heights_v2:[38.4,17.6]">
+        <Coords points="489,2696 599,2693 705,2690 813,2690 919,2687 1023,2687 1130,2687 1236,2687 1343,2690 1457,2693 1458,2652 1457,2637 1345,2634 1238,2631 1130,2631 1023,2631 919,2631 811,2634 705,2634 597,2637 487,2640 487,2655 489,2696"/>
+        <Baseline points="488,2678 598,2675 705,2672 812,2672 919,2669 1023,2669 1130,2669 1237,2669 1344,2672 1457,2675"/>
+        <TextEquiv>
+          <Unicode>ibi dictũ in dicto conſilio,quod licet a dicta ſen</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l097" index="41" custom="heights_v2:[38.1,17.7]">
+        <Coords points="1459,2691 1347,2691 1241,2687 1136,2687 1030,2684 921,2687 818,2687 710,2691 603,2694 494,2694 494,2750 605,2750 712,2746 818,2743 923,2743 1029,2740 1136,2743 1240,2743 1347,2746 1460,2746 1460,2716 1459,2691"/>
+        <Baseline points="494,2732 604,2732 711,2729 818,2726 922,2726 1029,2722 1136,2726 1240,2726 1347,2729 1460,2729"/>
+        <TextEquiv>
+          <Unicode>tenti a officialis eccleſiaſtici fiuſſe appellatum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l099" index="42" custom="heights_v2:[38.3,17.9]">
+        <Coords points="495,2806 605,2803 711,2800 819,2800 922,2797 1030,2797 1136,2794 1240,2794 1347,2797 1460,2800 1461,2744 1348,2741 1241,2738 1136,2738 1028,2741 922,2741 817,2744 711,2744 603,2747 493,2750 494,2801 495,2806"/>
+        <Baseline points="494,2788 604,2785 711,2782 818,2782 922,2779 1029,2779 1136,2776 1240,2776 1347,2779 1460,2782"/>
+        <TextEquiv>
+          <Unicode>ad papam,&amp; de iure per dictã appellationem re</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l100" index="43" custom="heights_v2:[38.0,17.8]">
+        <Coords points="607,2857 712,2857 818,2854 922,2854 1029,2854 1133,2854 1240,2854 1344,2854 1457,2854 1457,2798 1344,2798 1240,2798 1133,2798 1029,2798 922,2798 818,2798 710,2801 607,2801 497,2801 497,2857 607,2857"/>
+        <Baseline points="497,2839 607,2839 711,2839 818,2836 922,2836 1029,2836 1133,2836 1240,2836 1344,2836 1457,2836"/>
+        <TextEquiv>
+          <Unicode>manet quædam iuris inhibitio. Tñ attenta ob-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l103" index="44" custom="heights_v2:[37.9,17.7]">
+        <Coords points="504,2916 614,2916 718,2913 821,2910 926,2910 1032,2907 1136,2907 1240,2907 1343,2907 1457,2910 1458,2854 1345,2851 1240,2851 1136,2851 1032,2851 924,2854 821,2854 716,2858 613,2861 504,2861 504,2916"/>
+        <Baseline points="504,2899 614,2899 718,2896 821,2892 925,2892 1032,2889 1136,2889 1240,2889 1344,2889 1457,2892"/>
+        <TextEquiv>
+          <Unicode>ſer.regni in ti.de probatio.facien. cũ car.in ob-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l106" index="45" custom="heights_v2:[38.1,17.5]">
+        <Coords points="497,2973 608,2973 712,2967 818,2963 923,2963 1029,2960 1133,2960 1240,2963 1343,2963 1457,2967 1458,2911 1345,2908 1240,2908 1134,2905 1029,2905 921,2908 818,2908 710,2911 605,2917 497,2917 497,2973"/>
+        <Baseline points="497,2955 607,2955 711,2949 818,2946 922,2946 1029,2943 1133,2943 1240,2946 1344,2946 1457,2949"/>
+        <TextEquiv>
+          <Unicode>ſer.penul.vbi diſponit,&amp; patet quod licet de iu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l108" index="46" custom="heights_v2:[38.3,17.5]">
+        <Coords points="1461,2964 1348,2961 1240,2961 1136,2961 1029,2961 925,2961 817,2964 713,2967 607,2967 496,2971 498,3026 607,3023 715,3023 819,3020 925,3017 1029,3017 1136,3017 1240,3017 1347,3017 1460,3020 1461,2979 1461,2964"/>
+        <Baseline points="497,3009 607,3006 714,3006 818,3003 925,2999 1029,2999 1136,2999 1240,2999 1347,2999 1460,3003"/>
+        <TextEquiv>
+          <Unicode>re excõicatus nõ admittat ad agẽdũ:vt extra de</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l110" index="47" custom="heights_v2:[38.1,17.4]">
+        <Coords points="1461,3018 1348,3015 1240,3015 1135,3018 1029,3018 925,3018 817,3021 714,3021 607,3021 497,3021 497,3077 607,3077 714,3077 819,3077 925,3073 1029,3073 1137,3073 1240,3070 1347,3070 1460,3073 1461,3036 1461,3018"/>
+        <Baseline points="497,3059 607,3059 714,3059 818,3059 925,3056 1029,3056 1136,3056 1240,3053 1347,3053 1460,3056"/>
+        <TextEquiv>
+          <Unicode>iudicijs.c.intelleximus. Tñ de obſer.regni nõ re</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l112" index="48" custom="heights_v2:[38.1,17.5]">
+        <Coords points="500,3133 611,3133 714,3130 822,3130 925,3127 1029,3127 1136,3130 1241,3130 1344,3127 1457,3127 1457,3071 1344,3071 1239,3075 1136,3075 1030,3071 925,3071 820,3075 714,3075 609,3078 500,3078 500,3133"/>
+        <Baseline points="500,3116 611,3116 714,3113 821,3113 925,3110 1029,3110 1136,3113 1240,3113 1344,3110 1457,3110"/>
+        <TextEquiv>
+          <Unicode>pellitur excõicatus ab agendo,niſi iudex eccle-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l114" index="49" custom="heights_v2:[37.9,17.4]">
+        <Coords points="494,3187 605,3187 711,3184 815,3184 923,3187 1026,3184 1133,3184 1237,3184 1344,3184 1457,3184 1457,3128 1344,3128 1237,3128 1133,3128 1026,3128 921,3131 816,3128 711,3128 603,3131 494,3131 494,3187"/>
+        <Baseline points="494,3169 604,3169 711,3166 815,3166 922,3169 1026,3166 1133,3166 1237,3166 1344,3166 1457,3166"/>
+        <TextEquiv>
+          <Unicode>ſiaſticus,q excõicauit requirat iudicẽ ſecularem</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l116" index="50" custom="heights_v2:[37.8,17.0]">
+        <Coords points="491,3243 601,3240 708,3240 815,3240 919,3240 1026,3240 1133,3240 1237,3240 1344,3237 1457,3237 1457,3182 1344,3182 1236,3185 1133,3185 1026,3185 919,3185 815,3185 708,3185 601,3185 490,3188 491,3243"/>
+        <Baseline points="491,3226 601,3223 708,3223 815,3223 919,3223 1026,3223 1133,3223 1237,3223 1344,3220 1457,3220"/>
+        <TextEquiv>
+          <Unicode>ne eũ admittat,&amp; ſic ad repellendũ excõicatum</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l118" index="51" custom="heights_v2:[38.3,16.7]">
+        <Coords points="493,3296 601,3293 708,3293 815,3293 919,3293 1026,3293 1133,3293 1237,3293 1344,3293 1457,3293 1457,3238 1344,3238 1237,3238 1133,3238 1026,3238 919,3238 815,3238 708,3238 601,3238 491,3241 493,3296"/>
+        <Baseline points="493,3279 601,3276 708,3276 815,3276 919,3276 1026,3276 1133,3276 1237,3276 1344,3276 1457,3276"/>
+        <TextEquiv>
+          <Unicode>non tufficit iuris inhibitio , niſi ſequatur iudicis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r004-l120" index="52" custom="heights_v2:[39.0,16.9]">
+        <Coords points="495,3353 605,3350 711,3347 818,3347 922,3347 1020,3350 1315,3348 1347,3347 1460,3347 1460,3291 1347,3291 1239,3294 1136,3294 1029,3294 923,3291 818,3291 711,3291 603,3294 493,3297 495,3353"/>
+        <Baseline points="494,3336 604,3333 711,3330 818,3330 922,3330 1029,3333 1136,3333 1240,3333 1347,3330 1460,3330"/>
+        <TextEquiv>
+          <Unicode>inhibitio.Ita ĩ propoſito fuit ibi dictũ,quod nõ</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r006">
+      <Coords points="1492,568 1498,2190 1491,2579 1504,2963 1504,3350 2137,3359 2272,3420 2462,3414 2449,2752 2442,392 2121,388 1491,398 1492,568"/>
+      <TextLine id="r006-l002" index="0" custom="heights_v2:[39.6,17.7]">
+        <Coords points="2121,388 2016,392 1914,392 1911,392 1709,395 1705,395 1700,395 1491,398 1492,455 1602,452 1706,452 1810,449 1914,449 2018,449 2121,446 2225,446 2329,449 2442,449 2442,392 2329,392 2275,390 2121,388"/>
+        <Baseline points="1492,437 1602,434 1706,434 1810,431 1914,431 2017,431 2121,428 2225,428 2329,431 2442,431"/>
+        <TextEquiv>
+          <Unicode>ſufficit illa iurisinhibitio,quã operatur dicta ap</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l005" index="1" custom="heights_v2:[39.1,17.7]">
+        <Coords points="2442,449 2333,446 2228,446 2123,449 2021,449 1916,452 1813,452 1709,452 1604,455 1495,455 1495,512 1606,512 1709,509 1813,509 1917,509 2021,506 2125,506 2228,502 2332,502 2443,505 2442,449"/>
+        <Baseline points="1495,494 1605,494 1709,491 1813,491 1917,491 2021,488 2124,488 2228,485 2332,485 2443,488"/>
+        <TextEquiv>
+          <Unicode>pellatio interpoſita ad Papam reſpectu iudicis</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l006" index="2" custom="heights_v2:[38.9,17.3]">
+        <Coords points="2443,502 2332,502 2228,502 2124,502 2019,506 1912,509 1810,509 1706,509 1601,512 1492,512 1492,568 1602,568 1706,565 1810,565 1914,565 2021,562 2124,559 2228,559 2332,559 2443,559 2443,502"/>
+        <Baseline points="1492,551 1602,551 1706,548 1810,548 1914,548 2021,544 2124,541 2228,541 2332,541 2443,541"/>
+        <TextEquiv>
+          <Unicode>eccleſiaſtici niſi iudex ſecularis fuiſſet expreſſe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l009" index="3" custom="heights_v2:[38.7,17.0]">
+        <Coords points="1492,624 1602,624 1706,621 1810,621 1914,618 2021,618 2124,615 2229,618 2332,615 2443,615 2443,559 2332,559 2227,562 2126,559 2019,562 1914,562 1809,566 1706,566 1601,569 1492,569 1492,624"/>
+        <Baseline points="1492,607 1602,607 1706,604 1810,604 1914,601 2021,601 2124,598 2228,601 2332,598 2443,598"/>
+        <TextEquiv>
+          <Unicode>inhibitus p iudicẽ eccleſiaſticũ.Et ſic nota, q iu-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l011" index="4" custom="heights_v2:[38.4,17.2]">
+        <Coords points="1492,679 1492,681 1602,678 1706,678 1810,675 1914,672 2021,672 2124,672 2228,672 2332,672 2443,672 2443,616 2332,616 2228,616 2124,616 2021,616 1914,616 1809,619 1705,623 1602,623 1492,626 1492,679"/>
+        <Baseline points="1492,664 1602,661 1706,661 1810,658 1914,655 2021,655 2124,655 2228,655 2332,655 2443,655"/>
+        <TextEquiv>
+          <Unicode>ris ihibitio nõ opat aliqd ĩ hoc caſu re ſpectu iu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l012" index="5" custom="heights_v2:[38.7,17.3]">
+        <Coords points="1492,738 1602,735 1706,735 1810,732 1914,732 2021,732 2124,732 2228,732 2333,732 2443,729 2443,673 2331,676 2228,676 2124,676 2021,676 1914,676 1810,676 1705,679 1602,679 1492,682 1492,738"/>
+        <Baseline points="1492,721 1602,718 1706,718 1810,714 1914,714 2021,714 2124,714 2228,714 2332,714 2443,711"/>
+        <TextEquiv>
+          <Unicode>dicis ſecularis:&amp; ex iſta rõe moti fuerũt ĩ di. cõ.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l015" index="6" custom="heights_v2:[38.6,17.3]">
+        <Coords points="2443,723 2337,726 2237,729 2140,729 2038,733 1942,732 1841,732 1744,732 1642,736 1539,736 1539,792 1643,792 1744,788 1841,788 1942,788 2040,788 2140,785 2238,785 2339,782 2443,779 2443,723"/>
+        <Baseline points="1539,774 1643,774 1744,771 1841,771 1942,771 2039,771 2140,768 2238,768 2338,765 2443,762"/>
+        <TextEquiv>
+          <Unicode>Appellationis inhibitio an,&amp; qñ arctet iudi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l017" index="7" custom="heights_v2:[38.8,17.3]">
+        <Coords points="2443,779 2331,783 2227,786 2124,786 2021,786 1916,789 1813,789 1709,789 1605,789 1494,792 1495,848 1605,845 1709,845 1813,845 1917,845 2021,842 2124,842 2229,842 2333,839 2443,836 2443,779"/>
+        <Baseline points="1495,831 1605,828 1709,828 1813,828 1917,828 2021,825 2124,825 2228,825 2332,821 2443,818"/>
+        <TextEquiv>
+          <Unicode>cem a quo,vide infra in verbo,inhibitio , &amp; vi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l019" index="8" custom="heights_v2:[39.0,17.0]">
+        <Coords points="2443,839 2332,839 2228,839 2123,842 2021,842 1917,842 1812,845 1709,845 1605,845 1495,845 1495,901 1605,901 1709,901 1813,901 1917,898 2021,898 2125,898 2228,895 2332,895 2444,895 2443,839"/>
+        <Baseline points="1495,884 1605,884 1709,884 1813,884 1917,881 2021,881 2124,881 2228,878 2332,878 2444,878"/>
+        <TextEquiv>
+          <Unicode>de ibi in verſu,die.5.Februari, vbi reperies vnũ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l021" index="9" custom="heights_v2:[38.8,17.3]">
+        <Coords points="1493,958 1602,955 1706,955 1810,955 1914,955 2021,952 2124,952 2228,952 2333,952 2444,949 2444,893 2331,896 2228,896 2124,896 2021,896 1912,899 1810,899 1706,899 1602,899 1493,902 1493,958"/>
+        <Baseline points="1493,941 1602,938 1706,938 1810,938 1914,938 2021,935 2124,935 2228,935 2332,935 2444,932"/>
+        <TextEquiv>
+          <Unicode>caſum,in quo non obſtante inhibitione appel-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l023" index="10" custom="heights_v2:[38.8,17.5]">
+        <Coords points="1494,1015 1565,1015 1633,1012 1703,1012 1772,1012 1838,1012 1908,1012 1976,1009 2046,1009 2121,1009 2121,953 2046,953 1976,953 1905,956 1838,956 1772,956 1703,956 1633,956 1562,959 1493,959 1494,1015"/>
+        <Baseline points="1493,998 1564,998 1633,995 1703,995 1772,995 1838,995 1907,995 1976,991 2046,991 2121,991"/>
+        <TextEquiv>
+          <Unicode>lationis continuatur executio.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l025" index="11" custom="heights_v2:[39.4,17.7]">
+        <Coords points="2444,1009 2338,1009 2235,1009 2131,1009 2027,1009 1923,1009 1819,1009 1714,1012 1611,1012 1497,1015 1499,1072 1611,1069 1716,1069 1819,1066 1923,1066 2027,1066 2131,1066 2235,1066 2338,1066 2444,1066 2444,1009"/>
+        <Baseline points="1498,1054 1611,1051 1715,1051 1819,1048 1923,1048 2027,1048 2131,1048 2235,1048 2338,1048 2444,1048"/>
+        <TextEquiv>
+          <Unicode>Appellationis iudex an poſſit reformare ſen-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l027" index="12" custom="heights_v2:[39.1,17.7]">
+        <Coords points="1494,1126 1602,1126 1706,1126 1813,1126 1916,1122 2021,1126 2128,1122 2231,1122 2335,1122 2444,1122 2444,1066 2335,1066 2231,1066 2128,1066 2019,1069 1918,1066 1812,1069 1706,1069 1602,1069 1494,1069 1494,1126"/>
+        <Baseline points="1494,1108 1602,1108 1706,1108 1813,1108 1917,1105 2021,1108 2128,1105 2231,1105 2335,1105 2444,1105"/>
+        <TextEquiv>
+          <Unicode>tentiam iudicis a quo. Videt̃ quod nõ, quia iu-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l029" index="13" custom="heights_v2:[39.2,17.8]">
+        <Coords points="2444,1119 2331,1122 2228,1122 2123,1125 2021,1125 1917,1125 1813,1125 1709,1125 1605,1125 1495,1125 1495,1182 1605,1182 1709,1182 1813,1182 1917,1182 2021,1182 2125,1182 2228,1179 2333,1179 2444,1176 2444,1119"/>
+        <Baseline points="1495,1164 1605,1164 1709,1164 1813,1164 1917,1164 2021,1164 2124,1164 2228,1161 2332,1161 2444,1158"/>
+        <TextEquiv>
+          <Unicode>dex appellatiõis ſolũmõ cõfirmat,vel ĩfirmat ſe</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l031" index="14" custom="heights_v2:[39.4,17.9]">
+        <Coords points="2444,1179 2332,1179 2228,1179 2124,1179 2021,1179 1917,1179 1813,1179 1709,1179 1604,1182 1495,1182 1495,1239 1606,1239 1709,1236 1813,1236 1917,1236 2021,1236 2124,1236 2228,1236 2332,1236 2445,1236 2444,1179"/>
+        <Baseline points="1495,1221 1605,1221 1709,1218 1813,1218 1917,1218 2021,1218 2124,1218 2228,1218 2332,1218 2444,1218"/>
+        <TextEquiv>
+          <Unicode>tẽtiã iudicis a quo.Quia nõ põt pnunciare, niſi</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l033" index="15" custom="heights_v2:[39.3,18.0]">
+        <Coords points="2445,1240 2444,1232 2331,1235 2228,1235 2124,1235 2021,1235 1918,1232 1812,1235 1709,1235 1604,1239 1495,1238 1495,1296 1606,1296 1709,1293 1813,1293 1916,1289 2021,1293 2124,1293 2228,1293 2333,1293 2445,1290 2445,1240"/>
+        <Baseline points="1495,1278 1605,1278 1709,1275 1813,1275 1917,1272 2021,1275 2124,1275 2228,1275 2332,1275 2445,1272"/>
+        <TextEquiv>
+          <Unicode>cõfirmãdo, vel infirmãdo, vt ĩ obſer.itẽ ĩ cauſa</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l035" index="16" custom="heights_v2:[39.3,17.7]">
+        <Coords points="1495,1352 1606,1352 1709,1349 1813,1349 1917,1349 2021,1349 2124,1349 2228,1349 2332,1349 2442,1349 2442,1292 2332,1292 2228,1292 2124,1292 2021,1292 1917,1292 1813,1292 1709,1292 1604,1295 1495,1295 1495,1352"/>
+        <Baseline points="1495,1334 1605,1334 1709,1331 1813,1331 1917,1331 2021,1331 2124,1331 2228,1331 2332,1331 2442,1331"/>
+        <TextEquiv>
+          <Unicode>&amp; in obſer.itẽ ſi inter locutoria ti.de appel. fol-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l038" index="17" custom="heights_v2:[38.7,17.3]">
+        <Coords points="1495,1408 1606,1408 1709,1405 1813,1405 1916,1402 2021,1405 2124,1405 2228,1405 2332,1405 2442,1405 2442,1349 2332,1349 2228,1349 2124,1349 2021,1349 1918,1346 1812,1349 1709,1349 1604,1352 1495,1352 1495,1379 1495,1408"/>
+        <Baseline points="1495,1391 1605,1391 1709,1388 1813,1388 1917,1385 2021,1388 2124,1388 2228,1388 2332,1388 2442,1388"/>
+        <TextEquiv>
+          <Unicode>37.ſignanter cũ dictæ obſer.loquãtur,per dictio</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l040" index="18" custom="heights_v2:[38.9,17.4]">
+        <Coords points="2445,1409 2336,1406 2231,1406 2128,1406 2024,1406 1921,1403 1815,1406 1712,1406 1608,1406 1498,1406 1498,1462 1608,1462 1712,1462 1817,1462 1919,1459 2024,1462 2128,1462 2231,1462 2335,1462 2445,1465 2445,1458 2445,1409"/>
+        <Baseline points="1498,1445 1608,1445 1712,1445 1816,1445 1920,1441 2024,1445 2128,1445 2231,1445 2335,1445 2445,1448"/>
+        <TextEquiv>
+          <Unicode>nẽ taxatiuã:vt in obſer:finali.de re iudicata.fol.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l043" index="19" custom="heights_v2:[38.7,17.6]">
+        <Coords points="2445,1459 2335,1459 2231,1459 2128,1459 2024,1459 1920,1459 1816,1459 1712,1459 1608,1459 1497,1463 1499,1519 1608,1516 1712,1516 1816,1516 1920,1516 2024,1516 2128,1516 2231,1516 2335,1516 2445,1516 2445,1459"/>
+        <Baseline points="1498,1501 1608,1498 1712,1498 1816,1498 1920,1498 2024,1498 2128,1498 2231,1498 2335,1498 2445,1498"/>
+        <TextEquiv>
+          <Unicode>14,ſi ergo iudex appellationis ſolũmodo poteſt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l046" index="20" custom="heights_v2:[38.9,17.4]">
+        <Coords points="1496,1575 1606,1575 1709,1572 1813,1572 1917,1572 2021,1572 2124,1572 2228,1572 2333,1572 2445,1569 2445,1549 2444,1513 2331,1516 2228,1516 2124,1516 2021,1516 1917,1516 1813,1516 1709,1516 1604,1519 1496,1519 1496,1575"/>
+        <Baseline points="1496,1558 1605,1558 1709,1555 1813,1555 1917,1555 2021,1555 2124,1555 2228,1555 2332,1555 2445,1552"/>
+        <TextEquiv>
+          <Unicode>pronuntiare confirmando vel infirmando ſen-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l049" index="21" custom="heights_v2:[38.8,17.1]">
+        <Coords points="1496,1632 1605,1632 1709,1632 1813,1629 1917,1629 2021,1629 2124,1629 2228,1629 2333,1629 2443,1625 2441,1570 2331,1573 2228,1573 2124,1573 2021,1573 1917,1573 1813,1573 1708,1576 1605,1576 1496,1576 1496,1632"/>
+        <Baseline points="1496,1615 1605,1615 1709,1615 1813,1611 1917,1611 2021,1611 2124,1611 2228,1611 2332,1611 2442,1608"/>
+        <TextEquiv>
+          <Unicode>tentiam iudicis a quo.ergo nõ poteſt vltra pro-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l052" index="22" custom="heights_v2:[39.0,17.3]">
+        <Coords points="1496,1685 1602,1685 1706,1685 1810,1685 1914,1685 2017,1685 2121,1685 2225,1685 2329,1685 2442,1685 2442,1629 2329,1629 2225,1629 2121,1629 2017,1629 1914,1629 1810,1629 1706,1629 1602,1629 1496,1629 1496,1685"/>
+        <Baseline points="1496,1668 1602,1668 1706,1668 1810,1668 1914,1668 2017,1668 2121,1668 2225,1668 2329,1668 2442,1668"/>
+        <TextEquiv>
+          <Unicode>cedere reformando.Fallit in iuſti.Arago.qui a-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l056" index="23" custom="heights_v2:[39.0,17.6]">
+        <Coords points="1496,1742 1602,1742 1706,1742 1810,1742 1914,1742 2018,1742 2121,1739 2225,1742 2329,1742 2442,1742 2442,1686 2329,1686 2225,1686 2122,1683 2016,1686 1914,1686 1810,1686 1706,1686 1602,1686 1496,1686 1496,1742"/>
+        <Baseline points="1496,1725 1602,1725 1706,1725 1810,1725 1914,1725 2017,1725 2121,1722 2225,1725 2329,1725 2442,1725"/>
+        <TextEquiv>
+          <Unicode>ditus eſt per firmam contrafori facti,qui poteſt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l059" index="24" custom="heights_v2:[39.0,17.9]">
+        <Coords points="1497,1796 1601,1796 1706,1799 1810,1799 1914,1799 2017,1799 2121,1799 2225,1799 2329,1799 2443,1796 2441,1739 2328,1742 2225,1742 2121,1742 2017,1742 1914,1742 1810,1742 1706,1742 1603,1739 1496,1739 1497,1796"/>
+        <Baseline points="1497,1778 1602,1778 1706,1781 1810,1781 1914,1781 2017,1781 2121,1781 2225,1781 2329,1781 2442,1778"/>
+        <TextEquiv>
+          <Unicode>reformare ſententiam iudicis a quo,parte tauẽ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l061" index="25" custom="heights_v2:[39.1,17.9]">
+        <Coords points="1497,1853 1605,1853 1709,1856 1813,1856 1917,1856 2021,1856 2124,1856 2228,1856 2333,1856 2443,1853 2441,1796 2331,1799 2228,1799 2124,1799 2021,1799 1917,1799 1813,1799 1709,1799 1606,1796 1497,1796 1497,1853"/>
+        <Baseline points="1497,1835 1605,1835 1709,1838 1813,1838 1917,1838 2021,1838 2124,1838 2228,1838 2332,1838 2442,1835"/>
+        <TextEquiv>
+          <Unicode>hoc petente:vt in foro,por euitar de officio iu-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l063" index="26" custom="heights_v2:[39.1,18.0]">
+        <Coords points="1497,1910 1606,1910 1708,1906 1813,1910 1917,1910 2021,1910 2124,1910 2228,1913 2332,1916 2445,1916 2445,1859 2332,1859 2229,1856 2126,1852 2021,1852 1917,1852 1813,1852 1710,1849 1604,1852 1497,1852 1497,1910"/>
+        <Baseline points="1497,1892 1605,1892 1709,1888 1813,1892 1917,1892 2021,1892 2124,1892 2228,1895 2332,1898 2445,1898"/>
+        <TextEquiv>
+          <Unicode>ſti.Arago.Calata.162.Aduerte tamen circa hoc</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l066" index="27" custom="heights_v2:[39.1,18.0]">
+        <Coords points="1497,1960 1605,1963 1709,1966 1813,1966 1917,1966 2021,1966 2124,1966 2228,1966 2332,1969 2445,1969 2445,1912 2332,1912 2229,1909 2124,1909 2021,1909 1917,1909 1813,1909 1709,1909 1606,1906 1497,1903 1497,1960"/>
+        <Baseline points="1497,1942 1605,1945 1709,1948 1813,1948 1917,1948 2021,1948 2124,1948 2228,1948 2332,1951 2445,1951"/>
+        <TextEquiv>
+          <Unicode>quia petija domino.A.dela Caualleria vice can</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l068" index="28" custom="heights_v2:[39.5,18.1]">
+        <Coords points="1497,2017 1605,2020 1708,2020 1813,2023 1917,2023 2021,2023 2124,2023 2228,2023 2333,2023 2446,2020 2444,1962 2331,1965 2228,1965 2124,1965 2021,1965 1917,1965 1813,1965 1710,1962 1605,1962 1497,1959 1497,2017"/>
+        <Baseline points="1497,1999 1605,2002 1709,2002 1813,2005 1917,2005 2021,2005 2124,2005 2228,2005 2332,2005 2445,2002"/>
+        <TextEquiv>
+          <Unicode>cellario dñi regis famoſiſſimo viro,qualiter ip-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l070" index="29" custom="heights_v2:[39.3,17.8]">
+        <Coords points="1498,2076 1605,2076 1708,2076 1813,2079 1917,2079 2021,2079 2124,2079 2228,2079 2332,2079 2445,2079 2445,2022 2332,2022 2228,2022 2124,2022 2021,2022 1917,2022 1813,2022 1710,2019 1605,2019 1497,2019 1498,2076"/>
+        <Baseline points="1498,2058 1605,2058 1709,2058 1813,2061 1917,2061 2021,2061 2124,2061 2228,2061 2332,2061 2445,2061"/>
+        <TextEquiv>
+          <Unicode>ſe,vt vicecancellarius,&amp; iudex appellationis po</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l072" index="30" custom="heights_v2:[38.7,17.5]">
+        <Coords points="1498,2129 1605,2133 1709,2133 1813,2133 1917,2133 2020,2133 2124,2136 2228,2136 2333,2136 2446,2133 2444,2076 2331,2079 2228,2079 2124,2079 2022,2076 1917,2076 1813,2076 1709,2076 1605,2076 1498,2073 1498,2129"/>
+        <Baseline points="1498,2112 1605,2115 1709,2115 1813,2115 1917,2115 2021,2115 2124,2118 2228,2118 2332,2118 2445,2115"/>
+        <TextEquiv>
+          <Unicode>tuit reformare quandam ſententiã latã per iu-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l074" index="31" custom="heights_v2:[39.1,17.6]">
+        <Coords points="2447,2139 2335,2139 2233,2136 2128,2136 2024,2136 1920,2136 1817,2133 1712,2133 1608,2133 1498,2133 1498,2189 1608,2189 1712,2189 1815,2189 1920,2192 2024,2192 2128,2192 2231,2192 2335,2196 2447,2196 2447,2139"/>
+        <Baseline points="1498,2172 1608,2172 1712,2172 1816,2172 1920,2175 2024,2175 2128,2175 2231,2175 2335,2178 2447,2178"/>
+        <TextEquiv>
+          <Unicode>ſti.Arago in cauſa Lupi de Rebolledo, q quidẽ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l076" index="32" custom="heights_v2:[38.7,17.6]">
+        <Coords points="2447,2190 2334,2193 2231,2193 2128,2193 2025,2190 1920,2190 1816,2190 1712,2190 1608,2190 1498,2190 1498,2246 1608,2246 1712,2246 1816,2246 1920,2246 2023,2246 2128,2249 2231,2249 2336,2249 2447,2246 2447,2190"/>
+        <Baseline points="1498,2228 1608,2228 1712,2228 1816,2228 1920,2228 2024,2228 2128,2231 2231,2231 2335,2231 2447,2228"/>
+        <TextEquiv>
+          <Unicode>vicecãcellari pnũtiauerat in dicta cauſa appel-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l078" index="33" custom="heights_v2:[39.0,17.7]">
+        <Coords points="1496,2299 1605,2299 1709,2303 1813,2303 1917,2303 2023,2299 2128,2303 2231,2303 2335,2303 2447,2303 2447,2246 2335,2246 2231,2246 2128,2246 2025,2243 1916,2246 1813,2246 1709,2246 1606,2243 1497,2243 1496,2299"/>
+        <Baseline points="1497,2282 1605,2282 1709,2285 1813,2285 1917,2285 2024,2282 2128,2285 2231,2285 2335,2285 2447,2285"/>
+        <TextEquiv>
+          <Unicode>latiõis,bñ appellatũ,&amp; male pnũtiatũ. Et refor-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l080" index="34" custom="heights_v2:[38.6,17.4]">
+        <Coords points="2447,2306 2335,2306 2233,2303 2128,2303 2024,2303 1920,2303 1817,2300 1712,2300 1608,2300 1498,2300 1498,2356 1608,2356 1712,2356 1815,2356 1920,2359 2024,2359 2128,2359 2231,2359 2335,2362 2448,2362 2447,2306"/>
+        <Baseline points="1498,2338 1608,2338 1712,2338 1816,2338 1920,2342 2024,2342 2128,2342 2231,2342 2335,2345 2447,2345"/>
+        <TextEquiv>
+          <Unicode>mando ſententiam iudicis a quo, pnuntiauerat</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l082" index="35" custom="heights_v2:[38.5,17.6]">
+        <Coords points="1495,2370 1495,2413 1605,2413 1709,2416 1813,2416 1917,2416 2024,2416 2128,2416 2231,2416 2335,2416 2448,2416 2448,2360 2335,2360 2231,2360 2128,2360 2024,2360 1917,2360 1813,2360 1709,2360 1606,2357 1495,2357 1495,2370"/>
+        <Baseline points="1495,2395 1605,2395 1709,2398 1813,2398 1917,2398 2024,2398 2128,2398 2231,2398 2335,2398 2448,2398"/>
+        <TextEquiv>
+          <Unicode>neutrã &amp;c.cũ de obſer.regni. nihil vltra potue-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l084" index="36" custom="heights_v2:[38.5,17.2]">
+        <Coords points="1493,2469 1602,2469 1706,2469 1812,2469 1917,2472 2021,2472 2127,2472 2231,2475 2335,2475 2448,2475 2448,2420 2335,2420 2231,2420 2129,2416 2021,2416 1917,2416 1814,2413 1706,2413 1602,2413 1494,2413 1493,2469"/>
+        <Baseline points="1494,2452 1602,2452 1706,2452 1813,2452 1917,2455 2021,2455 2128,2455 2231,2458 2335,2458 2448,2458"/>
+        <TextEquiv>
+          <Unicode>rat pnũtiare,niſi confirmãdo, vel infirmãdo,iux</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l086" index="37" custom="heights_v2:[38.6,17.4]">
+        <Coords points="2448,2479 2335,2479 2233,2476 2129,2473 2024,2473 1918,2470 1813,2470 1710,2467 1605,2467 1495,2467 1495,2523 1605,2523 1708,2523 1813,2526 1916,2526 2024,2529 2127,2529 2231,2532 2335,2535 2448,2535 2448,2479"/>
+        <Baseline points="1495,2505 1605,2505 1709,2505 1813,2508 1917,2508 2024,2512 2128,2512 2231,2515 2335,2518 2448,2518"/>
+        <TextEquiv>
+          <Unicode>ta dictas obſer. Qui incõtinẽti dedit mihi rñſũ,</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l090" index="38" custom="heights_v2:[38.8,17.5]">
+        <Coords points="2448,2529 2335,2529 2231,2529 2128,2529 2022,2526 1917,2526 1813,2526 1706,2526 1602,2526 1493,2523 1491,2579 1602,2583 1706,2583 1813,2583 1917,2583 2020,2582 2128,2586 2231,2586 2335,2586 2448,2586 2448,2529"/>
+        <Baseline points="1492,2562 1602,2565 1706,2565 1813,2565 1917,2565 2021,2565 2128,2568 2231,2568 2335,2568 2448,2568"/>
+        <TextEquiv>
+          <Unicode>q iſtud dubiũ fuerat iã altercatũ tẽpore Pere-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l092" index="39" custom="heights_v2:[38.8,17.3]">
+        <Coords points="2448,2586 2335,2586 2231,2586 2128,2586 2025,2583 1917,2583 1814,2580 1710,2577 1605,2577 1494,2580 1495,2636 1605,2633 1708,2633 1812,2636 1917,2639 2023,2639 2128,2642 2231,2642 2335,2642 2448,2642 2448,2586"/>
+        <Baseline points="1495,2619 1605,2615 1709,2615 1813,2619 1917,2622 2024,2622 2128,2625 2231,2625 2335,2625 2448,2625"/>
+        <TextEquiv>
+          <Unicode>grini de Iaſſa regente cancellariam,&amp; cum ma-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l094" index="40" custom="heights_v2:[38.8,17.4]">
+        <Coords points="2448,2643 2338,2643 2235,2643 2131,2643 2028,2640 1923,2640 1820,2636 1715,2636 1611,2636 1501,2636 1501,2693 1611,2693 1715,2693 1819,2693 1923,2696 2026,2696 2131,2699 2235,2699 2338,2699 2448,2699 2448,2643"/>
+        <Baseline points="1501,2675 1611,2675 1715,2675 1819,2675 1923,2678 2027,2678 2131,2681 2235,2681 2338,2681 2448,2681"/>
+        <TextEquiv>
+          <Unicode>gno conſilio fuerat deliberatum, quod ficut iu</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l096" index="41" custom="heights_v2:[38.8,17.4]">
+        <Coords points="2448,2696 2335,2696 2231,2696 2128,2696 2024,2696 1921,2693 1817,2690 1712,2690 1608,2690 1498,2690 1498,2746 1608,2746 1712,2746 1815,2746 1919,2749 2024,2752 2128,2752 2231,2752 2335,2752 2449,2752 2448,2696"/>
+        <Baseline points="1498,2729 1608,2729 1712,2729 1816,2729 1920,2732 2024,2735 2128,2735 2231,2735 2335,2735 2449,2735"/>
+        <TextEquiv>
+          <Unicode>ſti.Arrgo.aditus per firmam contrafori poteſt</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l098" index="42" custom="heights_v2:[38.6,17.4]">
+        <Coords points="1499,2800 1608,2800 1712,2803 1815,2803 1920,2806 2023,2806 2128,2809 2231,2809 2336,2809 2449,2806 2448,2750 2334,2753 2231,2753 2128,2753 2025,2750 1920,2750 1817,2747 1712,2747 1609,2744 1498,2744 1498,2786 1499,2800"/>
+        <Baseline points="1498,2782 1608,2782 1712,2785 1816,2785 1920,2788 2024,2788 2128,2792 2231,2792 2335,2792 2449,2788"/>
+        <TextEquiv>
+          <Unicode>reformare ſententiam iudicis,a quo.Ita ſimili-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l101" index="43" custom="heights_v2:[38.8,17.2]">
+        <Coords points="1501,2856 1611,2856 1715,2859 1819,2862 1923,2862 2026,2862 2131,2866 2235,2862 2338,2862 2449,2862 2449,2806 2338,2806 2235,2806 2130,2810 2028,2806 1923,2806 1819,2806 1716,2803 1613,2800 1501,2800 1501,2856"/>
+        <Baseline points="1501,2839 1611,2839 1715,2842 1819,2845 1923,2845 2027,2845 2131,2848 2235,2845 2338,2845 2449,2845"/>
+        <TextEquiv>
+          <Unicode>ter poterat hoc facere dñs rex in cauſa appella-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l102" index="44" custom="heights_v2:[38.9,17.5]">
+        <Coords points="1502,2913 1611,2913 1715,2916 1819,2916 1922,2916 2027,2919 2131,2919 2235,2919 2338,2919 2452,2919 2452,2904 2451,2863 2338,2863 2235,2863 2131,2863 2027,2863 1924,2860 1819,2860 1715,2860 1613,2857 1501,2857 1501,2882 1502,2913"/>
+        <Baseline points="1502,2896 1611,2896 1715,2899 1819,2899 1923,2899 2027,2902 2131,2902 2235,2902 2338,2902 2452,2902"/>
+        <TextEquiv>
+          <Unicode>tionis:&amp; dixit mihi,quod erat ratio,quia vtrobi</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l105" index="45" custom="heights_v2:[38.8,17.3]">
+        <Coords points="1614,2966 1718,2969 1822,2973 1926,2976 2030,2976 2134,2976 2238,2976 2342,2976 2452,2973 2451,2916 2340,2920 2238,2920 2134,2920 2030,2920 1926,2920 1823,2916 1720,2913 1616,2910 1506,2907 1504,2963 1614,2966"/>
+        <Baseline points="1504,2946 1615,2949 1718,2952 1822,2955 1926,2958 2030,2958 2134,2958 2238,2958 2342,2958 2452,2955"/>
+        <TextEquiv>
+          <Unicode>que tractabatur de iniquitate,nullitate , &amp; inin-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l107" index="46" custom="heights_v2:[38.6,17.4]">
+        <Coords points="1504,3020 1614,3020 1718,3023 1822,3026 1926,3029 2030,3029 2133,3029 2238,3033 2342,3033 2452,3033 2452,2977 2342,2977 2238,2977 2135,2973 2030,2973 1926,2973 1823,2970 1720,2967 1616,2964 1504,2964 1504,3020"/>
+        <Baseline points="1504,3003 1615,3003 1718,3006 1822,3009 1926,3012 2030,3012 2134,3012 2238,3015 2342,3015 2452,3015"/>
+        <TextEquiv>
+          <Unicode>ſtitia prioris ſentẽtie,&amp; q dedño rege nullũ erat</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l109" index="47" custom="heights_v2:[38.7,17.4]">
+        <Coords points="1504,3073 1614,3073 1718,3077 1822,3080 1926,3083 2030,3086 2134,3086 2238,3086 2342,3086 2452,3086 2452,3030 2342,3030 2238,3030 2134,3030 2030,3030 1927,3027 1823,3024 1720,3020 1616,3017 1504,3017 1504,3073"/>
+        <Baseline points="1504,3056 1615,3056 1718,3059 1822,3062 1926,3065 2030,3069 2134,3069 2238,3069 2342,3069 2452,3069"/>
+        <TextEquiv>
+          <Unicode>dubiũ:ſed dubiũ erat d̃ iuſt.Ara. &amp; ad tollendũ</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l111" index="48" custom="heights_v2:[38.5,17.2]">
+        <Coords points="1508,3130 1617,3130 1721,3133 1825,3139 1929,3139 2033,3142 2137,3142 2241,3142 2346,3142 2456,3136 2453,3081 2343,3087 2241,3087 2137,3087 2033,3087 1930,3084 1825,3084 1724,3077 1619,3074 1508,3074 1508,3130"/>
+        <Baseline points="1508,3113 1618,3113 1722,3116 1825,3122 1929,3122 2033,3125 2137,3125 2241,3125 2345,3125 2455,3119"/>
+        <TextEquiv>
+          <Unicode>dubium in iuſti.Aragon.quod fuerat factus di-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l113" index="49" custom="heights_v2:[38.4,17.3]">
+        <Coords points="1504,3183 1614,3183 1717,3187 1822,3193 1926,3196 2030,3196 2134,3196 2238,3196 2342,3196 2452,3193 2451,3137 2340,3140 2238,3140 2134,3140 2030,3140 1926,3140 1823,3137 1721,3131 1616,3128 1504,3128 1504,3183"/>
+        <Baseline points="1504,3166 1615,3166 1718,3169 1822,3176 1926,3179 2030,3179 2134,3179 2238,3179 2342,3179 2452,3176"/>
+        <TextEquiv>
+          <Unicode>ct for.4.de offic.iuſti.Arago.Calata. &amp; allega-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l115" index="50" custom="heights_v2:[38.4,17.2]">
+        <Coords points="1507,3240 1617,3243 1721,3246 1825,3249 1929,3249 2033,3249 2137,3249 2240,3249 2345,3253 2455,3249 2454,3194 2344,3197 2242,3194 2137,3194 2033,3194 1929,3194 1825,3194 1723,3191 1619,3188 1509,3184 1507,3240"/>
+        <Baseline points="1508,3223 1618,3226 1722,3229 1825,3232 1929,3232 2033,3232 2137,3232 2241,3232 2345,3235 2455,3232"/>
+        <TextEquiv>
+          <Unicode>uit textum.in.l.abſentem in fine. C.de accuſa-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l117" index="51" custom="heights_v2:[37.8,16.8]">
+        <Coords points="1504,3293 1614,3293 1718,3299 1822,3303 1926,3303 2030,3306 2134,3306 2238,3306 2342,3306 2455,3306 2455,3251 2342,3251 2238,3251 2134,3251 2030,3251 1927,3248 1822,3248 1720,3245 1617,3239 1504,3239 1504,3293"/>
+        <Baseline points="1504,3276 1615,3276 1718,3283 1822,3286 1926,3286 2030,3289 2134,3289 2238,3289 2342,3289 2455,3289"/>
+        <TextEquiv>
+          <Unicode>tio.&amp; Abbatẽ Siculũ in.c.in literis extra de offi-</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l119" index="52" custom="heights_v2:[38.3,16.8]">
+        <Coords points="2137,3359 2241,3359 2345,3359 2458,3359 2458,3304 2345,3304 2241,3304 2137,3304 2033,3304 1926,3304 1822,3304 1720,3301 1617,3295 1504,3295 1504,3350 1614,3350 1650,3352 2137,3359"/>
+        <Baseline points="1504,3333 1615,3333 1718,3339 1822,3342 1926,3342 2033,3342 2137,3342 2241,3342 2345,3342 2458,3342"/>
+        <TextEquiv>
+          <Unicode>cio delegati, &amp; textum in.c. Reynuncius . &amp;c.</Unicode>
+        </TextEquiv>
+      </TextLine>
+      <TextLine id="r006-l121" index="53" custom="heights_v2:[39.2,18.2]">
+        <Coords points="2367,3417 2367,3417 2367,3417 2462,3414 2459,3357 2408,3360 2367,3360 2320,3363 2272,3363 2272,3420 2367,3417"/>
+        <Baseline points="2272,3402 2323,3402 2367,3399 2411,3399 2461,3396"/>
+        <TextEquiv>
+          <Unicode>ER e y m aI</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r007">
+      <Coords points="2457,1308 2454,1354 2511,1358 2513,1311 2457,1308"/>
+      <TextLine id="r007-l037" index="0" custom="heights_v2:[33.2,13.8]">
+        <Coords points="2454,1354 2511,1358 2513,1311 2457,1308 2454,1354"/>
+        <Baseline points="2455,1341 2512,1344"/>
+        <TextEquiv>
+          <Unicode></Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r009">
+      <Coords points="2502,1423 2455,1423 2455,1471 2502,1471 2502,1423"/>
+      <TextLine id="r009-l042" index="0" custom="heights_v2:[33.9,13.5]">
+        <Coords points="2455,1423 2455,1471 2502,1471 2502,1423 2455,1423"/>
+        <Baseline points="2455,1457 2502,1457"/>
+        <TextEquiv>
+          <Unicode>cm —X</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+    <TextRegion id="r008">
+      <Coords points="2457,1877 2454,1924 2508,1927 2510,1881 2457,1877"/>
+      <TextLine id="r008-l065" index="0" custom="heights_v2:[33.0,13.9]">
+        <Coords points="2454,1924 2508,1927 2510,1881 2457,1877 2454,1924"/>
+        <Baseline points="2455,1910 2508,1914"/>
+        <TextEquiv>
+          <Unicode>ct</Unicode>
+        </TextEquiv>
+      </TextLine>
+    </TextRegion>
+  </Page>
+</PcGts>

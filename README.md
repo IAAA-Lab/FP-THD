@@ -1,3 +1,7 @@
+[[Project Page]](https://migueldelmolino.es/) 
+[[Datasets]](https://zenodo.org/records/18901631)
+[[Checkpoints]](https://zenodo.org/records/18901631/files/FP-THD-pretrained-model-MolinoDataset_batchZ64.tbz?download=1)
+
 # 1. Introduction
 Full page transcription of historical documents (FP-THD) is a pipeline for the transcription of historical documents preserving these special features. In this work, we propose to extend an existing text line recognition method with a layout analysis model. We analyze historical text images using a layout analysis model to extract text lines, which are then processed by an OCR model to generate a fully digitized page.
 

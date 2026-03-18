@@ -219,7 +219,7 @@ def main():
         txt_path = os.path.join(out_dir, f"{base_name}.txt")
         save_txt_from_layout(page_layout_with_text, txt_path)
 
-        logger.info(f"✅ Processed {base_name}: r001-l087.jpg matches XML id=r001-l087")
+        logger.info(f" Processed {base_name}: r001-l087.jpg matches XML id=r001-l087")
 
     logger.info(f"All images processed. Results in {out_dir}")
 

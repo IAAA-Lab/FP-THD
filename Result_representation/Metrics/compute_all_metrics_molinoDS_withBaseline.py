@@ -118,6 +118,10 @@ def compare_three_methods(pred_dir1, pred_dir2, pred_dir3, gt_dir):
     bars1 = ax.bar(x - width/2, cer_globals, width, label='CER', alpha=0.8, color='skyblue')
     bars2 = ax.bar(x + width/2, wer_globals, width, label='WER', alpha=0.8, color='green')
     
+    # Add baseline lines at 10% CER and 20% WER
+    ax.axhline(y=0.10, color='red', linestyle='--', linewidth=2, label='Baseline CER 10%')
+    ax.axhline(y=0.20, color='orange', linestyle='--', linewidth=2, label='Baseline WER 20%')
+    
     # Add value labels on top of bars
     for bar in bars1:
         height = bar.get_height()
@@ -131,6 +135,7 @@ def compare_three_methods(pred_dir1, pred_dir2, pred_dir3, gt_dir):
     ax.set_title('OCR Comparison (ABBYY vs Pero-OCR vs FP-THD)')
     ax.set_xticks(x)
     ax.set_xticklabels(methods, rotation=45, ha='right')
+    ax.set_ylabel('Error Rate')
     ax.legend()
     ax.grid(True, alpha=0.3)
     

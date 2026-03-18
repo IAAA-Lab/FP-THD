@@ -6,14 +6,13 @@ import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
 from collections import defaultdict
-import pandas as pd  # Added missing import
+import pandas as pd
 
 def read_text_file(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
         return f.read().strip()
 
 def format_string_for_wer(s):
-    # lowercase + strip
     return s.lower().strip()
 
 def extract_page_number(filename, pattern):
@@ -24,20 +23,17 @@ def compute_all_metrics_per_page(pred_text, gt_text, page_num):
     """Compute ALL OCR evaluation metrics for a single page"""
     metrics = {}
     
-    # Basic lengths
     pred_len = len(pred_text)
     gt_len = len(gt_text)
     metrics['gt_chars'] = gt_len
     metrics['pred_chars'] = pred_len
     metrics['char_match_rate'] = pred_len / gt_len if gt_len > 0 else 0
     
-    # 1. Character Error Rate (CER)
     cer_dist = editdistance.eval(pred_text, gt_text)
     metrics['cer'] = cer_dist / gt_len if gt_len > 0 else 1.0
     metrics['cer_raw'] = cer_dist
-    metrics['cer_substitutions'] = cer_dist  # Editdistance gives total ops
+    metrics['cer_substitutions'] = cer_dist
     
-    # 2. Word Error Rate (WER) 
     pred_words = format_string_for_wer(pred_text).split()
     gt_words = format_string_for_wer(gt_text).split()
     metrics['gt_words'] = len(gt_words)
@@ -47,28 +43,21 @@ def compute_all_metrics_per_page(pred_text, gt_text, page_num):
     metrics['wer'] = wer_dist / len(gt_words) if len(gt_words) > 0 else 1.0
     metrics['wer_raw'] = wer_dist
     
-    # 3. Character Accuracy
     metrics['char_acc'] = 1.0 - metrics['cer']
-    
-    # 4. Word Accuracy  
     metrics['word_acc'] = 1.0 - metrics['wer']
     
-    # 5. Exact Match Rates
     metrics['exact_char_match'] = 1.0 if pred_text == gt_text else 0.0
     metrics['exact_word_match'] = 1.0 if pred_words == gt_words else 0.0
     
-    # 6. Normalized Edit Distance
     max_len = max(gt_len, pred_len)
     metrics['normed_cer'] = cer_dist / max_len if max_len > 0 else 1.0
     
-    # 7. Bag-of-Words metrics
     pred_word_set = set(pred_words)
     gt_word_set = set(gt_words)
     metrics['word_precision'] = len(pred_word_set & gt_word_set) / len(pred_word_set) if pred_word_set else 0
     metrics['word_recall'] = len(pred_word_set & gt_word_set) / len(gt_word_set) if gt_word_set else 0
     metrics['word_f1'] = 2 * metrics['word_precision'] * metrics['word_recall'] / (metrics['word_precision'] + metrics['word_recall']) if (metrics['word_precision'] + metrics['word_recall']) > 0 else 0
     
-    # 8. Character-level precision/recall/F1 (approximate)
     common_chars = sum(min(pred_text.count(c), gt_text.count(c)) for c in set(pred_text + gt_text))
     metrics['char_precision'] = common_chars / pred_len if pred_len > 0 else 0
     metrics['char_recall'] = common_chars / gt_len if gt_len > 0 else 0
@@ -77,7 +66,6 @@ def compute_all_metrics_per_page(pred_text, gt_text, page_num):
     return metrics
 
 def compute_cer_wer_per_page(pred_dir, gt_dir):
-    """Compute ALL metrics per page"""
     pred_files = sorted(os.listdir(pred_dir))
     gt_files = sorted(os.listdir(gt_dir))
 
@@ -110,14 +98,13 @@ def compute_cer_wer_per_page(pred_dir, gt_dir):
         metrics['page'] = page
         all_page_metrics.append(metrics)
         
-        # Print per-page summary
         print(f"{page:<6} {metrics['cer']:<8.4f} {metrics['wer']:<8.4f} {metrics['char_acc']:<8.4f} "
               f"{metrics['word_acc']:<8.4f} {metrics['char_f1']:<8.4f} {metrics['normed_cer']:<8.4f}")
 
     return all_page_metrics
 
 def statistical_tests(all_page_metrics):
-    """Statistical tests on all metrics"""
+    """Statistical tests on all metrics - STD ONLY"""
     page_cers = [m['cer'] for m in all_page_metrics]
     page_wers = [m['wer'] for m in all_page_metrics]
     pages = [m['page'] for m in all_page_metrics]
@@ -125,13 +112,6 @@ def statistical_tests(all_page_metrics):
     print(f"\n=== STATISTICAL SUMMARY FOR {len(pages)} PAGES ===")
     print(f"CER: mean={np.mean(page_cers):.4f}, std={np.std(page_cers):.4f}")
     print(f"WER: mean={np.mean(page_wers):.4f}, std={np.std(page_wers):.4f}")
-    
-    # t-tests vs baselines
-    cer_vs_10 = stats.ttest_1samp(page_cers, 0.10)
-    wer_vs_20 = stats.ttest_1samp(page_wers, 0.20)
-    
-    print(f"\nCER vs baseline 0.10: t={cer_vs_10.statistic:.4f}, p={cer_vs_10.pvalue:.4f} {'**SIG**' if cer_vs_10.pvalue < 0.05 else ''}")
-    print(f"WER vs baseline 0.20: t={wer_vs_20.statistic:.4f}, p={wer_vs_20.pvalue:.4f} {'**SIG**' if wer_vs_20.pvalue < 0.05 else ''}")
     
     # Save detailed CSV
     df = pd.DataFrame(all_page_metrics)
@@ -141,7 +121,7 @@ def statistical_tests(all_page_metrics):
     return all_page_metrics
 
 def plot_all_metrics(all_page_metrics):
-    """Comprehensive visualization"""
+    """Comprehensive visualization - NO BASELINES"""
     pages = [m['page'] for m in all_page_metrics]
     cers = [m['cer'] for m in all_page_metrics]
     wers = [m['wer'] for m in all_page_metrics]
@@ -152,7 +132,6 @@ def plot_all_metrics(all_page_metrics):
     # CER per page
     ax1.bar(pages, cers, alpha=0.7, color='skyblue')
     ax1.axhline(np.mean(cers), color='red', linestyle='--', label=f'Mean: {np.mean(cers):.3f}')
-    ax1.axhline(0.10, color='green', linestyle=':', label='Baseline 0.10')
     ax1.set_title('CER per Page')
     ax1.legend()
     ax1.tick_params(axis='x', rotation=45)
@@ -160,7 +139,6 @@ def plot_all_metrics(all_page_metrics):
     # WER per page
     ax2.bar(pages, wers, alpha=0.7, color='lightcoral')
     ax2.axhline(np.mean(wers), color='red', linestyle='--', label=f'Mean: {np.mean(wers):.3f}')
-    ax2.axhline(0.20, color='green', linestyle=':', label='Baseline 0.20')
     ax2.set_title('WER per Page')
     ax2.legend()
     ax2.tick_params(axis='x', rotation=45)
@@ -201,4 +179,3 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     main(args.predictions_dir, args.ground_truth_dir)
-
